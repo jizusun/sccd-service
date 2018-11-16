@@ -188,12 +188,21 @@ var oJob = new Job({
 
 oProject.getProjectId().then(function(sProjectId) {
 	var sTestType = null;
-	(Object.keys(Project.TestType)).every(function(sTestTypeKey) {
+	/*(Object.keys(Project.TestType)).every(function(sTestTypeKey) {
 		if (!!oProject.getTestReportPath(Project.TestType[sTestTypeKey])) {
 			sTestType = Project.TestType[sTestTypeKey];
 			return false;
 		}
-	});
+	});*/
+	
+	var aTestType = Object.keys(Project.TestType);
+	for(var i=0; i<aTestType.length; i++){
+		if (!!oProject.getTestReportPath(Project.TestType[aTestType[i]])) {
+			sTestType = Project.TestType[aTestType[i]];
+			break;
+		}
+	}
+	
 	if (!sTestType) {
 		console.log("Cannot determine test type of the job.");
 		return;
