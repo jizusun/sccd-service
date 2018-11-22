@@ -3,6 +3,8 @@
 var Project = require("../lib/project");
 var Job = require("../lib/job");
 var DB = require("../lib/db");
+var HanaDB = require("../lib/hanadb");
+var ToolKit = require("../lib/toolkit");
 var Argv = require("optimist").boolean("cors").argv;
 
 /***
@@ -16,25 +18,26 @@ var Argv = require("optimist").boolean("cors").argv;
 	  sccd -p <jenkins_job_workspace_path> -b <branch_name> -i <project_id> //on jenkins server
 	You can get the first CLI parameter through process.argv[2]
 */
-if(Argv.h || Argv.help){
-  	console.log([
-  		'',
-	    'usage: node main.js [options]',
-	    '',
-	    'options:',
-	    '  -p           Jenkins job workspace path. e.g.:/var/lib/jenkins/workspace/B1_SMP_PUM',
-	    '  -i           Project id. This is mandatory when it is a back-end service job for UI5 app',
-	    '  -b           Branch which test case run on [master]',
-	    '  -h --help    Print this list and exit.'
-  	].join('\n'));
-  	process.exit();
+if (Argv.h || Argv.help) {
+	console.log([
+		'',
+		'usage: node main.js [options]',
+		'',
+		'options:',
+		'  -p           Jenkins job workspace path. e.g.:/var/lib/jenkins/workspace/B1_SMP_PUM',
+		'  -i           Project id. This is mandatory when it is a back-end service job for UI5 app',
+		'  -b           Branch which test case run on [master]',
+		'  -k --keep    Keep jenkins job log files: artifact, builds, maven repository...',
+		'  -h --help    Print this list and exit.'
+	].join('\n'));
+	process.exit();
 }
 
 
 var aArgv = process.argv.slice(2);
 
 var sWorkSpace = Argv.p || aArgv[0] || "./";
-//var sWorkSpace = "../data/workspace/B1_SMP_PUM"; //Use "../data/B1_SMP_PUM" for UI5 code debug purpose
+// var sWorkSpace = "../data/workspace/B1_SMP_PUM"; //Use "../data/B1_SMP_PUM" for UI5 code debug purpose
 //var sWorkSpace = "../data/workspace/BCD_ABAP_UT"; //Use "../data/BCD_ABAP_UT" for ABAP code debug purpose
 
 var oProject = new Project({
@@ -44,101 +47,70 @@ var oProject = new Project({
 
 var sProjectType = oProject.getProjectType();
 //Need to specify project id when run sccd command for an back-end jenkins job
-if(sProjectType === Project.Type.BackEnd && !Argv.i){
+if (sProjectType === Project.Type.BackEnd && !Argv.i) {
 	console.log("Project id is mandatory when it is a back-end service job for UI5 app.");
 	process.exit();
 }
 
-var oDB = new DB({
-	name: "sccd"
-});
-
 //${GIT_BRANCH} has a prefix "origin/", while ${GERRIT_BRANCH} does not
 var sBranch = "master";
-if(Argv.b && Argv.b.match(/^.*\/(\w+)$/)){
+if (Argv.b && Argv.b.match(/^.*\/(\w+)$/)) {
 	sBranch = (Argv.b.match(/^.*\/(\w+)$/))[1];
-}else if(Argv.b){
+} else if (Argv.b) {
 	sBranch = Argv.b;
-}else if(aArgv[1] && aArgv[1].match(/^.*\/(\w+)$/)){
+} else if (aArgv[1] && aArgv[1].match(/^.*\/(\w+)$/)) {
 	sBranch = (aArgv[1].match(/^.*\/(\w+)$/))[1];
-}else if(aArgv[1]){
+} else if (aArgv[1]) {
 	sBranch = aArgv[1];
 }
 console.log("Get branch name: " + sBranch);
 
-function getTimestamp(oDate){
-	var sYear = oDate.getFullYear();
-	var sMonth = oDate.getMonth() + 1;
-	var sDay = oDate.getDate();
-	var sHour = oDate.getHours();
-	var sMin = oDate.getMinutes();
-	var sSec = oDate.getSeconds();
-	
-	sMonth = sMonth < 10 ? ("0" + sMonth):sMonth;
-	sDay = sDay < 10 ? ("0" + sDay):sDay;
-	sHour = sHour < 10 ? ("0" + sHour):sHour;
-	sMin = sMin < 10 ? ("0" + sMin):sMin;
-	sSec = sSec < 10 ? ("0" + sSec):sSec;
-
-	return String(sYear) + String(sMonth) + String(sDay) + String(sHour) + String(sMin) + String(sSec);
-}
-
 //Save project information
-oProject.getProjectId().then(function(sProjectId){
-	oDB.connect();
-	//Check project record exist or not
-	sSqlCheck = "SELECT pid FROM Project WHERE pid=?";
-    aParamCheck = [sProjectId];
-    oDB.query(sSqlCheck, aParamCheck, function(oError, aRow){
-    	if(oError){
-    		console.log("Check project " + sProjectId + " existence failed. Message: " + oError.message);
-    		return;
-    	}
-    	
-    	var sSqlSave, aParamSave;
-    	if(aRow.length === 0){ //Insert a new test result
-    		var sProjectName = sProjectId.substr(sProjectId.lastIndexOf(".")+1);
-    		console.log("Create a project, id: " + sProjectId + ", name: " + sProjectName + ", type: " + sProjectType);
-			sSqlSave = "INSERT INTO Project(pid, name, type) VALUES(?,?,?)";
-            aParamSave = [sProjectId, sProjectName, sProjectType];
+oProject.getProjectId().then(function(sProjectId) {
+	var sProjectName = sProjectId.substr(sProjectId.lastIndexOf(".") + 1);
 
-            var oDBSave = new DB({
-				name: "sccd"
-			});
-			oDBSave.connect();
-	    	oDBSave.query(sSqlSave, aParamSave, function(oError, oResult){
-	        	if(oError){
-	        		console.log("DB error:" + oError.message);
-	        		return;
-	        	}
-	        	console.log("Save project id: " + sProjectId + ", name: " + sProjectName + " successfully.");
-	        });
-	        oDBSave.close();
-    	}else{
-    		console.log("Project " + sProjectId + " exist yet.");
-    	}
-    });          
-	oDB.close();
-}).catch(function(sReason){
+	/*  MySQL DB  */
+	var oDB = new DB({
+		name: "sccd"
+	});
+	oDB.insertNewUpdateExistDBItem(false, {
+		table: "Project",
+		keys: {
+			pid: sProjectId,
+			type: sProjectType
+		},
+		values: {
+			name: sProjectName
+		}
+	});
+
+	/*  Hana DB  */
+	var oHana = new HanaDB();
+	var oContent = {
+		"ProjectId": sProjectId,
+		"Type": sProjectType,
+		"Name": sProjectName
+	}
+	oHana.post("dev", "ProjectSet", oContent);
+	oHana.post("qual", "ProjectSet", oContent);
+
+}).catch(function(sReason) {
 	console.log("Save project information failed: " + sReason);
-	oDB.close();
 });
 
 
 //Save project test KPI
-Promise.all([oProject.getProjectId(), oProject.getTestKpi(), oProject.getUTCoverage()]).then(function(aResult){
-	var sProjectId = aResult[0], oKpi = aResult[1], oCoverage = aResult[2];
-	var sTimestamp = getTimestamp(new Date());
+Promise.all([oProject.getProjectId(), oProject.getTestKpi(), oProject.getUTCoverage()]).then(function(aResult) {
+	var sProjectId = aResult[0],
+		oKpi = aResult[1],
+		oCoverage = aResult[2];
+	var sTimestamp = ToolKit.getTimestamp(new Date());
 
-	console.log("Get project id: " + sProjectId);
-
-	oDB.connect();
-	(Object.keys(Project.TestType)).forEach(function(sTestTypeKey){
-		var sSqlCheck, aParamCheck;
+	(Object.keys(Project.TestType)).forEach(function(sTestTypeKey) {
 		var sTestType = Project.TestType[sTestTypeKey];
 
-		if(oKpi[sTestType].assertion){
-			console.log("Get " + sTestType + " test kpi: passed-" + oKpi[sTestType].passed + ", " +
+		if (oKpi[sTestType].assertion) {
+			/*console.log("Get " + sTestType + " test kpi: passed-" + oKpi[sTestType].passed + ", " +
 														"failed-" + oKpi[sTestType].failed + ", " +
 														"skipped-" + oKpi[sTestType].skipped + ", " +
 														"assertion-" + oKpi[sTestType].assertion +
@@ -147,75 +119,134 @@ Promise.all([oProject.getProjectId(), oProject.getTestKpi(), oProject.getUTCover
 															"included stmt coverage-" + oCoverage.Included.lineRate + ", " + 
 															"all stmt lines-" + oCoverage.All.validLines + ", " + 
 															"all stmt coverage-" + oCoverage.All.lineRate):"")
-														);
+														);*/
 
-			//Check test kpi of today has been recorded or not
-			sSqlCheck = "SELECT tcid FROM " + sTestType +
-				   " WHERE pid=? AND type=? AND timestamp LIKE '" + sTimestamp.slice(0,8) +"%'" +
-				   " ORDER BY timestamp desc";
-		    aParamCheck = [sProjectId, sProjectType];
-		    oDB.query(sSqlCheck, aParamCheck, function(oError, aRow){
-            	if(oError){
-            		console.log("Check " + sProjectId + "-" + sTimestamp.slice(0,8) + " test kpi existence failed. Message: " + oError.message);
-            		return;
-            	}
-            	
-            	var sSqlSave, aParamSave;
-            	var aCoverage = [oCoverage.Included.validLines, oCoverage.Included.lineRate, oCoverage.All.validLines, oCoverage.All.lineRate];
-            	if(aRow.length){ //Update the record with the latest test result
-            		console.log("Update an existing " + sTestType +" test result: tcid = " + aRow[0].tcid + ", timestamp = " + sTimestamp);
-            		sSqlSave = "UPDATE " + sTestType +
-            			   " SET pid=?, type=?, branch=?, passed=?, failed=?, skipped=?, assertion=?, timestamp=?" +
-            			   (sTestType === Project.TestType.Unit ? ", inclstmtlines=?, inclstmtcover=?, allstmtlines=?, allstmtcover=?" : "") +
-            			   " WHERE tcid=?";
-            		aParamSave = [sProjectId, sProjectType, sBranch, oKpi[sTestType].passed, oKpi[sTestType].failed, oKpi[sTestType].skipped,
-		            			oKpi[sTestType].assertion, sTimestamp].concat(
-		            				(sTestType === Project.TestType.Unit ? aCoverage : []),
-		            				[aRow[0].tcid]
-		            			);
-            	}else{ //Insert a new test result
-            		console.log("Create a new " + sTestType +" test result: timestamp = " + sTimestamp);
-					sSqlSave = "INSERT INTO " + sTestType + 
-					       "(pid, type, branch, passed, failed, skipped, assertion, timestamp" +
-					       (sTestType === Project.TestType.Unit ? ", inclstmtlines, inclstmtcover, allstmtlines, allstmtcover" : "") +
-					       ")" +
-					       " VALUES(?,?,?,?,?,?,?,?" +
-					       (sTestType === Project.TestType.Unit ? ",?,?,?,?" : "") +
-					       ")";
-		            aParamSave = [sProjectId, sProjectType, sBranch, oKpi[sTestType].passed, oKpi[sTestType].failed, oKpi[sTestType].skipped,
-		            			oKpi[sTestType].assertion, sTimestamp].concat(
-		            				(sTestType === Project.TestType.Unit ? aCoverage : [])
-		            			);
-            	}
+			/*  MySQL DB  */
+			var oDB = new DB({
+				name: "sccd"
+			});
+			oDB.insertNewUpdateExistDBItem(true, {
+				table: sTestType,
+				keys: {
+					pid: sProjectId,
+					type: sProjectType,
+					tcid: undefined //auto_increment DB field MUST BE passed as undefined
+				},
+				specialCondition: "timestamp LIKE '" + sTimestamp.slice(0, 8) + "%'",
+				values: Object.assign({
+					branch: sBranch,
+					passed: oKpi[sTestType].passed,
+					failed: oKpi[sTestType].failed,
+					skipped: oKpi[sTestType].skipped,
+					assertion: oKpi[sTestType].assertion,
+					timestamp: sTimestamp
+				}, (sTestType === Project.TestType.Unit ? {
+					inclstmtlines: oCoverage.Included.validLines,
+					inclstmtcover: oCoverage.Included.lineRate,
+					allstmtlines: oCoverage.All.validLines,
+					allstmtcover: oCoverage.All.lineRate
+				} : {}))
+			});
 
-				var oDBSave = new DB({
-					name: "sccd"
-				});
-				oDBSave.connect();
-            	oDBSave.query(sSqlSave, aParamSave, function(oError, oResult){
-	            	if(oError){
-	            		console.log("DB error:" + oError.message);
-	            		return;
-	            	}
-	            	console.log("Save " + sTestType +" test kpi successfully.");
-	            });
-	            oDBSave.close();
-            });
+			/*  Hana DB  */
+			var oHana = new HanaDB();
+			var oContent = Object.assign({
+				"ProjectId": sProjectId,
+				"Type": sProjectType,
+				"Branch": sBranch,
+				"Passed": oKpi[sTestType].passed,
+				"Failed": oKpi[sTestType].failed,
+				"Skipped": oKpi[sTestType].skipped,
+				"Assertion": oKpi[sTestType].assertion,
+				"Timestamp": sTimestamp
+			}, (sTestType === Project.TestType.Unit ? {
+				"Inclstmtlines": oCoverage.Included.validLines,
+				"Inclstmtcover": oCoverage.Included.lineRate,
+				"Allstmtlines": oCoverage.All.validLines,
+				"Allstmtcover": oCoverage.All.lineRate
+			}:{}));
+
+			if (sTestType == "UT") {
+				oHana.post("dev", "UTSet", oContent);
+				oHana.post("qual", "UTSet", oContent);
+			} else if (sTestType == "IT") {
+				oHana.post("dev", "ITSet", oContent);
+				oHana.post("qual", "ITSet", oContent);
+			}
+
 		}
 	});
-	oDB.close();
-}).catch(function(sReason){
+}).catch(function(sReason) {
 	console.log("Save test kpi failed: " + sReason);
-	oDB.close();
 });
 
 
-// Job cleanup because of jenkins memory space limitation
+
 var oJob = new Job({
 	workSpace: sWorkSpace
 });
 
-if(sProjectType === Project.Type.FrontEnd){ //ABAP UT does not consume too much space. So we not do cleanup here. However daily job wil still cleanup its data
-	oJob.deleteJobNoKeepFiles();
+oProject.getProjectId().then(function(sProjectId) {
+	var sTestType = null;
+	/*(Object.keys(Project.TestType)).every(function(sTestTypeKey) {
+		if (!!oProject.getTestReportPath(Project.TestType[sTestTypeKey])) {
+			sTestType = Project.TestType[sTestTypeKey];
+			return false;
+		}
+	});*/
+	
+	var aTestType = Object.keys(Project.TestType);
+	for(var i=0; i<aTestType.length; i++){
+		if (!!oProject.getTestReportPath(Project.TestType[aTestType[i]])) {
+			sTestType = Project.TestType[aTestType[i]];
+			break;
+		}
+	}
+	
+	if (!sTestType) {
+		console.log("Cannot determine test type of the job.");
+		return;
+	}
+
+	var sJobName = oJob.getJobBaseName();
+
+	/*  MySQL DB  */
+	var oDB = new DB({
+		name: "sccd"
+	});
+	oDB.insertNewUpdateExistDBItem(true, {
+		table: "Job",
+		keys: {
+			pid: sProjectId,
+			ptype: sProjectType,
+			ttype: sTestType
+		},
+		values: {
+			name: sJobName,
+			lastbuild: oJob.getLastBuildNumber()
+		}
+	});
+
+	/*  Hana DB  */
+	var oHana = new HanaDB();
+	var oContent = {
+		"ProjectId": sProjectId,
+		"ProjectType": sProjectType,
+		"TestType": sTestType,
+		"Name": sJobName,
+		"LastBuild": oJob.getLastBuildNumber()
+	}
+	oHana.post("dev", "JobSet", oContent);
+	oHana.post("qual", "JobSet", oContent);
+
+}).catch(function(sReason) {
+	console.log("Save job information failed: " + sReason);
+});
+
+if (!Argv.k && !Argv.keep) {
+	// Job cleanup because of jenkins memory space limitation
+	if (sProjectType === Project.Type.FrontEnd) { //ABAP UT does not consume too much space. So we not do cleanup here. However daily job wil still cleanup its data
+		oJob.deleteJobNoKeepFiles();
+	}
+	oJob.deleteUIArtifact();
 }
-oJob.deleteUIArtifact();

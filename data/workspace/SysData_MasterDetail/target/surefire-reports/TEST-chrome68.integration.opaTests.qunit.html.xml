@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="http://localhost:33030/systemdata/test-resources/integration/opaTests.qunit.html?responderOn=true" tests="139" failures="0" errors="0" time="117.498">
+  <testsuite id="0" name="chrome68.systemdata.test-resources.integration.opaTests_qunit_html?responderOn=true.Feature: display and edit system for onPremise system" hostname="localhost" tests="19" failures="0" errors="0" time="13.318" timestamp="2018-11-16T06:46:44Z">
+    <testcase name="Scenario: As a general on-premise product user, I should see relavant information in system data app" time="13.317" timestamp="2018-11-16T06:46:44Z">
+</testcase>
+  </testsuite>
+  <testsuite id="1" name="chrome68.systemdata.test-resources.integration.opaTests_qunit_html?responderOn=true.Feature: Server Information" hostname="localhost" tests="36" failures="0" errors="0" time="35.914" timestamp="2018-11-16T06:46:58Z">
+    <testcase name="Scenario: I want to edit information of Database Server in the DB/Application/Other Servers tab" time="8.366" timestamp="2018-11-16T06:46:58Z">
+</testcase>
+    <testcase name="Scenario: I want to edit information of Other Server in the DB/Application/Other Servers tab" time="6.412" timestamp="2018-11-16T06:47:06Z">
+</testcase>
+    <testcase name="Scenario: I want to create Other Server in the DB/Application/Other Servers tab" time="6.564" timestamp="2018-11-16T06:47:12Z">
+</testcase>
+    <testcase name="Scenario: I want to edit information of Application Server in the DB/Application/Other Servers tab" time="7.183" timestamp="2018-11-16T06:47:19Z">
+</testcase>
+    <testcase name="Scenario: I want to create Application Server in the DB/Application/Other Servers tab" time="7.385" timestamp="2018-11-16T06:47:26Z">
+</testcase>
+  </testsuite>
+  <testsuite id="2" name="chrome68.systemdata.test-resources.integration.opaTests_qunit_html?responderOn=true.Feature: Master page open" hostname="localhost" tests="3" failures="0" errors="0" time="4.833" timestamp="2018-11-16T06:47:33Z">
+    <testcase name="Scenario: As an admin user, I want to see Download button tooltip." time="4.832" timestamp="2018-11-16T06:47:33Z">
+</testcase>
+  </testsuite>
+  <testsuite id="3" name="chrome68.systemdata.test-resources.integration.opaTests_qunit_html?responderOn=true.Feature: Check the function that user deletes License key when deletes system" hostname="localhost" tests="20" failures="0" errors="0" time="22.894" timestamp="2018-11-16T06:47:38Z">
+    <testcase name="Scenario: As an admin user, I should not be able to delete a system with open incidents" time="5.729" timestamp="2018-11-16T06:47:38Z">
+</testcase>
+    <testcase name="Scenario: Scenario: As an admin user, I should receive a toast message indicating the success of deletion on system and license keys" time="6.606" timestamp="2018-11-16T06:47:44Z">
+</testcase>
+    <testcase name="Scenario: Scenario: As an admin user, I check the license key content shows correct in the warning message." time="6.092" timestamp="2018-11-16T06:47:51Z">
+</testcase>
+    <testcase name="Scenario: Scenario: As an admin user, I should not see delete button in systems which I don't have authorization for" time="4.466" timestamp="2018-11-16T06:47:57Z">
+</testcase>
+  </testsuite>
+  <testsuite id="4" name="chrome68.systemdata.test-resources.integration.opaTests_qunit_html?responderOn=true.Feature: Display master data detail" hostname="localhost" tests="14" failures="0" errors="0" time="5.39" timestamp="2018-11-16T06:48:01Z">
+    <testcase name="Scenario: As a cloud product user, i want to see cloud specific information about my tenants in system data app" time="5.39" timestamp="2018-11-16T06:48:01Z">
+</testcase>
+  </testsuite>
+  <testsuite id="5" name="chrome68.systemdata.test-resources.integration.opaTests_qunit_html?responderOn=true.Feature: Display master data detail" hostname="localhost" tests="1" failures="0" errors="0" time="3.569" timestamp="2018-11-16T06:48:07Z">
+    <testcase name="Scenario: As a on-premise product user, i want to navigate to the 'Servers and SAPRouters' section of system data app from outside" time="3.569" timestamp="2018-11-16T06:48:07Z">
+</testcase>
+  </testsuite>
+  <testsuite id="6" name="chrome68.systemdata.test-resources.integration.opaTests_qunit_html?responderOn=true.Feature: Reactive systems and the corresponding license keys" hostname="localhost" tests="26" failures="0" errors="0" time="18.42" timestamp="2018-11-16T06:48:10Z">
+    <testcase name="Scenario: As an admin user, I want to check that active system cannot be reactivated." time="4.121" timestamp="2018-11-16T06:48:10Z">
+</testcase>
+    <testcase name="Scenario: As an admin user, I want to check that deleted system which I don't have authorization for cannot be reactivated." time="3.78" timestamp="2018-11-16T06:48:14Z">
+</testcase>
+    <testcase name="Scenario: As an admin user, I want to check that deleted system belonging to a deleted installation cannot be reactivated." time="4.33" timestamp="2018-11-16T06:48:18Z">
+</testcase>
+    <testcase name="Scenario: As an admin user, I want to reactive a deleted system and all license keys belonging to this system." time="6.188" timestamp="2018-11-16T06:48:22Z">
+</testcase>
+  </testsuite>
+  <testsuite id="7" name="chrome68.systemdata.test-resources.integration.opaTests_qunit_html?responderOn=true.Feature: Change product version in system data editing view" hostname="localhost" tests="3" failures="0" errors="0" time="5.738" timestamp="2018-11-16T06:48:29Z">
+    <testcase name="Scenario: As an administrator of a Sybase system, I want to know all possible product versions that can be upgrated" time="5.738" timestamp="2018-11-16T06:48:29Z">
+</testcase>
+  </testsuite>
+  <testsuite id="8" name="chrome68.systemdata.test-resources.integration.opaTests_qunit_html?responderOn=true.Feature: the masterdata list has been redesigned with new filters" hostname="localhost" tests="17" failures="0" errors="0" time="7.408" timestamp="2018-11-16T06:48:34Z">
+    <testcase name="Scenario: As a S-user, I want to see all options as required in the filter setting page" time="7.407" timestamp="2018-11-16T06:48:34Z">
+</testcase>
+  </testsuite>
+</testsuites>
