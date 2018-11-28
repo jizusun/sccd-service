@@ -38,7 +38,7 @@ var aArgv = process.argv.slice(2);
 
 var sWorkSpace = Argv.p || aArgv[0] || "./";
 // var sWorkSpace = "../data/workspace/B1_SMP_PUM"; //Use "../data/B1_SMP_PUM" for UI5 code debug purpose
-//var sWorkSpace = "../data/workspace/BCD_ABAP_UT"; //Use "../data/BCD_ABAP_UT" for ABAP code debug purpose
+// var sWorkSpace = "../data/workspace/BCD_ABAP_UT"; //Use "../data/BCD_ABAP_UT" for ABAP code debug purpose
 
 var oProject = new Project({
 	workSpace: sWorkSpace,
@@ -63,7 +63,6 @@ if (Argv.b && Argv.b.match(/^.*\/(\w+)$/)) {
 } else if (aArgv[1]) {
 	sBranch = aArgv[1];
 }
-console.log("Get branch name: " + sBranch);
 
 //Save project information
 oProject.getProjectId().then(function(sProjectId) {
@@ -88,11 +87,12 @@ oProject.getProjectId().then(function(sProjectId) {
 	var oHana = new HanaDB();
 	var oContent = {
 		"ProjectId": sProjectId,
-		"Type": sProjectType,
-		"Name": sProjectName
+		"ProjectType": sProjectType,
+		"ProjectName": sProjectName
 	}
-	oHana.post("dev", "ProjectSet", oContent);
-	oHana.post("qual", "ProjectSet", oContent);
+	oHana.post("i7d", "ProjectSet", oContent);
+	oHana.post("w7q", "ProjectSet", oContent);
+	oHana.post("w7v", "ProjectSet", oContent);
 
 }).catch(function(sReason) {
 	console.log("Save project information failed: " + sReason);
@@ -167,11 +167,13 @@ Promise.all([oProject.getProjectId(), oProject.getTestKpi(), oProject.getUTCover
 			}:{}));
 
 			if (sTestType == "UT") {
-				oHana.post("dev", "UTSet", oContent);
-				oHana.post("qual", "UTSet", oContent);
+				oHana.post("i7d", "UTSet", oContent);
+				oHana.post("w7q", "UTSet", oContent);
+				oHana.post("w7v", "UTSet", oContent);
 			} else if (sTestType == "IT") {
-				oHana.post("dev", "ITSet", oContent);
-				oHana.post("qual", "ITSet", oContent);
+				oHana.post("i7d", "ITSet", oContent);
+				oHana.post("w7q", "ITSet", oContent);
+				oHana.post("w7v", "ITSet", oContent);
 			}
 
 		}
@@ -236,8 +238,9 @@ oProject.getProjectId().then(function(sProjectId) {
 		"Name": sJobName,
 		"LastBuild": oJob.getLastBuildNumber()
 	}
-	oHana.post("dev", "JobSet", oContent);
-	oHana.post("qual", "JobSet", oContent);
+	oHana.post("i7d", "JobSet", oContent);
+	oHana.post("w7q", "JobSet", oContent);
+	oHana.post("w7v", "JobSet", oContent);
 
 }).catch(function(sReason) {
 	console.log("Save job information failed: " + sReason);
