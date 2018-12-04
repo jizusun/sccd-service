@@ -90,9 +90,9 @@ oProject.getProjectId().then(function(sProjectId) {
 		"ProjectType": sProjectType,
 		"ProjectName": sProjectName
 	}
-	oHana.post("i7d", "ProjectSet", oContent);
-	oHana.post("w7q", "ProjectSet", oContent);
-	oHana.post("w7v", "ProjectSet", oContent);
+	// oHana.post("i7d", "ProjectSet", oContent);
+	// oHana.post("w7q", "ProjectSet", oContent);
+	// oHana.post("w7v", "ProjectSet", oContent);
 
 }).catch(function(sReason) {
 	console.log("Save project information failed: " + sReason);
@@ -166,15 +166,15 @@ Promise.all([oProject.getProjectId(), oProject.getTestKpi(), oProject.getUTCover
 				"Allstmtcover": oCoverage.All.lineRate
 			}:{}));
 
-			if (sTestType == "UT") {
-				oHana.post("i7d", "UTSet", oContent);
-				oHana.post("w7q", "UTSet", oContent);
-				oHana.post("w7v", "UTSet", oContent);
-			} else if (sTestType == "IT") {
-				oHana.post("i7d", "ITSet", oContent);
-				oHana.post("w7q", "ITSet", oContent);
-				oHana.post("w7v", "ITSet", oContent);
-			}
+			// if (sTestType == "UT") {
+			// 	oHana.post("i7d", "UTSet", oContent);
+			// 	oHana.post("w7q", "UTSet", oContent);
+			// 	oHana.post("w7v", "UTSet", oContent);
+			// } else if (sTestType == "IT") {
+			// 	oHana.post("i7d", "ITSet", oContent);
+			// 	oHana.post("w7q", "ITSet", oContent);
+			// 	oHana.post("w7v", "ITSet", oContent);
+			// }
 
 		}
 	});
@@ -238,9 +238,9 @@ oProject.getProjectId().then(function(sProjectId) {
 		"Name": sJobName,
 		"LastBuild": oJob.getLastBuildNumber()
 	}
-	oHana.post("i7d", "JobSet", oContent);
-	oHana.post("w7q", "JobSet", oContent);
-	oHana.post("w7v", "JobSet", oContent);
+	// oHana.post("i7d", "JobSet", oContent);
+	// oHana.post("w7q", "JobSet", oContent);
+	// oHana.post("w7v", "JobSet", oContent);
 
 }).catch(function(sReason) {
 	console.log("Save job information failed: " + sReason);
