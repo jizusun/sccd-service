@@ -1,0 +1,119 @@
+{
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "sap.support.systemdata.B",
+		"type": "application",
+		"i18n": "i18n/message_bundle.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"ach": "CA-UI5-DOC",
+		"dataSources": {
+			"mainService": {
+				"uri": "/services/odata/svt/systemdatasrv/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": ["sap_bluecrystal"]
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"rootView": "sap.support.systemdata.B.view.App",
+		"dependencies": {
+			"minUI5Version": "1.30",
+			"libs": {
+				"sap.m": {}
+			}
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "sap.support.systemdata.B.i18n.message_bundle"
+				}
+			},
+			"": {
+			    "preload": true,
+				"dataSource": "mainService",
+				"settings": {
+					"metadataUrlParams": {
+						"sap-documentation": "heading"
+					}
+				}
+			}
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "sap.support.systemdata.B.view",
+				"controlId": "idAppControl",
+				"controlAggregation": "detailPages"
+			},
+			"routes": [{
+				"pattern": "systemdata",
+				"name": "master",
+				"target": ["detail", "master"]
+			}, {
+				"pattern": "systemdata/search/:searchTerm:",
+				"name": "filterBySearchTerm",
+				"target": ["detail", "master"]
+
+			}, {
+				"pattern": "systemdata/view/notFound",
+				"name": "viewNotFound",
+				"target": ["notFound"]
+			}, {
+				"pattern": "systemdata/view/{sysnr}/:tab:",
+				"name": "systemView",
+				"target": ["detail"]
+			}, {
+				"pattern": "systemdata/seNotFound",
+				"name": "searchNotFound",
+				"target": ["master", "notFound"]
+			}, {
+				"pattern": "systemdata/notFound",
+				"name": "notFound",
+				"target": ["master", "notFound"]
+			}, {
+				"pattern": "systemdata/{sysnr}",
+				"name": "systemDetail",
+				"target": ["master", "detail"]
+			}],
+			"targets": {
+				"master": {
+					"viewName": "Master",
+					"viewLevel": 1,
+					"viewId": "master",
+					"controlAggregation": "masterPages"
+				},
+				"detail": {
+					"viewName": "Detail",
+					"viewId": "detail",
+					"viewLevel": 2,
+					"controlAggregation": "detailPages"
+				},
+				"notFound": {
+					"viewName": "NotFound",
+					"viewId": "notFound",
+					"viewLevel": 2,
+					"controlAggregation": "detailPages"
+				}
+			}
+		}
+	}
+}

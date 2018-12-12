@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="http://localhost:43765/sap.support.incidentcustomlib/test-resources/qunit/unitTest.qunit.html?hidepassed=true" tests="115" failures="0" errors="0" time="1.038">
+<testsuite id="0" name="chrome68.sap_support_incidentcustomlib.test-resources.qunit.unitTest_qunit_html?hidepassed=true.CitrixChat" hostname="localhost" tests="19" failures="0" errors="0" time="0.136" timestamp="2018-12-05T03:43:01Z">
+<testcase name="checkAvailability - should returns the chat availability when selecting a component with &apos;X&apos; availability" time="0.04" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="checkAvailability for expertchat - should returns the chat availability when selecting a component with &apos;X&apos; availability" time="0.018" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="checkAvailability - should returns the chat availability when selecting a component with &apos;-&apos; availability" time="0.02" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="checkAvailability for expertchat - should returns the chat availability when selecting a component with &apos;-&apos; availability" time="0.015" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="checkAvailability - should returns the chat availability when selecting a component with empty/undefined/invalid availability" time="0.015" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="checkAvailability for expertchat - should returns the chat availability when selecting a component with empty/undefined/invalid availability" time="0.014" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="generateChatLinkFromBydChat - should returns a link when providing short chat content" time="0.001" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="generateChatLinkFromBydChat - should returns a link when providing too long chat content" time="0.002" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="generateChatLinkFromBydChat - should returns a link when providing chat content with only long description" time="0" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="generateChatLinkFromBydChat - should returns a link without Name_Full when customer name is empty" time="0.001" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="generateChatLinkFromIncidentForm - Step 2 Reproduce and Bussiness Impact should be passed to chat, when user launch chat and messages doesn&apos;t exceed the limit length." time="0.002" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="Bussiness Impact should be truncated firstly, when user launch chat and messages exceed the limit length." time="0.002" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="The save chat content service should be called, a guid should be passed to chat link, when user launch chat and messages exceed the limit length." time="0.001" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="The save chat content service should not be called, a guid should not be passed to chat link, when user launch chat and messages doesn&apos;t exceed the limit length." time="0.001" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+</testsuite>
+<testsuite id="1" name="chrome68.sap_support_incidentcustomlib.test-resources.qunit.unitTest_qunit_html?hidepassed=true.Chat - Data Privacy Prompt" hostname="localhost" tests="9" failures="0" errors="0" time="0.219" timestamp="2018-12-05T03:43:01Z">
+<testcase name="promptDataPrivacy - Should open the dialog when invoked" time="0.11" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="promptDataPrivacy - Should close the dialog and call the `accept` callback when the user click the `Agree` button" time="0.082" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="promptDataPrivacy - Should close the dialog and call the `reject` callback when the user click the `Disagree` button" time="0.017" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="promptDataPrivacy - Should open the SAP Privacy Page when the link in the dialog is clicked" time="0.009" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+</testsuite>
+<testsuite id="2" name="chrome68.sap_support_incidentcustomlib.test-resources.qunit.unitTest_qunit_html?hidepassed=true.Chat - constructor" hostname="localhost" tests="5" failures="0" errors="0" time="0.033" timestamp="2018-12-05T03:43:01Z">
+<testcase name="BoldChat - Should `this.pBoldActive` resolve true *after* finish loading external JS files when bold_active is true" time="0.014" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="BoldChat - Should `this.pBoldActive` resolve false when bold_active is false" time="0.018" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+</testsuite>
+<testsuite id="3" name="chrome68.sap_support_incidentcustomlib.test-resources.qunit.unitTest_qunit_html?hidepassed=true.Chat - App Areas" hostname="localhost" tests="16" failures="0" errors="0" time="0.152" timestamp="2018-12-05T03:43:01Z">
+<testcase name="isOnline - Should resolve with chat online status by calling &apos;isOnlineWithBoldChat&apos; when the `pBoldActive` is true" time="0.018" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="isOnline - Should resolve with chat online status by calling &apos;isOnlineWithCitrix&apos; when the `pBoldActive&apos; is false`" time="0.015" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="isOnlineWithCitrix - Should resolve with chat online status by checking the &apos;bAvailable&apos; property" time="0.016" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="getAppArea - Should resolve the Promise with oData returned by `getAppAreaFromChatAreaSet` if boldchat is enabled" time="0.016" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="getAppArea - Should resolve the Promise with oData returned by `getAppAreaFromAppAreaSet` if boldchat is disabled" time="0.018" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="getAppAreaFromAppAreaSet - should returns related application areas when providing a BYD product" time="0.017" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="getAppAreaFromAppAreaSet - should returns null when providing null parameter" time="0.015" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="getAppAreaFromChatAreaSet - Should filter by product and componentId if both are provided" time="0.018" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="getAppAreaFromChatAreaSet - Should query with empty filters if neither product or componentId is provided" time="0.018" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+</testsuite>
+<testsuite id="4" name="chrome68.sap_support_incidentcustomlib.test-resources.qunit.unitTest_qunit_html?hidepassed=true.BoldChat" hostname="localhost" tests="16" failures="0" errors="0" time="0.118" timestamp="2018-12-05T03:43:01Z">
+<testcase name="generateWindowParameters - Should Only generate for the provided parameters according to BC_MAP" time="0.002" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="getDepartmentAvailable - Should return false and not query Bold360 API when the ChatDepartmentId is empty" time="0.015" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="getDepartmentAvailable - Should reject the Promise when the &apos;status&apos; of the response JSON is &apos;error&apos;" time="0.015" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="getDepartmentAvailable - Should resolve with true when the OperatorCapacity &gt; 0" time="0.016" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="getDepartmentAvailable - Should resolve with false when the OperatorCapacity = 0" time="0.016" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="normalizeParamFromBydChat - Should normalize the parameters passed from bydchat" time="0.002" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="normalizeParamFromIncidentForm - Should normalize the parameters passed from incidentform" time="0.001" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="normalizeParamFromContactUs - Should normalize the parameters passed from contact us" time="0" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="launchChatWindow - Should use normalizeParamFromBydChat when `sConsumerId` is `bydchat`" time="0.017" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="launchChatWindow - Should use normalizeParamFromIncidentForm when `sConsumerId` is `incidentform`" time="0.018" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="launchChatWindow - Should throw an Error when `busunit` is empty" time="0.016" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+</testsuite>
+<testsuite id="5" name="chrome68.sap_support_incidentcustomlib.test-resources.qunit.unitTest_qunit_html?hidepassed=true.AsyncUtils" hostname="localhost" tests="4" failures="0" errors="0" time="0.181" timestamp="2018-12-05T03:43:01Z">
+<testcase name="hasAccepted - Should resolve as true when the `accept` callback was invoked" time="0.016" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="hasAccepted - Should resolve as false when the `reject` callback was invoked" time="0.014" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="wait - Should resolve as true until the condition is met" time="0.115" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="wait - another test" time="0.035" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+</testsuite>
+<testsuite id="6" name="chrome68.sap_support_incidentcustomlib.test-resources.qunit.unitTest_qunit_html?hidepassed=true.Promisified OData" hostname="localhost" tests="11" failures="0" errors="0" time="0.165" timestamp="2018-12-05T03:43:01Z">
+<testcase name="Promise - read (success)" time="0.015" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="Promise - read (error)" time="0.014" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="Promise - submit changes" time="0.016" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="Promise - submit changes reject" time="0.015" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="Promise - submit changes resolves immediately if no changes" time="0.014" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="Promise - create" time="0.015" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="Promise - create (reject)" time="0.015" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="Promise - update" time="0.015" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="Promise - update (reject)" time="0.014" timestamp="2018-12-05T03:43:01Z">
+</testcase>
+<testcase name="Promise - remove" time="0.016" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="Promise - remove (reject)" time="0.014" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+</testsuite>
+<testsuite id="7" name="chrome68.sap_support_incidentcustomlib.test-resources.qunit.unitTest_qunit_html?hidepassed=true.CitrixChat Formatter" hostname="localhost" tests="21" failures="0" errors="0" time="0.01" timestamp="2018-12-05T03:43:02Z">
+<testcase name="Should convert chat contact to a string when provide chat content is JSON format." time="0.001" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="Should convert chat contact to null when did not provide chat content." time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="Should truncate input string length to 20 and content ending with &apos;[TRUNCATED]&#10;&apos; when limit input string is 20." time="0.001" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="Should return &apos;Mr.&apos; when select key is 0002." time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="Should return &apos;Ms.&apos; when select key is 0001." time="0.001" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="Should return &apos;&apos; when select key is 3." time="0.001" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="Should return &apos;&apos; when input string is &apos;&apos;" time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="Should return &apos;test&apos; when input string is &apos; test &apos;" time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="Should remove special character(# &amp; &lt; &gt;) of the input string" time="0.001" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="getParamForCitrix - Should return empty when customer name is empty" time="0.001" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="getParamForCitrix - Should return complete customer name &apos;Kelly Hou&apos; when customer name is &apos;Kelly Hou&apos; which&apos;s less than 32 characters" time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="getParamForCitrix - Should return complete customer name &apos;Kelly&#9;&apos; when customer name is &apos;Kelly &apos; which&apos;s less than 32 characters" time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="getParamForCitrix - Should return complete customer name &apos; Hou&apos; when customer name is &apos; Hou&apos; which&apos;s less than 32 characters" time="0.001" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="getParamForCitrix - Should return complete customer name &apos;Thandavakrishnan Pindigur Jayara&apos; when customer name is &apos;Thandavakrishnan Pindigur Jayara&apos; which&apos;s 32 characters" time="0.001" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="getParamForCitrix - Should return truncated customer name &apos;Thandavakrishnan Pindigur Jayara&apos; when customer name is &apos;Thandavakrishnan Pindigur Jayaraman&apos; which&apos;s longer than 32 characters" time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="String length over 2000 will be trancated before sending to chat" time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="_checkAndCutContactName - Should truncate to exactly 32 characters when the name has only one word" time="0.001" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="_checkAndCutContactName - Should abandon extra words when the name exceeds 32 characters" time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="_checkAndCutContactName - Should trim leading and ending white spaces when the name has any" time="0.001" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+</testsuite>
+<testsuite id="8" name="chrome68.sap_support_incidentcustomlib.test-resources.qunit.unitTest_qunit_html?hidepassed=true.Time utils" hostname="localhost" tests="14" failures="0" errors="0" time="0.008" timestamp="2018-12-05T03:43:02Z">
+<testcase name="get12HourClockFormat -  Should return &apos;12:00 midnight&apos;, when the given string is &apos;00:00&apos; " time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="get12HourClockFormat -  Should return &apos;12:01 am&apos;, when the given string is &apos;00:01&apos; " time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="get12HourClockFormat -  Should return &apos;1:00 am&apos;, when the given string is &apos;01:00&apos; " time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="get12HourClockFormat -  Should return &apos;11:59 am&apos;, when the given string is &apos;11:59&apos; " time="0.001" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="get12HourClockFormat -  Should return &apos;12:00 noon&apos;, when the given string is &apos;12:00&apos; " time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="get12HourClockFormat -  Should return &apos;12:01 pm&apos;, when the given string is &apos;12:01&apos; " time="0.001" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="get12HourClockFormat -  Should return &apos;1:00 pm&apos;, when the given string is &apos;13:00&apos; " time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="get12HourClockFormat -  Should return &apos;11:00 pm&apos;, when the given string is &apos;23:00&apos; " time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="get12HourClockFormat -  Should return &apos;11:59 pm&apos;, when the given string is &apos;23:59&apos; " time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="get12HourClockFormat -  Should return &apos;12:00 midnight&apos;, when the given string is &apos;24:00&apos; " time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="isDifferentTimezone - Should return true, when the browser timezone is different from the user profile timezone" time="0.001" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="isDifferentTimezone - Should return false, when the browser timezone is same with the user profile timezone" time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="getTimezoneShort - Should return &apos;UTC+8&apos; if the argument provided is -480" time="0.001" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+<testcase name="getTimezoneShort - Should return &apos;UTC-6&apos; if the argument provided is 360" time="0" timestamp="2018-12-05T03:43:02Z">
+</testcase>
+</testsuite>
+</testsuites>

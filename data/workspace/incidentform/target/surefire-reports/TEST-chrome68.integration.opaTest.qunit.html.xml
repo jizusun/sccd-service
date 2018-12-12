@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="http://localhost:36986/sap.support.incidentform/test-resources/integration/opaTest.qunit.html?responderOn=true" hostname="localhost" tests="219" failures="5" errors="0" time="263.281" timestamp="2018-12-07T05:18:06Z">
+  <testsuite id="0" name="chrome68.sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Navigation" hostname="localhost" tests="5" failures="0" errors="0" time="23.329" timestamp="2018-12-07T05:18:06Z">
+    <testcase name="Should navigate to incident detail page when user click one incident in the incident list" tests="1" failures="0" errors="0" time="9.282" timestamp="2018-12-07T05:18:06Z">
+</testcase>
+    <testcase name="Should pop-up a draft incident close confirm dialog when user click draft incident close button on footer bar" tests="1" failures="0" errors="0" time="2.172" timestamp="2018-12-07T05:18:15Z">
+</testcase>
+    <testcase name="Should navigate to incident list page when user click 'Yes' button of the draft incident close confirm dialog" tests="1" failures="0" errors="0" time="5.7" timestamp="2018-12-07T05:18:18Z">
+</testcase>
+    <testcase name="Should pop up a draft incident close confirm dialog when user click draft incident close button on footer bar" tests="1" failures="0" errors="0" time="6.017" timestamp="2018-12-07T05:18:23Z">
+</testcase>
+    <testcase name="Should see the App without hash when user click 'Yes' button of the draft incident close confirm dialog" tests="1" failures="0" errors="0" time="0.156" timestamp="2018-12-07T05:18:29Z">
+</testcase>
+  </testsuite>
+  <testsuite id="1" name="chrome68.sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Creation - Partner Role" hostname="localhost" tests="82" failures="1" errors="0" time="95.291" timestamp="2018-12-07T05:18:29Z">
+    <testcase name="When enter the incident creation page with Partner role, I should see the Input Of Customer Number, the Cancel Button and the Submit Button." tests="3" failures="0" errors="0" time="4.489" timestamp="2018-12-07T05:18:29Z">
+</testcase>
+    <testcase name="When I select a customer number, I should see the systems panel including recently used systems/products, favorite systems/products and search panel." tests="7" failures="0" errors="0" time="1.94" timestamp="2018-12-07T05:18:34Z">
+</testcase>
+    <testcase name="When I select a system, I should see the selected system and detail panel." tests="9" failures="0" errors="0" time="0.544" timestamp="2018-12-07T05:18:36Z">
+</testcase>
+    <testcase name="When I change the priority to high, input subject and description and select a component, I should see Step to Reproduce and Business Impact" tests="9" failures="0" errors="0" time="5.705" timestamp="2018-12-07T05:18:36Z">
+</testcase>
+    <testcase name="When I input Steps to Reproduce and Business Impact, I should see the Submit button is active" tests="3" failures="0" errors="0" time="0.068" timestamp="2018-12-07T05:18:42Z">
+</testcase>
+    <testcase name="When I change the priority to very high, I should see 24h contact is highlighted" tests="5" failures="0" errors="0" time="0.182" timestamp="2018-12-07T05:18:42Z">
+</testcase>
+    <testcase name="When I select a person in 24h Contact, I can see the active Submit button and send my incident." tests="1" failures="0" errors="0" time="0.164" timestamp="2018-12-07T05:18:42Z">
+</testcase>
+    <testcase name="When I select the own customer, I should see systems only related with own customer and ccc customer" tests="3" failures="0" errors="0" time="7.616" timestamp="2018-12-07T05:18:43Z">
+</testcase>
+    <testcase name="When I select the CCC customer, I should see systems only related with own customer and ccc customer" tests="3" failures="0" errors="0" time="0.518" timestamp="2018-12-07T05:18:50Z">
+</testcase>
+    <testcase name="When I select the supported customer, I should see systems only related with supported customer" tests="2" failures="0" errors="0" time="6.649" timestamp="2018-12-07T05:18:51Z">
+</testcase>
+    <testcase name="When I select the serviced customer, I should see systems only related with serviced customer" tests="2" failures="0" errors="0" time="1.341" timestamp="2018-12-07T05:18:57Z">
+</testcase>
+    <testcase name="When I select the own customer 01 as customer and select a system belongs to 02, I should see the customer number is still 01 not 02" tests="5" failures="0" errors="0" time="9.39" timestamp="2018-12-07T05:18:59Z">
+</testcase>
+    <testcase name="When I select a system with EUDP/EarlyAdpoterCare/classified flag, I should see EUDP/EarlyAdopterCare flag and classified content checkbox unchecked under the selected system ." tests="4" failures="0" errors="0" time="8.638" timestamp="2018-12-07T05:19:08Z">
+</testcase>
+    <testcase name="When I select SFSF system, I should see Preview Incident checkbox and unselected." tests="2" failures="0" errors="0" time="11.194" timestamp="2018-12-07T05:19:17Z">
+</testcase>
+    <testcase name="When I open Subproduct dialog, I should see component description on top and component name on bottom." tests="6" failures="0" errors="0" time="5.123" timestamp="2018-12-07T05:19:28Z">
+</testcase>
+    <testcase name="When switch system from SFSF to On-Pre, I should see component key on top and description at bottom" tests="3" failures="0" errors="0" time="4.27" timestamp="2018-12-07T05:19:33Z">
+</testcase>
+    <testcase name="When switch system from On-Pre to SFSF, I should see description on top and component key at bottom" tests="4" failures="0" errors="0" time="4.749" timestamp="2018-12-07T05:19:37Z">
+</testcase>
+    <testcase name="When I submit the incident, I should see success message toast and navigate to detail page." tests="3" failures="1" errors="0" time="2.366" timestamp="2018-12-07T05:19:42Z">
+      <failure type="AssertionFailedError" message="Submit incident successfully message is correct.">
+        <actual value="Your incident has been successfully submitted to SAP!"/>
+        <expected value="Your incident has been submitted successfully to SAP."/>
+      </failure>
+    </testcase>
+    <testcase name="When I navigate to detail page, I should see #PREVIEW INSTANCE# text in Problem Description" tests="1" failures="0" errors="0" time="1.914" timestamp="2018-12-07T05:19:44Z">
+</testcase>
+    <testcase name="When I open a SFSF draft incident creation page, I should see Preview Incident checkbox and unselected." tests="2" failures="0" errors="0" time="5.498" timestamp="2018-12-07T05:19:46Z">
+</testcase>
+    <testcase name="When I search for SFSF system, I should see Data Center info in the search result" tests="5" failures="0" errors="0" time="12.929" timestamp="2018-12-07T05:19:52Z">
+</testcase>
+    <system-out><![CDATA[
+[sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Creation - Partner Role, When I submit the incident, I should see success message toast and navigate to detail page., 2] Submit incident successfully message is correct.
+Source:     at eval (http://localhost:36986/sap.support.incidentform/resources/sap/ui/thirdparty/qunit.js?eval:11:20688)
+    at f.success (http://localhost:36986/sap.support.incidentform/test-resources/integration/pages/IncidentCreation_Detail.js?eval:447:9)
+    at f.z.success (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa5.js?eval:6:4518)
+    at f.eval (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa.js?eval:6:3864)
+    at r (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa.js?eval:6:447)
+    at W (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/autowaiter/_timeoutCounter.js?eval:6:516)
+]]></system-out>
+  </testsuite>
+  <testsuite id="2" name="chrome68.sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Creation - Customer Role" hostname="localhost" tests="19" failures="0" errors="0" time="18.41" timestamp="2018-12-07T05:20:05Z">
+    <testcase name="When enter the incident creation page, I should see favorite and recently used system and system search panel." tests="4" failures="0" errors="0" time="4.35" timestamp="2018-12-07T05:20:05Z">
+</testcase>
+    <testcase name="When I press search button, I should see the List Of System Details." tests="3" failures="0" errors="0" time="2.254" timestamp="2018-12-07T05:20:09Z">
+</testcase>
+    <testcase name="When I select a system, I should see the System Or Product Affected Panel and the Incident Details Panel." tests="7" failures="0" errors="0" time="0.967" timestamp="2018-12-07T05:20:11Z">
+</testcase>
+    <testcase name="When I input subject, description, component, I should be able to submit this incident" tests="4" failures="0" errors="0" time="5.072" timestamp="2018-12-07T05:20:12Z">
+</testcase>
+    <testcase name="When enter the incident creation page with S-user who does not have valid system, I should see warning message of no valid system" tests="1" failures="0" errors="0" time="5.766" timestamp="2018-12-07T05:20:17Z">
+</testcase>
+  </testsuite>
+  <testsuite id="3" name="chrome68.sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Creation - Internal User - OnBehalf Partner" hostname="localhost" tests="23" failures="2" errors="0" time="30.298" timestamp="2018-12-07T05:20:23Z">
+    <testcase name="When enter the incident creation page, I should see the Input Of Customer Number, the Input Of SUser Id, the Cancel Button,and the Submit Button." tests="5" failures="0" errors="0" time="5.592" timestamp="2018-12-07T05:20:23Z">
+</testcase>
+    <testcase name="When enter the correct suser id, the Next Button should be enabled." tests="2" failures="0" errors="0" time="0.523" timestamp="2018-12-07T05:20:29Z">
+</testcase>
+    <testcase name="When I press next button, I should see S-user name is filled with correct value and it's non-editable." tests="4" failures="0" errors="0" time="1.276" timestamp="2018-12-07T05:20:29Z">
+</testcase>
+    <testcase name="When I open the selection of customer name, I should see the list of Customer Name." tests="3" failures="0" errors="0" time="0.889" timestamp="2018-12-07T05:20:31Z">
+</testcase>
+    <testcase name="When I select partner's own customer, I should see recently and favorite systems for his own customer." tests="1" failures="0" errors="0" time="1.596" timestamp="2018-12-07T05:20:31Z">
+</testcase>
+    <testcase name="When I select partner's ccc customer, I should see recently and favorite systems for his ccc customer." tests="1" failures="0" errors="0" time="2.878" timestamp="2018-12-07T05:20:33Z">
+</testcase>
+    <testcase name="When I should be able to submit incident for partner's ccc customer." tests="6" failures="1" errors="0" time="9.879" timestamp="2018-12-07T05:20:36Z">
+      <failure type="AssertionFailedError" message="Submit incident successfully message is correct.">
+        <actual value="Your incident has been successfully submitted to SAP!"/>
+        <expected value="Your incident has been submitted successfully to SAP."/>
+      </failure>
+    </testcase>
+    <testcase name="When select a partner who has no valid system, I should see no valid warning message." tests="1" failures="1" errors="0" time="7.665" timestamp="2018-12-07T05:20:46Z">
+      <failure type="AssertionFailedError" message="I should see warning message of partner's selected s-user has no valid system.">
+        <actual value="We cannot find a valid system for this S-user's authorized installation. Please let customer to contact their administrator."/>
+        <expected value="We cannot find a valid system for this S-user's authorized installation. Please ask the customer to contact its administrator."/>
+      </failure>
+    </testcase>
+    <system-out><![CDATA[
+[sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Creation - Internal User - OnBehalf Partner, When I should be able to submit incident for partner's ccc customer., 6] Submit incident successfully message is correct.
+Source:     at eval (http://localhost:36986/sap.support.incidentform/resources/sap/ui/thirdparty/qunit.js?eval:11:20688)
+    at f.success (http://localhost:36986/sap.support.incidentform/test-resources/integration/pages/IncidentCreation_Detail.js?eval:447:9)
+    at f.z.success (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa5.js?eval:6:4518)
+    at f.eval (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa.js?eval:6:3864)
+    at r (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa.js?eval:6:447)
+    at W (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/autowaiter/_timeoutCounter.js?eval:6:516)
+[sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Creation - Internal User - OnBehalf Partner, When select a partner who has no valid system, I should see no valid warning message., 1] I should see warning message of partner's selected s-user has no valid system.
+Source:     at f.success (http://localhost:36986/sap.support.incidentform/test-resources/integration/pages/IncidentCreation_Detail.js?eval:471:21)
+    at f.z.success (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa5.js?eval:6:4518)
+    at f.eval (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa.js?eval:6:3864)
+    at r (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa.js?eval:6:447)
+    at W (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/autowaiter/_timeoutCounter.js?eval:6:516)
+]]></system-out>
+  </testsuite>
+  <testsuite id="4" name="chrome68.sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Creation - Internal User - OnBehalf Customer" hostname="localhost" tests="2" failures="0" errors="0" time="7.784" timestamp="2018-12-07T05:20:53Z">
+    <testcase name="When I select a customer, I should see recently and favorite systems for his supported customer." tests="2" failures="0" errors="0" time="7.784" timestamp="2018-12-07T05:20:53Z">
+</testcase>
+  </testsuite>
+  <testsuite id="5" name="chrome68.sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Creation -  Pre-filled URL" hostname="localhost" tests="13" failures="0" errors="0" time="33.889" timestamp="2018-12-07T05:21:01Z">
+    <testcase name="When Internal user enter the incident creation page with prefill URL, I should see a normal creation page without prfilled system or component" tests="4" failures="0" errors="0" time="10.031" timestamp="2018-12-07T05:21:01Z">
+</testcase>
+    <testcase name="When Customer enter incident creation page with valid system number and component, I should see the prefilled system and component." tests="2" failures="0" errors="0" time="8.445" timestamp="2018-12-07T05:21:11Z">
+</testcase>
+    <testcase name="When Customer enter incident creation page with valid system number but invalid component, I should see prefilled system but no component." tests="2" failures="0" errors="0" time="7.291" timestamp="2018-12-07T05:21:20Z">
+</testcase>
+    <testcase name="When Customer enter incident creation page with invalid system number but valid component, I should see normal creation without prefilled system or component." tests="5" failures="0" errors="0" time="8.119" timestamp="2018-12-07T05:21:27Z">
+</testcase>
+  </testsuite>
+  <testsuite id="6" name="chrome68.sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Draft - Edit" hostname="localhost" tests="38" failures="1" errors="0" time="18.309" timestamp="2018-12-07T05:21:35Z">
+    <testcase name="When I jump into my draft page, I should see that the system is right and not editable." tests="2" failures="0" errors="0" time="5.425" timestamp="2018-12-07T05:21:35Z">
+</testcase>
+    <testcase name="When I jump into my draft page, I should see EUDP/EarlyAdopterCare flag and classified content checkbox checked and not editable under the selected system ." tests="4" failures="0" errors="0" time="1.143" timestamp="2018-12-07T05:21:41Z">
+</testcase>
+    <testcase name="When I jump into my draft page, I should see that the language is English and I should be able to change it." tests="2" failures="0" errors="0" time="0.025" timestamp="2018-12-07T05:21:42Z">
+</testcase>
+    <testcase name="When I jump into my draft page, I should see that the priority is medium and editable" tests="2" failures="0" errors="0" time="0.053" timestamp="2018-12-07T05:21:42Z">
+</testcase>
+    <testcase name="When I jump into my draft page, I should see that the subject is right and I should be able to change it." tests="2" failures="0" errors="0" time="0.037" timestamp="2018-12-07T05:21:42Z">
+</testcase>
+    <testcase name="When I jump into my draft page, I should see that the description is right and editable." tests="2" failures="0" errors="0" time="0.043" timestamp="2018-12-07T05:21:42Z">
+</testcase>
+    <testcase name="When I jump into my draft page, I should see that the component is right and editable." tests="2" failures="0" errors="0" time="0.034" timestamp="2018-12-07T05:21:42Z">
+</testcase>
+    <testcase name="When I jump into my draft page, I should see that the step to reproduce visible." tests="2" failures="0" errors="0" time="0.045" timestamp="2018-12-07T05:21:42Z">
+</testcase>
+    <testcase name="When I jump into my draft page, I should see that the add attachment and contact panel and both editable." tests="2" failures="0" errors="0" time="0.037" timestamp="2018-12-07T05:21:42Z">
+</testcase>
+    <testcase name="When I empty the subject, I should see that the subject input box becomes red." tests="1" failures="0" errors="0" time="0.05" timestamp="2018-12-07T05:21:42Z">
+</testcase>
+    <testcase name="When I refill the subject, I should see that the subject is what I entered." tests="1" failures="0" errors="0" time="1.704" timestamp="2018-12-07T05:21:42Z">
+</testcase>
+    <testcase name="When I empty the description, I should see that the description input box becomes red." tests="2" failures="0" errors="0" time="2.132" timestamp="2018-12-07T05:21:44Z">
+</testcase>
+    <testcase name="When I refill the description, and set the priority to high, the business impact input should show up and step to reproduce should be red." tests="4" failures="0" errors="0" time="3.436" timestamp="2018-12-07T05:21:46Z">
+</testcase>
+    <testcase name="When I open the component search dialog and select one component, I should see component changed." tests="4" failures="0" errors="0" time="1.95" timestamp="2018-12-07T05:21:49Z">
+</testcase>
+    <testcase name="When I refill the step to reproduce, the big impact input should be red." tests="3" failures="0" errors="0" time="0.449" timestamp="2018-12-07T05:21:51Z">
+</testcase>
+    <testcase name="When I refill the business impact, I should be able to send my incident." tests="3" failures="1" errors="0" time="1.738" timestamp="2018-12-07T05:21:52Z">
+      <failure type="AssertionFailedError" message="Submit incident successfully message is correct.">
+        <actual value="Your incident has been successfully submitted to SAP!"/>
+        <expected value="Your incident has been submitted successfully to SAP."/>
+      </failure>
+    </testcase>
+    <system-out><![CDATA[
+[sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Draft - Edit, When I refill the business impact, I should be able to send my incident., 3] Submit incident successfully message is correct.
+Source:     at eval (http://localhost:36986/sap.support.incidentform/resources/sap/ui/thirdparty/qunit.js?eval:11:20688)
+    at f.success (http://localhost:36986/sap.support.incidentform/test-resources/integration/pages/IncidentCreation_Detail.js?eval:447:9)
+    at f.z.success (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa5.js?eval:6:4518)
+    at f.eval (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa.js?eval:6:3864)
+    at r (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa.js?eval:6:447)
+    at W (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/autowaiter/_timeoutCounter.js?eval:6:516)
+]]></system-out>
+  </testsuite>
+  <testsuite id="7" name="chrome68.sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Expert Search" hostname="localhost" tests="14" failures="0" errors="0" time="5.988" timestamp="2018-12-07T05:21:53Z">
+    <testcase name="When enter the Expert Search page, I should see page title is Search Incident." tests="1" failures="0" errors="0" time="3.67" timestamp="2018-12-07T05:21:53Z">
+</testcase>
+    <testcase name="When enter the Expert Search page, I should see Clear and Go Buttons." tests="2" failures="0" errors="0" time="0.049" timestamp="2018-12-07T05:21:57Z">
+</testcase>
+    <testcase name="When enter the Expert Search page, I should see Installation,Status, Reported By, Created On, Changed On filters." tests="5" failures="0" errors="0" time="0.056" timestamp="2018-12-07T05:21:57Z">
+</testcase>
+    <testcase name="When enter the Expert Search page, I should see incident table." tests="5" failures="0" errors="0" time="0.055" timestamp="2018-12-07T05:21:57Z">
+</testcase>
+    <testcase name="When enter the Expert Search page, I should see warning if filters are not filled." tests="1" failures="0" errors="0" time="2.158" timestamp="2018-12-07T05:21:57Z">
+</testcase>
+  </testsuite>
+  <testsuite id="8" name="chrome68.sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Detail - Solution provided" hostname="localhost" tests="9" failures="0" errors="0" time="16.277" timestamp="2018-12-07T05:21:59Z">
+    <testcase name="When enter the incident detail page, I should see status is solution provided and Close button, Edit button." tests="3" failures="0" errors="0" time="4.397" timestamp="2018-12-07T05:21:59Z">
+</testcase>
+    <testcase name="When I press the edit button, select a reject reason, input description and submit incident, I should see submit successfully message toast." tests="3" failures="0" errors="0" time="4.59" timestamp="2018-12-07T05:22:04Z">
+</testcase>
+    <testcase name="When enter the incident detail page, press edit button and then press cancel button, I should see warning dialog." tests="1" failures="0" errors="0" time="6.781" timestamp="2018-12-07T05:22:08Z">
+</testcase>
+    <testcase name="When I press Cancel in warning dialog, I should see cancel edit mode button." tests="1" failures="0" errors="0" time="0.06" timestamp="2018-12-07T05:22:15Z">
+</testcase>
+    <testcase name="When I press OK in warning dialog, I should see edit button." tests="1" failures="0" errors="0" time="0.448" timestamp="2018-12-07T05:22:15Z">
+</testcase>
+  </testsuite>
+  <testsuite id="9" name="chrome68.sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Detail - Customer Action" hostname="localhost" tests="14" failures="1" errors="0" time="13.692" timestamp="2018-12-07T05:22:16Z">
+    <testcase name="When enter the incident detail page, I should see status is customer action and I can see Edit and Close button." tests="3" failures="0" errors="0" time="4.168" timestamp="2018-12-07T05:22:16Z">
+</testcase>
+    <testcase name="When I press Edit button, change priority to Very High and press submit button, I should see an error dailog." tests="1" failures="0" errors="0" time="3.18" timestamp="2018-12-07T05:22:20Z">
+</testcase>
+    <testcase name="When press OK in error dialog, input text in description and press submit button, I should see an error dailog." tests="2" failures="0" errors="0" time="0.568" timestamp="2018-12-07T05:22:23Z">
+</testcase>
+    <testcase name="When press OK in error dialog, input text in Steps to Reproduce and press submit button, I should see an error dailog." tests="2" failures="0" errors="0" time="0.535" timestamp="2018-12-07T05:22:24Z">
+</testcase>
+    <testcase name="When press OK in error dialog, input text in Business Impact and press submit button, I should see an error dailog." tests="2" failures="0" errors="0" time="0.816" timestamp="2018-12-07T05:22:24Z">
+</testcase>
+    <testcase name="When press OK in error dialog, open 24H contact F4help dialog, select sissi contact and press submit button, I should see submit successfully message toast." tests="4" failures="1" errors="0" time="4.424" timestamp="2018-12-07T05:22:25Z">
+      <failure type="AssertionFailedError" message="Submit incident successfully message is correct.">
+        <actual value="Incident updated successfully!"/>
+        <expected value="Incident updated successfully"/>
+      </failure>
+    </testcase>
+    <system-out><![CDATA[
+[sap_support_incidentform.test-resources.integration.opaTest_qunit_html?responderOn=true.Incident Detail - Customer Action, When press OK in error dialog, open 24H contact F4help dialog, select sissi contact and press submit button, I should see submit successfully message toast., 4] Submit incident successfully message is correct.
+Source:     at eval (http://localhost:36986/sap.support.incidentform/resources/sap/ui/thirdparty/qunit.js?eval:11:20688)
+    at f.success (http://localhost:36986/sap.support.incidentform/test-resources/integration/pages/IncidentDetail.js?eval:344:8)
+    at f.z.success (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa5.js?eval:6:4518)
+    at f.eval (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa.js?eval:6:3864)
+    at r (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/Opa.js?eval:6:447)
+    at W (http://localhost:36986/sap.support.incidentform/resources/sap/ui/test/autowaiter/_timeoutCounter.js?eval:6:516)
+]]></system-out>
+  </testsuite>
+</testsuites>

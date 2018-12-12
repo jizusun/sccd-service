@@ -37,8 +37,9 @@ if (Argv.h || Argv.help) {
 var aArgv = process.argv.slice(2);
 
 var sWorkSpace = Argv.p || aArgv[0] || "./";
-// var sWorkSpace = "../data/workspace/B1_SMP_PUM"; //Use "../data/B1_SMP_PUM" for UI5 code debug purpose
-// var sWorkSpace = "../data/workspace/BCD_ABAP_UT"; //Use "../data/BCD_ABAP_UT" for ABAP code debug purpose
+//var sWorkSpace = "../data/workspace/B1_SMP_PUM"; //Use "../data/B1_SMP_PUM" for UI5 code debug purpose
+//var sWorkSpace = "../data/workspace/BCD_ABAP_UT"; //Use "../data/BCD_ABAP_UT" for ABAP code debug purpose
+//var sWorkSpace = "../data/workspace/systemdata";
 
 var oProject = new Project({
 	workSpace: sWorkSpace,
@@ -90,9 +91,9 @@ oProject.getProjectId().then(function(sProjectId) {
 		"ProjectType": sProjectType,
 		"ProjectName": sProjectName
 	}
-	// oHana.post("i7d", "ProjectSet", oContent);
-	// oHana.post("w7q", "ProjectSet", oContent);
-	// oHana.post("w7v", "ProjectSet", oContent);
+	oHana.post("i7d", "ProjectSet", oContent);
+	oHana.post("w7q", "ProjectSet", oContent);
+	oHana.post("w7v", "ProjectSet", oContent);
 
 }).catch(function(sReason) {
 	console.log("Save project information failed: " + sReason);
@@ -110,7 +111,7 @@ Promise.all([oProject.getProjectId(), oProject.getTestKpi(), oProject.getUTCover
 		var sTestType = Project.TestType[sTestTypeKey];
 
 		if (oKpi[sTestType].assertion) {
-			/*console.log("Get " + sTestType + " test kpi: passed-" + oKpi[sTestType].passed + ", " +
+			console.log("Get " + sTestType + " test kpi: passed-" + oKpi[sTestType].passed + ", " +
 														"failed-" + oKpi[sTestType].failed + ", " +
 														"skipped-" + oKpi[sTestType].skipped + ", " +
 														"assertion-" + oKpi[sTestType].assertion +
@@ -119,7 +120,7 @@ Promise.all([oProject.getProjectId(), oProject.getTestKpi(), oProject.getUTCover
 															"included stmt coverage-" + oCoverage.Included.lineRate + ", " + 
 															"all stmt lines-" + oCoverage.All.validLines + ", " + 
 															"all stmt coverage-" + oCoverage.All.lineRate):"")
-														);*/
+														);
 
 			/*  MySQL DB  */
 			var oDB = new DB({
@@ -166,15 +167,15 @@ Promise.all([oProject.getProjectId(), oProject.getTestKpi(), oProject.getUTCover
 				"Allstmtcover": oCoverage.All.lineRate
 			}:{}));
 
-			// if (sTestType == "UT") {
-			// 	oHana.post("i7d", "UTSet", oContent);
-			// 	oHana.post("w7q", "UTSet", oContent);
-			// 	oHana.post("w7v", "UTSet", oContent);
-			// } else if (sTestType == "IT") {
-			// 	oHana.post("i7d", "ITSet", oContent);
-			// 	oHana.post("w7q", "ITSet", oContent);
-			// 	oHana.post("w7v", "ITSet", oContent);
-			// }
+			if (sTestType == "UT") {
+				oHana.post("i7d", "UTSet", oContent);
+				oHana.post("w7q", "UTSet", oContent);
+				oHana.post("w7v", "UTSet", oContent);
+			} else if (sTestType == "IT") {
+				oHana.post("i7d", "ITSet", oContent);
+				oHana.post("w7q", "ITSet", oContent);
+				oHana.post("w7v", "ITSet", oContent);
+			}
 
 		}
 	});
@@ -238,9 +239,9 @@ oProject.getProjectId().then(function(sProjectId) {
 		"Name": sJobName,
 		"LastBuild": oJob.getLastBuildNumber()
 	}
-	// oHana.post("i7d", "JobSet", oContent);
-	// oHana.post("w7q", "JobSet", oContent);
-	// oHana.post("w7v", "JobSet", oContent);
+	oHana.post("i7d", "JobSet", oContent);
+	oHana.post("w7q", "JobSet", oContent);
+	oHana.post("w7v", "JobSet", oContent);
 
 }).catch(function(sReason) {
 	console.log("Save job information failed: " + sReason);
