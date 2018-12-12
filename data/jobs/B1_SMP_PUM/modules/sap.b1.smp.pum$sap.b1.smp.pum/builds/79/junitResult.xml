@@ -1,0 +1,1684 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.20">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/B1_SMP_PUM_Unit_Test/target/surefire-reports/TEST-chrome64.unit.indexUnit.qunit.html.xml</file>
+      <name>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html_responderOn=true.Formatter Unit Test</name>
+      <duration>0.014</duration>
+      <timestamp>2018-05-08T02:31:15Z</timestamp>
+      <id>0</id>
+      <time>0.014</time>
+      <cases>
+        <case>
+          <duration>0.003</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Empty value should be translated to empty string</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Ö should be translated to OE</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>ß should be translated to SS</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>&apos;SÄP and säp&apos; should be both translated to &apos;SAEP and sAEp&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>User with separated first name &apos;SAP&apos; and last name &apos;User&apos; should display &apos;SAP User&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>User without separated first name and last name should display full name</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Empty phone number with empty country code should display empty string</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Empty phone number with valid country code &apos;+0086&apos; should display empty string</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Valid phone number &apos;2180373161&apos; with valid country code &apos;+0086&apos; should display &apos;+0086 2180373161&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Undefined partner number should display empty string</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Empty partner number should display empty string</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Input partner number &apos;0015063060&apos; should display &apos;S0015063060&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Input partner number &apos;S0015063060&apos; should display &apos;S0015063060&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Empty authorization object should be encoded as empty string</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Authorization {A01: &apos;0006266655:&apos;, A05: &apos;0020258636:0020258639:&apos;, A07: &apos;D&apos;} should be encoded as A01-0006266655:|A05-0020258636:0020258639:|A07-D|</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Empty item &apos;A05 &apos;in authorization object {A01: &apos;0006266655:&apos;, A05: &apos;&apos;, A07: &apos;D&apos;} should be dropped during encode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Empty authorization string should be decoded as empty object</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Authorization string &apos;A01-0006266655:|A05-0020258636:0020258639:|A07-D|&apos; should be decoded as {A01: &apos;0006266655:&apos;, A05: &apos;0020258636:0020258639:&apos;, A07: &apos;D&apos;}</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Formatter Unit Test</className>
+          <testName>Empty item &apos;A01 &apos;in authorization string &apos;A01|A05-0020258636:0020258639:|A07-D|&apos; should be dropped during decode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/workspace/B1_SMP_PUM_Unit_Test/target/surefire-reports/TEST-chrome64.unit.indexUnit.qunit.html.xml</file>
+      <name>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html_responderOn=true.TableEx Unit Test</name>
+      <duration>1.249</duration>
+      <timestamp>2018-05-08T02:31:15Z</timestamp>
+      <id>1</id>
+      <time>1.249</time>
+      <cases>
+        <case>
+          <duration>0.778</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.TableEx Unit Test</className>
+          <testName>The initial table should only has 2 visible items when growing threshold is 2</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.021</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.TableEx Unit Test</className>
+          <testName>The initial &apos;SelectedPaths&apos; should be an empty array when there is no default selected item</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.013</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.TableEx Unit Test</className>
+          <testName>&apos;SelectedPaths&apos; should has 5 elements if Select All Checkbox of table was selected by user click</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.011</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.TableEx Unit Test</className>
+          <testName>Element of &apos;SelectedPaths&apos; should match pattern &apos;//[0-9]+/&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.09</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.TableEx Unit Test</className>
+          <testName>Hidden items will also be marked as selected on UI if Select All Checkbox of table was selected by user click</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.009</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.TableEx Unit Test</className>
+          <testName>&apos;SelectedPaths&apos; should has 0 element if status of Select All Checkbox was changed from selected to unselected by user click</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.032</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.TableEx Unit Test</className>
+          <testName>Hidden items will also be marked as unselected on UI if status of Select All Checkbox was changed from selected to unselected by user click</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.104</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.TableEx Unit Test</className>
+          <testName>Select action of Select All Checkbox only takes effect on filtered result when filter applied on table</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.045</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.TableEx Unit Test</className>
+          <testName>Deselect action of Select All Checkbox only takes effect on filtered result when filter applied on table</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.045</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.TableEx Unit Test</className>
+          <testName>Selected status of Select All Checkbox only depends on filtered result items&apos; selected status when filter applied on table</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.032</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.TableEx Unit Test</className>
+          <testName>Unselected status of Select All Checkbox only depends on filtered result items&apos; selected status when filter applied on table</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.033</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.TableEx Unit Test</className>
+          <testName>Method &apos;selectAll&apos; of TableEx control still only take effect on visible items</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.034</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.TableEx Unit Test</className>
+          <testName>Method &apos;removeSelections&apos; of TableEx control still only take effect on visible items</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/workspace/B1_SMP_PUM_Unit_Test/target/surefire-reports/TEST-chrome64.unit.indexUnit.qunit.html.xml</file>
+      <name>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html_responderOn=true.Template Unit Test</name>
+      <duration>0.071</duration>
+      <timestamp>2018-05-08T02:31:16Z</timestamp>
+      <id>2</id>
+      <time>0.071</time>
+      <cases>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;custEnabledFlag&apos; should provide binding value false if customer id field of &apos;user&apos; model is empty</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;custEnabledFlag&apos; should provide binding value true if customer id field of &apos;user&apos; model is NOT empty</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;tableMode&apos; should provide binding value &apos;ModeSelect&apos; if logon user has write authorization</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;tableMode&apos; should provide binding value &apos;None&apos; if logon user has NO write authorization</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.003</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;showForRegularUser&apos; should provide binding value false if current person is NOT a user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;showForRegularUser&apos; should provide binding value true if current person is a regular user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;showForRegularUser&apos; should provide binding value false if current person is a technical user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;showForRegularUser&apos; should provide false even if current person is a regular user when check authorization flag was set and logon user had NO write authorization</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;showForRegularUser&apos; should provide true if current person is a regular user when check authorization flag was set and logon user had write authorization</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleForRegularUserCreate(true)&apos; should provide binding value true if current edit mode is creating a regular user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleForRegularUserCreate(true)&apos; should provide binding value false if current edit mode is creating a technical user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleForRegularUserCreate(true)&apos; should provide binding value false if current edit mode is updating a regular user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleForRegularUserCreate(false)&apos; should provide binding value false if current edit mode is creating a regular user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleForRegularUserCreate(false)&apos; should provide binding value true if current edit mode is creating a technical user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleForRegularUserCreate(false)&apos; should provide binding value true if current edit mode is updating a non-user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>S-ID should be visible when update data of a user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>S-ID should be invisible when update data of a contact person</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>S-ID should be invisible under creation mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>S-ID should be invisible under batch mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;hideInReqIdOrBatchListMode&apos; should provide binding value false if current edit mode is requesting ID for contact person</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;hideInReqIdOrBatchListMode&apos; should provide binding value false under batch list mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;hideInReqIdOrBatchListMode&apos; should provide binding value true if current edit mode is user creating</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;hideInReqIdOrBatchListMode&apos; should provide binding value false under batch template mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleInBatchMode(true)&apos; should provide binding value true under batch mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleInBatchMode(true)&apos; should provide binding value false under update mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleInBatchMode(false)&apos; should provide binding value false under batch mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleInBatchMode(false)&apos; should provide binding value true under update mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleInBatchListMode(true)&apos; should provide binding value true under batch list mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleInBatchListMode(true)&apos; should provide binding value false under non batch list mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleInBatchListMode(false)&apos; should provide binding value false under batch list mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleInBatchListMode(false)&apos; should provide binding value true under non batch list mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleWhenMultiItems&apos; should provide binding value false if binding model is empty</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleWhenMultiItems&apos; should provide binding value false if binding model has only one element</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>&apos;visibleWhenMultiItems&apos; should provide binding value true if binding model has more than one element</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Width of batch table search field should be 50% on phone device</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Width of batch table search field should be 25% on non-phone device</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Authorization table should be visible under regular user creation mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Authorization table should be invisible under technical user creation mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Authorization table should be visible under regular user update mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Authorization table should be invisible under technical user update mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Authorization table should be visible when request user ID for contact person</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value 0 if binding model is empty</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value 0 if binding model data is an object rather than an array</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;false&apos; if binding model data is an object rather than an array and expected boolean result</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide length of binding model data if it is an array</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;true&apos; if binding model data it is an un-empty array and expected boolean result</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide length of filtered array if binding model data is an array and filters applied on it</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;false&apos; if binding model data is an array and filters applied on it and filtered result is empty</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;User&apos; when current person is a regular user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Technical User&apos; when current person is a technical user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Contact Person&apos; when current person is not a user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Active&apos;(expected status text) or &apos;Success&apos;(expect status type enum) if it is an activated technical user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Inactive&apos;(expected status text) or &apos;Error&apos;(expect status type enum) if it is an inactivated technical user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Authorized&apos;(expected status text) or &apos;Error&apos;(expect status type enum) if it is an authorized non technical user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Not Authorized&apos;(expected status text) or &apos;Error&apos;(expect status type enum) if it is a not authorized non technical user</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Authorized&apos; if the authorized flag is &apos;Y&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Not Authorized&apos; if the authorized flag is NOT &apos;Y&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Success&apos;(status type enum value) if the authorized flag is &apos;Y&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Error&apos;(status type enum value) if the authorized flag is NOT &apos;Y&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Active&apos; if the activated flag is &apos;Y&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Inactive&apos; if the activated flag is NOT &apos;Y&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Success&apos;(status type enum value) if the activated flag is &apos;Y&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Error&apos;(status type enum value) if the activated flag is NOT &apos;Y&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;Success&apos;(status type enum value) if passes the password rule</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template Unit Test</className>
+          <testName>Should provide binding value &apos;None&apos;(status type enum value) if fails to pass the password rule</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/workspace/B1_SMP_PUM_Unit_Test/target/surefire-reports/TEST-chrome64.unit.indexUnit.qunit.html.xml</file>
+      <name>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html_responderOn=true.Template (Authorization Objects Table) Unit Test</name>
+      <duration>3.132</duration>
+      <timestamp>2018-05-08T02:31:16Z</timestamp>
+      <id>3</id>
+      <time>3.132</time>
+      <cases>
+        <case>
+          <duration>0.054</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Default model host should be root view</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.585</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Header of the table should only display the title &apos;Authorization Objects&apos; in authorization objects list</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.041</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Authorization object which need to be applied with user or installation should be navigable</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.099</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Expand authorization object which need to be applied with user will get the user list</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.081</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Expand authorization object which need to be applied with installation will get the installation list</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.078</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Table header should display &apos;Back to Authorization Objects &gt; Edit Authorizations&apos; when expand the &apos;Edit Authorizations&apos; object</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.094</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Click &apos;Back to Authorization Objects&apos; will navigate back to authorization objects list</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.123</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Customer level assignment checkbox should be visible in user list and installation list</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.398</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Select all checkbox should be visible in user list and installation list only under edit mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.292</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Table should be in MultiSelect mode but be disabled for select in display mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.15</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>In edit mode and no foreign installation exist, except authorization object which need to be applied with user or installation, checkbox should be selectable</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.063</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>In edit mode but foreign installation exist, foreign installation and select all checkbox for installation list should be un-selectable besides authorization object which need to be applied with user or installation</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.063</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Object &apos;Edit Authorizations&apos; and user &apos;0003287662&apos; and &apos;0014300277&apos; will all be selected if authorization property of person model contains &apos;A01: 0003287662:0014300277:&apos;}</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.053</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Name of key property for user list binding should be &apos;ParNumber&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.083</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Object &apos;Edit System Data&apos; and customer level assignment checkbox will both be selected if authorization property of person model contains &apos;A02: D:&apos;}</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.03</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Object &apos;Edit User Data&apos; will be selected if authorization property of person model contains &apos;A07: D&apos;}</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.205</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Authorization should be {A01: &apos;0014300277:&apos;, A02: &apos;0020131907:0020158368:&apos;} if select user &apos;0003287662&apos; for &apos;Edit Authorizations&apos; and installations &apos;0020131907&apos; and &apos;0020158368&apos; for &apos;Edit System Data&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.163</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Should add &apos;D:&apos; to corresponding object authorization when select its customer level assignment checkbox</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.047</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Should set authorization &apos;D&apos; for object which DON&apos;T need to be applied with user or installation when select it</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.232</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Should remove corresponding authorization when unselect authorization items</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.193</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Template (Authorization Objects Table) Unit Test</className>
+          <testName>Should call the change callback function when selection change happens on table</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/workspace/B1_SMP_PUM_Unit_Test/target/surefire-reports/TEST-chrome64.unit.indexUnit.qunit.html.xml</file>
+      <name>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html_responderOn=true.Tool Unit Test</name>
+      <duration>0.197</duration>
+      <timestamp>2018-05-08T02:31:19Z</timestamp>
+      <id>4</id>
+      <time>0.197</time>
+      <cases>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return null if reponse does not contain &apos;message&apos; object</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return &apos;Activate technical user failed.&apos; if reponse contains this message within its &apos;message&apos; object</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>The title of error message box should be &apos;Error&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Responsed odata error message should be parsed with corresponding message text in message bundle before display if it is an error code</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.009</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Responsed odata error message should be parsed as &apos;Unknown error code XXX.&apos; before display if it is an error code while its text is NOT defined in UI message bundle file</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Responsed odata error message should be displayed without parse if it is already a text</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Content of error message box should be combination of responsed odata error message and diagnosis if they are both not empty</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Content of error message box should be responsed odata error message if only it is not empty</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Content of error message box should be diagnosis information if only it is not empty</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Content of error message box should be &apos;Unknown error.&apos; if both odata error message and diagnosis are empty while i18n model is available</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Content of error message box should be &apos;Unknown error.&apos; if both odata error message and diagnosis are empty while while i18n model is also NOT available</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return false if neither item control nor selected item&apos;s container id was given</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return oItemOfSelect&apos;s binding object whose key=&apos;01&apos; when oItemOfSelect was given</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return false if invalid model name was given</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.102</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return oItemOfTable&apos;s binding object whose key=&apos;02&apos; when only its container&apos;s id was given</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.003</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return false if container control&apos;s selected item is not available</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return false if there is no available model host</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return false if invalid model name was given </testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return {editMode: &apos;DELETE&apos;} if property &apos;editMode&apos; of model was set to &apos;DELETE&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return &apos;CREATE&apos; if key name is &apos;editMode&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should use root view as model host if there is no model host provided</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return null if neither root view is available nor model host is provided</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return null if key is not valid</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return null if named model &apos;user&apos; is not available on host provided</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return id of first customer in customer list when value of &apos;cust&apos; is not available in &apos;user&apos; model</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return null when value of &apos;cust&apos; is not available in &apos;user&apos; model and customer list is empty</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return false if customer number is not provided</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should create &apos;authObj&apos; model with sizeLimit=1000 if it does not exist</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should load the authorization object model from &apos;/F4_AuthObjSet/&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.003</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should load installation value help from &apos;/F4_InstSet/&apos; and user value help from &apos;/ContacterSet/&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should show an error MessageBox when load authorization object model fails</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.005</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should show an error MessageBox when batch request for installation&amp;user value help data fails</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should show an error MessageBox when any error response returned in batch request for installation&amp;user value help data</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should load authorization object and corresponding installation&amp;user value help data into &apos;authObj&apos; model</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Technical user is not available for authorization object assign</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return false if person id is not provided</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should load person model data using /ContacterSet(&apos;0006268919&apos;) when person id is &apos;0006268919&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should show an error MessageBox when load person model request fails</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should clear person model data when load person model request fails</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Data of json model &apos;person&apos; should be set with responsed data when load person model request completed successfully</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should set property &apos;CountryTmp&apos; with value of &apos;Country&apos; if &apos;CountryTmp&apos; is empty in the responsed data</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should register person along with check loading of authorization object model when person model was loaded successfully</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should load authorization object model of customer when it does not exist and check model flag is true</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should not load authorization object model of customer even when it does not exist if check model flag is false</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should set customer info into &apos;user&apos; model with input customer</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should set user type info into &apos;user&apos; model according to the input person data</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return false if value help model host is not available</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should load address form value help from &apos;/F4_AddressFormSet&apos;, language value help from &apos;/F4_LanguageSet&apos; and country value help from &apos;F4_CountrySet&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should show an error MessageBox when batch request for address form&amp;language&amp;country value help data fails</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should show an error MessageBox when any error response returned in batch request for address form&amp;language&amp;country value help data</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should load address form&amp;language&amp;country value help data into &apos;vf&apos; model of host</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return false if &apos;requesters&apos; model does not exist</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should return false if customer id is not provided</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should load requester model data (non-count mode) asynchronously in non-batch mode by default</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should query count of existing request synchronously using /RequesterSet/$count?$filter=Payload eq &apos;0000712632&apos; when customer id is &apos;0000712632&apos; and bAsync parameter is &apos;false&apos; in non-batch mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should load requester model data asynchronously using /RequesterSet/?$filter=Payload eq &apos;0000712632&apos; when customer id is &apos;0000712632&apos; and bAsync parameter is not specified in non-batch mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should load requester model data asynchronously using /RequesterSet/?$filter=Payload eq &apos;0000712632&apos; and Status eq &apos;T&apos; when customer id is &apos;0000712632&apos; and bAsync parameter is &apos;true&apos; in batch mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should mark count of existing request into &apos;user&apos; model without changing &apos;requesters&apos; model&apos;s data when load requester model request completed successfully in count mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should set data of json model &apos;requester&apos; with responsed data and mark count of existing request when load requester model request completed successfully in non-count mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should show an error MessageBox when load requester model data request failed</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should show a success MessageBox when send password change email successfully</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should use error handler Tool.fnODataRequestFail when send password change email request fail</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Tool Unit Test</className>
+          <testName>Should show an error MessageBox when there is any selected user has no valid email</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/workspace/B1_SMP_PUM_Unit_Test/target/surefire-reports/TEST-chrome64.unit.indexUnit.qunit.html.xml</file>
+      <name>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html_responderOn=true.App View Unit Test - Authorization check fails</name>
+      <duration>0.41</duration>
+      <timestamp>2018-05-08T02:31:19Z</timestamp>
+      <id>5</id>
+      <time>0.41</time>
+      <cases>
+        <case>
+          <duration>0.402</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.App View Unit Test - Authorization check fails</className>
+          <testName>App controller instance should be created by default when create the App view instance</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.App View Unit Test - Authorization check fails</className>
+          <testName>Should render the app as sap.m.App if authorization check failed</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.App View Unit Test - Authorization check fails</className>
+          <testName>Should show the no authorization page if authorization check failed</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/workspace/B1_SMP_PUM_Unit_Test/target/surefire-reports/TEST-chrome64.unit.indexUnit.qunit.html.xml</file>
+      <name>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html_responderOn=true.App View Unit Test - Authorization check success</name>
+      <duration>0.193</duration>
+      <timestamp>2018-05-08T02:31:20Z</timestamp>
+      <id>6</id>
+      <time>0.193</time>
+      <cases>
+        <case>
+          <duration>0.172</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.App View Unit Test - Authorization check success</className>
+          <testName>Should render the app as sap.m.SplitApp with id &apos;splitapp&apos; if authorization check successed</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.013</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.App View Unit Test - Authorization check success</className>
+          <testName>Should set SplitApp to &apos;HideMode&apos; when app is launched with batch mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.008</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.App View Unit Test - Authorization check success</className>
+          <testName>Should set SplitApp to &apos;ShowHideMode&apos; when app is launched with normal mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/workspace/B1_SMP_PUM_Unit_Test/target/surefire-reports/TEST-chrome64.unit.indexUnit.qunit.html.xml</file>
+      <name>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html_responderOn=true.Person Edit View Unit Test</name>
+      <duration>7.337</duration>
+      <timestamp>2018-05-08T02:31:20Z</timestamp>
+      <id>7</id>
+      <time>7.337</time>
+      <cases>
+        <case>
+          <duration>1.564</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should register controller&apos;s &apos;loadPerson&apos; method as pattern &apos;personEdit&apos; matched handler</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.126</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should load the value help model once and set it on the person edit view</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.141</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should display right UI elements under regular user create mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.127</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should display right UI elements under regular user update mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.116</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should display right UI elements under technical user create mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.124</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should display right UI elements under technical user update mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.14</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should display right UI elements under batch technical user creation template mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.182</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should display right UI elements under batch technical user creation list mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.153</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should display right UI elements under request user ID for contact person</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.121</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should display right UI elements under contact person update mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.139</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should NOT display &apos;Save&apos; button on footer bar when logon user has no write authorization</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.112</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Page title should be &apos;Unknown Operation&apos; if person number in hash is not start with &apos;c&apos;,&apos;t&apos;,&apos;b&apos;,&apos;r&apos; or &apos;p&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.163</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Batch template and list modes switch control can switch between template mode and list mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.156</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should display the right data from &apos;person&apos; mode in NONE batch technical user creation list mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.252</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>User input data should be updated into &apos;person&apos; mode in NONE batch technical user creation list mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.268</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should display the right data from &apos;batchEdit&apos; mode in batch technical user creation list mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.343</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>User input data should be updated into &apos;batchEdit&apos; mode in batch technical user creation list mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.11</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should set gender as male if it is not specified</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.101</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should provide default first name &apos;RSP&apos;, default last name &apos;---TECH-USER---&apos; and default email as logon user&apos;s email in technical user creation</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.154</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should not be able to create a regular user with last name &apos;---TECH-USER---&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.107</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should not be able to request user id for a contact person if same request already exist and its status is &apos;In Process&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.212</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should create technical user for all customer who has no technical user when route parameter is &apos;bAll&apos;</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.156</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should not commit the change if mandatory fields are empty and value state of empty items should be set to error under NONE batch technical user creation list mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.229</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should not commit the change if mandatory fields are empty and value state of empty items should be set to error under batch technical user creation list mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.13</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should not commit the change and should show a message toast if there is no selected customer under batch technical user creation mode</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.158</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should clean error value state of input fields if there is any when load the page</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.126</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should show a message toast, set auto refresh timer and navigate back to customer page when single regular user has been created successfully</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.186</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should use error handler Tool.fnODataRequestFail when creating single regular user failed</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.106</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should show a message box, set auto refresh timer and navigate back to customer page when single technical user has been created successfully</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.124</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should show a message box, set auto refresh timer and navigate back to batch overview page when technical user batch template created successfully</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.186</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should show a message box, set auto refresh timer and navigate back to batch overview page when technical user batch list created successfully</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.129</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should use error handler Tool.fnODataRequestFail when technical user batch creation failed</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.113</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should show a message box WITHOUT set auto refresh timer and navigate back to person page when regular user has been updated successfully</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.104</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should show a message toast, set auto refresh timer and navigate back to person page if there is no previous hash when request user id for contact person success</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.111</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should use error handler Tool.fnODataRequestFail with diagnosis information when request user id for contact person failed</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.224</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Auto refresh timer should not be removed until all requests are displayed in &apos;Requested User&apos; list when user creation success</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.113</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Auto refresh timer should be removed when customer changed under single user creation mode even the new created user has not been loaded into &apos;Requested User&apos; list</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.118</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Old auto refresh timer should be removed before setting new auto refresh timer</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.105</duration>
+          <className>chrome64.sap_b1_smp_pum.test-resources.unit.indexUnit_qunit_html?responderOn=true.Person Edit View Unit Test</className>
+          <testName>Should reset update flag and navigate back when click &apos;Cancel&apos; button</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/workspace/B1_SMP_PUM_Unit_Test/target/surefire-reports/TEST-com.sap.ui5.selenium.qunit.QUnitTest.xml</file>
+      <name>com.sap.ui5.selenium.qunit.QUnitTest</name>
+      <duration>30.3</duration>
+      <time>30.3</time>
+      <cases>
+        <case>
+          <duration>30.3</duration>
+          <className>com.sap.ui5.selenium.qunit.QUnitTest</className>
+          <testName>qUnitRunner[0: unit/indexUnit.qunit.html - chrome 64.0.3282.119 ]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>42.903</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>
