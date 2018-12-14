@@ -37,7 +37,7 @@ if (Argv.h || Argv.help) {
 var aArgv = process.argv.slice(2);
 
 var sWorkSpace = Argv.p || aArgv[0] || "./";
-//var sWorkSpace = "../data/workspace/B1_SMP_PUM"; //Use "../data/B1_SMP_PUM" for UI5 code debug purpose
+// var sWorkSpace = "../data/workspace/B1_SMP_PUM"; //Use "../data/B1_SMP_PUM" for UI5 code debug purpose
 //var sWorkSpace = "../data/workspace/BCD_ABAP_UT"; //Use "../data/BCD_ABAP_UT" for ABAP code debug purpose
 //var sWorkSpace = "../data/workspace/systemdata";
 
@@ -91,9 +91,8 @@ oProject.getProjectId().then(function(sProjectId) {
 		"ProjectType": sProjectType,
 		"ProjectName": sProjectName
 	}
-	oHana.post("i7d", "ProjectSet", oContent);
-	// oHana.post("w7q", "ProjectSet", oContent);
-	// oHana.post("w7v", "ProjectSet", oContent);
+	oHana.post("dev", "ProjectSet", oContent);
+	oHana.post("qual", "ProjectSet", oContent);
 
 }).catch(function(sReason) {
 	console.log("Save project information failed: " + sReason);
@@ -168,13 +167,11 @@ Promise.all([oProject.getProjectId(), oProject.getTestKpi(), oProject.getUTCover
 			}:{}));
 
 			if (sTestType == "UT") {
-				oHana.post("i7d", "UTSet", oContent);
-				// oHana.post("w7q", "UTSet", oContent);
-				// oHana.post("w7v", "UTSet", oContent);
+				oHana.post("dev", "UTSet", oContent);
+				oHana.post("qual", "UTSet", oContent);
 			} else if (sTestType == "IT") {
-				oHana.post("i7d", "ITSet", oContent);
-				// oHana.post("w7q", "ITSet", oContent);
-				// oHana.post("w7v", "ITSet", oContent);
+				oHana.post("dev", "ITSet", oContent);
+				oHana.post("qual", "ITSet", oContent);
 			}
 
 		}
@@ -239,9 +236,8 @@ oProject.getProjectId().then(function(sProjectId) {
 		"Name": sJobName,
 		"LastBuild": oJob.getLastBuildNumber()
 	}
-	oHana.post("i7d", "JobSet", oContent);
-	// oHana.post("w7q", "JobSet", oContent);
-	// oHana.post("w7v", "JobSet", oContent);
+	oHana.post("dev", "JobSet", oContent);
+	oHana.post("qual", "JobSet", oContent);
 
 }).catch(function(sReason) {
 	console.log("Save job information failed: " + sReason);
