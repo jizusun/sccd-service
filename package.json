@@ -1,9 +1,31 @@
 {
 	"name": "sccd-service",
+	"version": "1.0.0",
+	"description": "SAL CI/CD Dashboard Service",
 	"main": "./lib/main.js",
+	"scripts": {
+		"start": "node bin/main.js",
+		"start:debug": "node --debug-brk --inspect bin/main.js",
+		"test": "node node_modules/jasmine/bin/jasmine.js test/**/*.spec.js",
+		"test:debug": "node --debug-brk --inspect node_modules/jasmine/bin/jasmine.js test/**/*.spec.js",
+		"test:watch": "nodemon --exec jasmine test/**.spec.js"
+	},
+	"repository": "https://github.com/letilvy/sccd-service.git",
+	"author": "Xiaocheng Wei",
 	"dependencies": {
 		"argv": "0.0.2",
 		"mysql": "^2.15.0",
 		"optimist": "^0.6.1"
+	},
+	"devDependencies": {
+		"jasmine": "3.3.1",
+		"nodemon": "^1.18.10",
+		"sinon": "7.3.0",
+		"supertest": "3.4.2"
+	},
+	"engines": {
+		"node": "10.15.0"
 	}
 }
+
+
