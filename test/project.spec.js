@@ -1,8 +1,9 @@
 const Project = require("../lib/project");
 
-let oProject;
 
 describe("UI5 Project Testing", () => {
+
+    let oProject;
 
 	beforeAll(() => {
 		oProject = new Project({
@@ -38,6 +39,8 @@ describe("UI5 Project Testing", () => {
 });
 
 describe("ABAP Project Testing", () => {
+
+    let oProject;
 
 	beforeAll(() => {
 		oProject = new Project({
