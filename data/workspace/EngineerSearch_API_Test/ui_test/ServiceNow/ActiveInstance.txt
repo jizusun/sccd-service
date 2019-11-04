@@ -1,0 +1,14 @@
+*** Settings ***
+Library           SeleniumLibrary
+Library           String
+
+*** Test Cases ***
+Logon-ParentInstance
+    Open Browser    https://dev63649.service-now.com/nav_to.do    chrome
+    Sleep    5s
+    Select Frame    //iframe[@name='gsft_main']
+    Wait Until Page Contains Element    css=button[id*=sysverb_login]
+    Input Text    css=input[id*=user_name]    admin
+    Input Text    css=input[id*=user_password]    C0lumbus
+    Click Button    css=button[id*=sysverb_login]
+    Close Browser

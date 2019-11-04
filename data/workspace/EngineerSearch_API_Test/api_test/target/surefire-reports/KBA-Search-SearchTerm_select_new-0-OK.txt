@@ -1,0 +1,905 @@
+Status: OK
+Time Taken: 257
+Size: 45420
+Timestamp: Mon Nov 04 07:48:53 UTC 2019
+TestStep: SearchTerm_select*_new
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet?%24skip=0&%24top=25&%24filter=%28FilterKeywordsFuzzy%20eq%20%27select*%27%29
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!f7QIfhMiTsjhL3jm5e9QtIhWtwkpHmQjQNozibKNPfxGyDtdqB1ZsMX3T9yOMCvktnGPSSxeD8qUAxs=; JSESSIONID=5ACA3604B234512531D542927B34A65540C550B400A1BBD2C6B1A43AD4A47A81; JTENANTSESSIONID_dgq5qdz5dm=RPSP%2BIA8YBfqwqrhPUwdzGjemAHN6Qj5HPZK0d5U9U8%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet?%24skip=0&%24top=25&%24filter=%28FilterKeywordsFuzzy%20eq%20%27select*%27%29 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!f7QIfhMiTsjhL3jm5e9QtIhWtwkpHmQjQNozibKNPfxGyDtdqB1ZsMX3T9yOMCvktnGPSSxeD8qUAxs=; JSESSIONID=5ACA3604B234512531D542927B34A65540C550B400A1BBD2C6B1A43AD4A47A81; JTENANTSESSIONID_dgq5qdz5dm=RPSP%2BIA8YBfqwqrhPUwdzGjemAHN6Qj5HPZK0d5U9U8%3D
+Cookie2: $Version=1
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Server: [SAP]
+Content-Encoding: [gzip]
+sap-metadata-last-modified: [Sat, 03 Aug 2019 09:51:11 GMT]
+sap-perf-fesrec: [171132.000000]
+Vary: [Accept-Encoding]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache]
+dataserviceversion: [2.0]
+Date: [Mon, 04 Nov 2019 07:48:53 GMT]
+Content-Type: [application/atom+xml; type=feed;charset=utf-8]
+
+<feed xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+   <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet</id>
+   <title type="text">KBASet</title>
+   <updated>2019-11-04T07:48:52Z</updated>
+   <author>
+      <name/>
+   </author>
+   <link href="KBASet" rel="self" title="KBASet"/>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1033818l)</id>
+      <title type="text">KBASet(1033818l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1033818l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1033818</d:Number>
+            <d:CreatedBy>I819712</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001033818</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>When viewing an instance in the Info Viewer for Windows or the Info Viewer for ActiveX, the 'Fields' window in the Select Expert is empty or missing some fields....Steps to Reproduce:...1....Schedule the sample Inventory Report....2....View the successful</d:Symptom>
+            <d:Responsible>Alex Dong</d:Responsible>
+            <d:Title>Info Viewer 'Fields' window in &lt;b>Select&lt;/b> Expert is empty or missing some Fields</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Bug Filed</d:Category>
+            <d:ReleasedOn>2018-01-05T06:50:40</d:ReleasedOn>
+            <d:ChangedOn>2018-01-05T06:50:40</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1019916l)</id>
+      <title type="text">KBASet(1019916l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1019916l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1019916</d:Number>
+            <d:CreatedBy>I817824</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001019916</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>How to select the postcard processing category...Presort...Presort Views...Standard postcard...No postcard choice...Postcard is an invalid option...Postcard processing category...Cannot select postcard processing category</d:Symptom>
+            <d:Responsible>I817824</d:Responsible>
+            <d:Title>How to &lt;b>select&lt;/b> the postcard processing category for Standard Mail - Presort</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>How To</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2018-01-05T06:32:43</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>In Process</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1037617l)</id>
+      <title type="text">KBASet(1037617l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1037617l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1037617</d:Number>
+            <d:CreatedBy/>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001037617</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>When exporting to HTML3.2 or HTML4.0 format through the Report Designer Component (RDC) using Report.Export(true), the 'Select Export File' dialog to save the file to disk does not appear....The expected behavior is that Report.Export(true) will prompt fo</d:Symptom>
+            <d:Responsible/>
+            <d:Title>No '&lt;b>Select&lt;/b> Export File' dialog when exporting to HTML3.2 or HTML4.0 through RDC</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Bug Filed</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T16:35:51</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1017141l)</id>
+      <title type="text">KBASet(1017141l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1017141l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1017141</d:Number>
+            <d:CreatedBy>I817634</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001017141</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>Match/Consolidate Views...Group posting options...Selecting the group posting name...Not all group posting options available...Do not see all of the group posting options...Drop-down box for group posting only shows NONE and SELECT</d:Symptom>
+            <d:Responsible>I817634</d:Responsible>
+            <d:Title>Drop-down box for group posting only shows NONE and &lt;b>SELECT&lt;/b> - Match/Consolidate Views</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T14:12:22</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1019605l)</id>
+      <title type="text">KBASet(1019605l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1019605l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1019605</d:Number>
+            <d:CreatedBy>I817819</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001019605</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>How to select more than one state...DeskTop Mailer...DeskTop PostalCoder...Postalsoft Business Edition...Select records...Record selection...State abbreviation...Select multiple states...Select more than one state</d:Symptom>
+            <d:Responsible>I817819</d:Responsible>
+            <d:Title>How to &lt;b>select&lt;/b> a group of records by more than one state abbreviation - Business Edition/DeskTop Mailer</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>How To</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T14:28:59</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1034096l)</id>
+      <title type="text">KBASet(1034096l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1034096l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1034096</d:Number>
+            <d:CreatedBy/>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001034096</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>Set the EnableSearchExpertButton or EnableSelectExpertButton property of the Report Viewer (CRViewer1) to true. Display the report and click 'Select Expert' or 'Search Expert'....When a currency value is browsed from the 'Search Expert' or 'Select Expert'</d:Symptom>
+            <d:Responsible/>
+            <d:Title>Currency displays six decimal places when browsed in the Search/&lt;b>Select&lt;/b> Experts</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Bug Filed</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T16:11:19</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1030391l)</id>
+      <title type="text">KBASet(1030391l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1030391l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1030391</d:Number>
+            <d:CreatedBy>I819123</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001030391</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>A report was created off a Btrieve database through ODBC....Grouping on field resulted in a Status 833 error being received when previewing the report....Status 833 is defined as follows :...The columns in the ORDER BY clause must be defined in the select</d:Symptom>
+            <d:Responsible>I819123</d:Responsible>
+            <d:Title>The columns in the ORDER BY clause must be defined in the &lt;b>SELECT&lt;/b> list</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Bug Filed</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T15:45:41</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1024413l)</id>
+      <title type="text">KBASet(1024413l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1024413l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1024413</d:Number>
+            <d:CreatedBy/>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001024413</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>You want to select a particular database when you login to Set Analyzer....</d:Symptom>
+            <d:Responsible/>
+            <d:Title>How can you &lt;b>select&lt;/b> a particular database when you login to Set Analyzer?</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>How To</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T15:02:20</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1033261l)</id>
+      <title type="text">KBASet(1033261l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1033261l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1033261</d:Number>
+            <d:CreatedBy/>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001033261</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>The standalone Info Analyzer from the Seagate Info CD (Tools\Sicvw\Win32) is being used to view a report based on a query that has no selection formula....When clicking 'Select Expert' or 'Sort Order', a 'Connect to Info APS' dialog box appears....This di</d:Symptom>
+            <d:Responsible/>
+            <d:Title>Standalone Info Analyzer Prompts for Info APS logon on clicking '&lt;b>Select&lt;/b> Expert'</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Bug Filed</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T16:05:30</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1032730l)</id>
+      <title type="text">KBASet(1032730l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1032730l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1032730</d:Number>
+            <d:CreatedBy>I818680</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001032730</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>A report was created off a Crystal Query file....This query was using parameters that were being referenced in the SELECT clause of the SQL. The query was created through entering the SQL directly....When a report was created off this query, data appeared</d:Symptom>
+            <d:Responsible>I818680</d:Responsible>
+            <d:Title>Data Truncated When Reporting Off Query with Parameters in &lt;b>SELECT&lt;/b> statement</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Bug Filed</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T16:01:45</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1017701l)</id>
+      <title type="text">KBASet(1017701l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1017701l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1017701</d:Number>
+            <d:CreatedBy>I817819</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001017701</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>How to delete duplicate records...DeskTop Mailer...DeskTop PostalCoder...Postalsoft Business Edition...Using Merge/Purge...Flag records for deletion...Merge/Purge is not deleting any duplicates...Program is selecting dupes not deleting them</d:Symptom>
+            <d:Responsible>I817819</d:Responsible>
+            <d:Title>How to delete (instead of &lt;b>select&lt;/b>) duplicate records - Business Edition/DeskTop Mailer</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>How To</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T14:16:21</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1035667l)</id>
+      <title type="text">KBASet(1035667l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1035667l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1035667</d:Number>
+            <d:CreatedBy>I817300</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001035667</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>In the Info Report Designer, a new report is created using the Report Expert....Only some of the fields from the database table(s) are added into the report in the 'Fields' tab....In the 'Select' tab all fields in the database table(s) are listed....This</d:Symptom>
+            <d:Responsible>I817300</d:Responsible>
+            <d:Title>Using Report Expert only fields added to the report can be added in &lt;b>Select&lt;/b> tab</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Bug Filed</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T16:22:11</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1024393l)</id>
+      <title type="text">KBASet(1024393l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1024393l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1024393</d:Number>
+            <d:CreatedBy>I818411</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001024393</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>You have two measure objects in a BusinessObjects version 4.1.x universe:...Object1: select table1.Quantity from table 1....Object2: Sum(@select (Class1 (Test) \Object1))...You open the universe in Designer 5.0 and double-click on Object2 to display objec</d:Symptom>
+            <d:Responsible>I818411</d:Responsible>
+            <d:Title>Error: "ORA-00936 Missing expression" when parsing object that use @&lt;b>select&lt;/b> if the class name contains parentheses.</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>How To</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T15:02:12</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1016003l)</id>
+      <title type="text">KBASet(1016003l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1016003l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1016003</d:Number>
+            <d:CreatedBy>I817661</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001016003</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>What is Parcel Select?...Parcel Select</d:Symptom>
+            <d:Responsible>I817661</d:Responsible>
+            <d:Title>What is Parcel &lt;b>Select&lt;/b>?</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T14:04:20</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1026160l)</id>
+      <title type="text">KBASet(1026160l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1026160l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1026160</d:Number>
+            <d:CreatedBy/>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001026160</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>You run a report with an object in the conditions panel. The object has the condition "inlist" followed by a prompt. The prompt appears when you run the report and you select the values from the list of values....Before you run the report you decide to ad</d:Symptom>
+            <d:Responsible/>
+            <d:Title>In Reporter, you &lt;b>select&lt;/b> values from the LOV, but they are no longer highlighted when you check the LOV again.</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>How To</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T15:15:10</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1019244l)</id>
+      <title type="text">KBASet(1019244l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1019244l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1019244</d:Number>
+            <d:CreatedBy>I817783</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001019244</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>Data Quality XI...RedHat Linux 4.0...CentOS 4.4 Linux...Install_console...Install_console looping...Installing on CentOS Linux...Error:...You must select at least one feature to install. Please go back and make a selection</d:Symptom>
+            <d:Responsible>I817783</d:Responsible>
+            <d:Title>Error:  You must &lt;b>select&lt;/b> at least one feature to install. Please go back and make a &lt;b>selection&lt;/b> - Data Quality XI</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T14:26:38</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1033779l)</id>
+      <title type="text">KBASet(1033779l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1033779l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1033779</d:Number>
+            <d:CreatedBy/>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001033779</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>When applying the format handler as an attribute in a report table, the NO SELECT function doesn't work: cells are still selectable....</d:Symptom>
+            <d:Responsible/>
+            <d:Title>NO &lt;b>SELECT&lt;/b> does not work</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Bug Filed</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T16:09:05</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1032043l)</id>
+      <title type="text">KBASet(1032043l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1032043l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1032043</d:Number>
+            <d:CreatedBy/>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001032043</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>When attempting to preview report, the error "ORA-00928 missing SELECT keyword on..."...is received...</d:Symptom>
+            <d:Responsible/>
+            <d:Title>ORA-00928 missing &lt;b>SELECT&lt;/b> keyword</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T15:56:50</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1034946l)</id>
+      <title type="text">KBASet(1034946l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1034946l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1034946</d:Number>
+            <d:CreatedBy>I818633</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001034946</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>When creating reports off SQL/ODBC databases, how do you print only distinct records?...</d:Symptom>
+            <d:Responsible>I818633</d:Responsible>
+            <d:Title>How to do a &lt;b>Select&lt;/b> Distinct</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T16:17:12</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1034172l)</id>
+      <title type="text">KBASet(1034172l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1034172l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1034172</d:Number>
+            <d:CreatedBy>I818981</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001034172</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>Distribute an application that displays a report in the Report Viewer of the Crystal Report Designer component. The Select Expert and Search Expert icons that were visible in the development machine are no longer visible on the target machine....</d:Symptom>
+            <d:Responsible>I818981</d:Responsible>
+            <d:Title>Using the &lt;b>Select&lt;/b> Expert in the CRViewer</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T16:11:51</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1032672l)</id>
+      <title type="text">KBASet(1032672l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1032672l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1032672</d:Number>
+            <d:CreatedBy/>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001032672</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>The following EXEC SQL statement produces the error "unexpected left parenthesis encounterd"...EXEC SQL DECLARE app_user_perms_cur CURSOR FOR &amp;amp;...select &amp;amp;...app_users.user_code, &amp;amp;...decode(NVL(m1.b15,0),0,"","B15") B15,&amp;amp;...decode(NVL(m1.bu</d:Symptom>
+            <d:Responsible/>
+            <d:Title>Error message : unexpected left parenthesis encountered &lt;b>select&lt;/b> .....</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T16:01:18</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1038474l)</id>
+      <title type="text">KBASet(1038474l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1038474l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1038474</d:Number>
+            <d:CreatedBy/>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001038474</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>In Crystal Reports (CR), on the 'Database' menu the 'Select Distinct Records' option is unavailable....Why is this option unavailable?</d:Symptom>
+            <d:Responsible/>
+            <d:Title>Why is the &lt;b>Select&lt;/b> Distinct Records option unavailable?</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T16:41:55</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1022235l)</id>
+      <title type="text">KBASet(1022235l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1022235l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1022235</d:Number>
+            <d:CreatedBy>I817576</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001022235</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>Option to select Remote Views does not appear...Remote Views...Local Host...Remote Host...Select Remote Connection...Remote Views not enabled</d:Symptom>
+            <d:Responsible>I817576</d:Responsible>
+            <d:Title>Option to &lt;b>select&lt;/b> Remote Views does not appear</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T14:46:21</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1032789l)</id>
+      <title type="text">KBASet(1032789l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1032789l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1032789</d:Number>
+            <d:CreatedBy>I052245</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001032789</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>How to select a printer at runtime using the Crystal Report Designer Component (RDC) and the Microsoft Common Dialog Control (MCDC).</d:Symptom>
+            <d:Responsible>I052245</d:Responsible>
+            <d:Title>How to &lt;b>select&lt;/b> a printer at runtime?</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T16:02:09</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1031848l)</id>
+      <title type="text">KBASet(1031848l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1031848l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1031848</d:Number>
+            <d:CreatedBy>I819123</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001031848</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>An Active Data report was created using the Report Designer Component (RDC) in Microsoft Visual Basic 6....After creating a recordset with the "Select Recordset" Expert the final dialog box titled "Choose SQL Table" prompts for the recordset to be added.</d:Symptom>
+            <d:Responsible>I819123</d:Responsible>
+            <d:Title>Cannot &lt;b>select&lt;/b> an Active Data recordset</d:Title>
+            <d:ComponentName>Business intelligence solutions</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Bug Filed</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2009-10-05T15:55:30</d:ChangedOn>
+            <d:Component>BI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+</feed>

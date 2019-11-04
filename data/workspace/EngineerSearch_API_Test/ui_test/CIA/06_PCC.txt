@@ -1,0 +1,19 @@
+*** Settings ***
+Suite Teardown    Close Browser
+Resource          Basic_actions.txt
+Library           SeleniumLibrary
+
+*** Test Cases ***
+Logon
+    Login in Launchpad
+    [Teardown]
+
+Navigate to tile 'Solution Proposed'
+    Wait until element clickable and click    xpath=(//span[text()="Solution Proposed"])[1]
+    ${hasIncidents}=    Run Keyword And Return    Element Should Not Be Visible    css=tbody[id*=incTable-tblBod] tr[id*=incTable-nodata]
+    Run Keyword If    '${hasIncidents}'=='True'    Click element after visible and enabled    css=tbody[id*=incTable-tblBod] tr:first-child
+    Click element after visible and enabled    css=button[id*=confirmBtn]
+    Click element after visible and enabled    //div[@role ="alertdialog"]//button[1]
+
+Log out
+    Log out

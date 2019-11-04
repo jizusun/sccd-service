@@ -1,0 +1,151 @@
+Status: OK
+Time Taken: 128
+Size: 5112
+Timestamp: Mon Nov 04 07:48:51 UTC 2019
+TestStep: CombinationFilterSearch
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes?%24skip=0&%24top=25&%24filter=%28FilterKeywordsFuzzy%20eq%20%27hana%27%20and%20%28%28StatusKey%20eq%20%2703%27%29%20and%20%28Component%20eq%20%27HAN-DB*%27%29%20and%20%28Category%20eq%20%27B%27%29%20and%20%28Priority%20eq%20%2706%27%29%20and%20%28FilterDocumentType%20eq%20%2700200720410000000382%27%29%20and%20%28Responsible%20eq%20%27D022407%27%29%20and%20%28%28ChangedOn%20ge%20datetime%271990-01-01T00%3A00%3A00%27%20and%20ChangedOn%20le%20datetime%272018-01-01T00%3A00%3A00%27%29%29%29%29
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!58EN4QbwOWkwAvLm5e9QtIhWtwkpHmxJxh6dP0TqxPx+HEOLN4vAh/lnU2nlneU3GzN5x0Yd06rNfw==; JSESSIONID=66FEC2D8ED538177473B3567D93C9CB4C26ED6FBF0884B080BC020D1C12D50EA; JTENANTSESSIONID_dgq5qdz5dm=qrZhyQUpj9Bmu4pEVfhfig08afYcqLpBg2n2uYOBXmw%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes?%24skip=0&%24top=25&%24filter=%28FilterKeywordsFuzzy%20eq%20%27hana%27%20and%20%28%28StatusKey%20eq%20%2703%27%29%20and%20%28Component%20eq%20%27HAN-DB*%27%29%20and%20%28Category%20eq%20%27B%27%29%20and%20%28Priority%20eq%20%2706%27%29%20and%20%28FilterDocumentType%20eq%20%2700200720410000000382%27%29%20and%20%28Responsible%20eq%20%27D022407%27%29%20and%20%28%28ChangedOn%20ge%20datetime%271990-01-01T00%3A00%3A00%27%20and%20ChangedOn%20le%20datetime%272018-01-01T00%3A00%3A00%27%29%29%29%29 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!58EN4QbwOWkwAvLm5e9QtIhWtwkpHmxJxh6dP0TqxPx+HEOLN4vAh/lnU2nlneU3GzN5x0Yd06rNfw==; JSESSIONID=66FEC2D8ED538177473B3567D93C9CB4C26ED6FBF0884B080BC020D1C12D50EA; JTENANTSESSIONID_dgq5qdz5dm=qrZhyQUpj9Bmu4pEVfhfig08afYcqLpBg2n2uYOBXmw%3D
+Cookie2: $Version=1
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Server: [SAP]
+Content-Encoding: [gzip]
+sap-metadata-last-modified: [Sat, 03 Aug 2019 09:51:11 GMT]
+sap-perf-fesrec: [104218.000000]
+Vary: [Accept-Encoding]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache]
+dataserviceversion: [2.0]
+Date: [Mon, 04 Nov 2019 07:48:51 GMT]
+Content-Type: [application/atom+xml; type=feed;charset=utf-8]
+
+<feed xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+   <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes</id>
+   <title type="text">SAPNotes</title>
+   <updated>2019-11-04T07:48:51Z</updated>
+   <author>
+      <name/>
+   </author>
+   <link href="SAPNotes" rel="self" title="SAPNotes"/>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1810760l)</id>
+      <title type="text">SAPNotes(1810760l)</title>
+      <updated>2019-11-04T07:48:51Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1810760l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>XXX</d:Symptom>
+            <d:Number>1810760</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001810760</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>HANA&lt;/b> Heap Memory analysis tool</d:Title>
+            <d:ComponentName>SAP HANA Database</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Consulting</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:Component>HAN-DB</d:Component>
+            <d:Responsible>D022407</d:Responsible>
+            <d:ChangedOn>2014-03-20T16:44:47</d:ChangedOn>
+            <d:Status>In Process</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1950949l)</id>
+      <title type="text">SAPNotes(1950949l)</title>
+      <updated>2019-11-04T07:48:51Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1950949l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>TBD</d:Symptom>
+            <d:Number>1950949</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001950949</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>HANA&lt;/b> System Replication: How to reduce memory consumption</d:Title>
+            <d:ComponentName>SAP HANA Database</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Consulting</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:Component>HAN-DB</d:Component>
+            <d:Responsible>D022407</d:Responsible>
+            <d:ChangedOn>2014-03-20T16:43:25</d:ChangedOn>
+            <d:Status>In Process</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1953789l)</id>
+      <title type="text">SAPNotes(1953789l)</title>
+      <updated>2019-11-04T07:48:51Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1953789l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>123</d:Symptom>
+            <d:Number>1953789</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001953789</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>HANA&lt;/b> Global allocation limit in multi-node and multi-SID environments</d:Title>
+            <d:ComponentName>SAP HANA Database</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Consulting</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:Component>HAN-DB</d:Component>
+            <d:Responsible>D022407</d:Responsible>
+            <d:ChangedOn>2014-03-20T16:44:10</d:ChangedOn>
+            <d:Status>In Process</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+</feed>

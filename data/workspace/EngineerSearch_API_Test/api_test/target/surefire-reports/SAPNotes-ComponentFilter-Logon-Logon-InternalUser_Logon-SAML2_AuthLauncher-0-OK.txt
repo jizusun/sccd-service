@@ -1,0 +1,39 @@
+Status: OK
+Time Taken: 25
+Size: 3213
+Timestamp: Mon Nov 04 07:48:48 UTC 2019
+TestStep: SAML2 AuthLauncher
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Encoding: 
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Server: [SAP]
+Pragma: [no-cache]
+P3P: [CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"]
+com.sap.cloud.security.login: [login-request]
+Date: [Mon, 04 Nov 2019 07:48:48 GMT]
+set-cookie: [oucrszuiaigxfmqwcfwmnvdie=L6I0%2BRmf1eVXGaJ3Op3F%2BCbqIdXgFSCquTr3JuCQ3y3lbvEtJRmi%2B4MvTAfSCh6QMG5mx7B6QwsCL%2FAQhtDBHn4ZxkHbf3Z1iKv%2Bc%2BGHkH5jNr%2ByE22%2FpnNGtfaWj5r22irqze3PfQBoUUzNms4nV4HU9ulZlbiH9X7mBebypvg493WlP2Yc1%2BIC%2F7l%2FI1f3ZIrub9%2BGNu%2FA1DLhhS5Q09CutbnJe2sGvMvrWUH3B%2B44eorrhE1RzaNA85YqJX8sxV80%2BJqwz4ObGg19ef0qpxIFGKmrTixQKZhhJWR9VaRjsnHUzpkrSlfI9KShM5Ikyo11tQr0fSdPX50buaUBe%2FyNM%2BPs787ZRt96Y%2F3mcGlAtmkOR08n2auunVBMOG7NkyZbugiBYL3hLn2nBqzoTA%3D%3D; Domain=.hana.ondemand.com; Path=/; Secure; HttpOnly]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Cache-Control: [no-cache, no-store, must-revalidate]
+Content-Encoding: [gzip]
+Vary: [Accept-Encoding]
+Set-Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!Oi2HuAoDfzLAaHzm5e9QtIhWtwkpHqZbPVSlCcra6D0wZCDy7OpoazIBPgFoWhg1zK56wV/k5BTeUw==; path=/; Httponly; Secure; httponly; secure]
+#status#: [HTTP/1.1 200 ]
+Content-Type: [text/html;charset=utf-8]
+
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"><meta http-equiv="pragma" content="no-cache" /></head><body style="background-color:#FFFFFF" onload="var url=window.location.hash;if(url&&0!==url.length){var anchorCookie='oucrszuiaigxfmqwcfwmnvdie_anchor=&quot;'+encodeURIComponent(url)+'&quot;';document.cookie=anchorCookie}document.forms[0].submit()"><p><script language="javascript">document.write("Please wait ...");</script></p><noscript><p>Note: Your browser does not support JavaScript or it is turned off. Press the button to proceed.</p></noscript><form method="post" action="https://accounts400.sap.com/saml2/idp/sso/accounts.sap.com"><input type="hidden" name="SAMLRequest" value="PEF1dGhuUmVxdWVzdCB4bWxucz0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOnByb3RvY29sIiB4bWxuczpuczI9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDphc3NlcnRpb24iIHhtbG5zOm5zMz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyIgeG1sbnM6bnM0PSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGVuYyMiIERlc3RpbmF0aW9uPSJodHRwczovL2FjY291bnRzNDAwLnNhcC5jb20vc2FtbDIvaWRwL3Nzby9hY2NvdW50cy5zYXAuY29tIiBGb3JjZUF1dGhuPSJmYWxzZSIgSUQ9IlMzMTA1NjZmNC1jM2Y0LTQzZmMtOTE2Ny04NDIxOGQwYWFlM2Qtd1hYT0NzUHpvQkVSb3dYM3Bkd3Fka2ZZVHRVUXdrTmUwZGJhVnJSd0FGdyIgSXNzdWVJbnN0YW50PSIyMDE5LTExLTA0VDA3OjQ4OjQ4Ljk5M1oiIFZlcnNpb249IjIuMCI+PG5zMjpJc3N1ZXI+aHR0cHM6Ly9pbnQuc2FwLmV1Mi5oYW5hLm9uZGVtYW5kLmNvbS9kZ3E1cWR6NWRtPC9uczI6SXNzdWVyPjxkczpTaWduYXR1cmUgeG1sbnM6ZHM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPjxkczpTaWduZWRJbmZvPjxkczpDYW5vbmljYWxpemF0aW9uTWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8xMC94bWwtZXhjLWMxNG4jIi8+PGRzOlNpZ25hdHVyZU1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyNyc2Etc2hhMSIvPjxkczpSZWZlcmVuY2UgVVJJPSIjUzMxMDU2NmY0LWMzZjQtNDNmYy05MTY3LTg0MjE4ZDBhYWUzZC13WFhPQ3NQem9CRVJvd1gzcGR3cWRrZllUdFVRd2tOZTBkYmFWclJ3QUZ3Ij48ZHM6VHJhbnNmb3Jtcz48ZHM6VHJhbnNmb3JtIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnI2VudmVsb3BlZC1zaWduYXR1cmUiLz48ZHM6VHJhbnNmb3JtIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8xMC94bWwtZXhjLWMxNG4jIi8+PC9kczpUcmFuc2Zvcm1zPjxkczpEaWdlc3RNZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjc2hhMSIvPjxkczpEaWdlc3RWYWx1ZT5xWlJtSlNOSzJFZWlPOFN0dit0WWRob1pjd0U9PC9kczpEaWdlc3RWYWx1ZT48L2RzOlJlZmVyZW5jZT48L2RzOlNpZ25lZEluZm8+PGRzOlNpZ25hdHVyZVZhbHVlPkRLWUJ6VzljYlR3TkpzU29VQ2M3T0tBZ3FhU0Z2S0FhUDNnYlBqUWlMREpDVlo2RGtDeDJWOFhBNlZhcjBJd2xYL0tsTVRadEJCZks3Um1EVVJvVTlsaEM3R2xxU1BwZWtYMTB3MlViZ2pCMkxBck1xKzI0ckF5SGlGbWFvQTRxWHR3MFFONS9qZzA5Q0RtQ01QekUvaHgrYmdXZ3p3YjNZeHQ5Z3NmSjBBVzR0T3NvYzlDSDlJSlMxRHNmVTB2SG5YZ3d4Qlc1WU91R3dVV3RWLzF0YnZZN0ViTDFGQTlBVHFYTjZjV0s4aGI3N2FNZ3J2RWNid0JNdWtzbWR5STh5VTJRaXZyOTNHSXU3TVVSY3F5RzJtSytLWTk0ZUhwOFVRRnc2WnAvVUJEN2k3NUJSeEdKTzJDWC9VRWlIUEU3S05RZ0l4ZG5YVlJvQ3VGdHkxcHJlQT09PC9kczpTaWduYXR1cmVWYWx1ZT48L2RzOlNpZ25hdHVyZT48L0F1dGhuUmVxdWVzdD4="/><input type="hidden" name="RelayState" value="oucrszuiaigxfmqwcfwmnvdie"/><noscript><input type="submit" value="Continue"/></noscript></form></body></html>

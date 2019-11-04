@@ -1,0 +1,190 @@
+Status: OK
+Time Taken: 197
+Size: 6750
+Timestamp: Mon Nov 04 07:48:50 UTC 2019
+TestStep: Status Multiple Filters
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/StatusFilterSet?%24skip=0&%24top=5&%24filter=%28FilterKeywordsFuzzy%20eq%20%27hana%27%20and%20%28%28StatusKey%20eq%20%2702%27%20or%20StatusKey%20eq%20%2701%27%29%29%29
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!RwQRDSlrC+LRktvm5e9QtIhWtwkpHpQBW8k2ycC/wnW5WzOv7FsR9JpeqVn9kjpv5Tb3XHDguUSVX8k=; JSESSIONID=9843DE7CCDF11C3562E6B52348240FEF67F17BDA145DA61900AE4037554C4979; JTENANTSESSIONID_dgq5qdz5dm=P0X4kLZ1OUd3rlD6xuciYd48Lj2qBPa8C8xdtFZGffg%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/StatusFilterSet?%24skip=0&%24top=5&%24filter=%28FilterKeywordsFuzzy%20eq%20%27hana%27%20and%20%28%28StatusKey%20eq%20%2702%27%20or%20StatusKey%20eq%20%2701%27%29%29%29 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!RwQRDSlrC+LRktvm5e9QtIhWtwkpHpQBW8k2ycC/wnW5WzOv7FsR9JpeqVn9kjpv5Tb3XHDguUSVX8k=; JSESSIONID=9843DE7CCDF11C3562E6B52348240FEF67F17BDA145DA61900AE4037554C4979; JTENANTSESSIONID_dgq5qdz5dm=P0X4kLZ1OUd3rlD6xuciYd48Lj2qBPa8C8xdtFZGffg%3D
+Cookie2: $Version=1
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Server: [SAP]
+Content-Encoding: [gzip]
+sap-metadata-last-modified: [Sat, 03 Aug 2019 09:51:11 GMT]
+sap-perf-fesrec: [169635.000000]
+Vary: [Accept-Encoding]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache]
+dataserviceversion: [2.0]
+Date: [Mon, 04 Nov 2019 07:48:50 GMT]
+Content-Type: [application/atom+xml; type=feed;charset=utf-8]
+
+<feed xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+   <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/StatusFilterSet</id>
+   <title type="text">StatusFilterSet</title>
+   <updated>2019-11-04T07:48:50Z</updated>
+   <author>
+      <name/>
+   </author>
+   <link href="StatusFilterSet" rel="self" title="StatusFilterSet"/>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/StatusFilterSet('02')</id>
+      <title type="text">StatusFilterSet('02')</title>
+      <updated>2019-11-04T07:48:50Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.StatusFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="StatusFilterSet('02')" rel="self" title="StatusFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>true</d:Selected>
+            <d:Priority/>
+            <d:Status>To Be Archived</d:Status>
+            <d:StatusKey>02</d:StatusKey>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Count>241</d:Count>
+            <d:Component/>
+            <d:FilterKeywordsFuzzy/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterKeywordsExact/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterDocumentType/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/StatusFilterSet('01')</id>
+      <title type="text">StatusFilterSet('01')</title>
+      <updated>2019-11-04T07:48:50Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.StatusFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="StatusFilterSet('01')" rel="self" title="StatusFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>true</d:Selected>
+            <d:Priority/>
+            <d:Status>For Checking</d:Status>
+            <d:StatusKey>01</d:StatusKey>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Count>54</d:Count>
+            <d:Component/>
+            <d:FilterKeywordsFuzzy/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterKeywordsExact/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterDocumentType/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/StatusFilterSet('00')</id>
+      <title type="text">StatusFilterSet('00')</title>
+      <updated>2019-11-04T07:48:50Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.StatusFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="StatusFilterSet('00')" rel="self" title="StatusFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>false</d:Selected>
+            <d:Priority/>
+            <d:Status>Released for Customer</d:Status>
+            <d:StatusKey>00</d:StatusKey>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Count>3131</d:Count>
+            <d:Component/>
+            <d:FilterKeywordsFuzzy/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterKeywordsExact/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterDocumentType/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/StatusFilterSet('03')</id>
+      <title type="text">StatusFilterSet('03')</title>
+      <updated>2019-11-04T07:48:50Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.StatusFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="StatusFilterSet('03')" rel="self" title="StatusFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>false</d:Selected>
+            <d:Priority/>
+            <d:Status>In Process</d:Status>
+            <d:StatusKey>03</d:StatusKey>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Count>504</d:Count>
+            <d:Component/>
+            <d:FilterKeywordsFuzzy/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterKeywordsExact/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterDocumentType/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/StatusFilterSet('04')</id>
+      <title type="text">StatusFilterSet('04')</title>
+      <updated>2019-11-04T07:48:50Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.StatusFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="StatusFilterSet('04')" rel="self" title="StatusFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>false</d:Selected>
+            <d:Priority/>
+            <d:Status>Released Internally</d:Status>
+            <d:StatusKey>04</d:StatusKey>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Count>122</d:Count>
+            <d:Component/>
+            <d:FilterKeywordsFuzzy/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterKeywordsExact/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterDocumentType/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+</feed>

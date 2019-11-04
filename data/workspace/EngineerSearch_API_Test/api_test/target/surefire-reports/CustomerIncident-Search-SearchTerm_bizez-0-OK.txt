@@ -1,0 +1,53 @@
+Status: OK
+Time Taken: 53
+Size: 578
+Timestamp: Mon Nov 04 07:48:55 UTC 2019
+TestStep: SearchTerm_/biz/ez
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs?%24skip=0&%24top=25&%24filter=%28FilterKeywords%20eq%20%27%2Fbiz%2Fez%27%29
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!f915zfP9/ymMSQbm5e9QtIhWtwkpHu3BwfqiVKOaFS9V4JW5QfN2PdhaR6ZquIZlPoCVBZtCjnhDGpQ=; JSESSIONID=A280C6D73A038FDA520F582196A2CAA9F7C3F4792008C85DDC51671DC0486B08; JTENANTSESSIONID_dgq5qdz5dm=JPqqyJ%2BDPm%2BpAMdKAkovhZp34uA3aeQElCIu9JkVvnA%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs?%24skip=0&%24top=25&%24filter=%28FilterKeywords%20eq%20%27%2Fbiz%2Fez%27%29 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!f915zfP9/ymMSQbm5e9QtIhWtwkpHu3BwfqiVKOaFS9V4JW5QfN2PdhaR6ZquIZlPoCVBZtCjnhDGpQ=; JSESSIONID=A280C6D73A038FDA520F582196A2CAA9F7C3F4792008C85DDC51671DC0486B08; JTENANTSESSIONID_dgq5qdz5dm=JPqqyJ%2BDPm%2BpAMdKAkovhZp34uA3aeQElCIu9JkVvnA%3D
+Cookie2: $Version=1
+
+
+---------------- Response --------------------------
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Server: [SAP]
+sap-metadata-last-modified: [Mon, 27 Aug 2018 14:02:50 GMT]
+sap-perf-fesrec: [23872.000000]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache]
+Content-Length: [578]
+dataserviceversion: [2.0]
+Date: [Mon, 04 Nov 2019 07:48:55 GMT]
+Content-Type: [application/atom+xml; type=feed;charset=utf-8]
+
+<feed xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+   <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs</id>
+   <title type="text">InfoDocs</title>
+   <updated>2019-11-04T07:48:55Z</updated>
+   <author>
+      <name/>
+   </author>
+   <link href="InfoDocs" rel="self" title="InfoDocs"/>
+</feed>

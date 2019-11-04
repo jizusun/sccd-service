@@ -1,0 +1,118 @@
+Status: OK
+Time Taken: 59
+Size: 3637
+Timestamp: Mon Nov 04 07:48:56 UTC 2019
+TestStep: CombinationStatusFilter
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocStatusFilterSet?%24skip=0&%24top=5&%24filter=%28FilterKeywords%20eq%20%27crm%27%20and%20%28%28Component%20eq%20%27CRM-BTX-ACT%27%20or%20Component%20eq%20%27SBO-ADM*%27%29%20and%20%28Status%20eq%20%279002%27%29%20and%20%28Priority%20eq%20%270003%27%29%20and%20%28%28CreatedOn%20ge%20datetime%272014-01-01T00%3A00%3A00%27%20and%20CreatedOn%20le%20datetime%272015-01-02T00%3A00%3A00%27%29%29%29%29
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!NGjuXSrrHr+8s8Tm5e9QtIhWtwkpHjtGPIlKa3itCC7nBa8O6zpb9+bDh8b1opfwwV/4AAAoR9eZWw==; JSESSIONID=AB63C7F8D1B4860A888061140042E494FB60ECCE78EA8AFD5E27DC6E725E38FF; JTENANTSESSIONID_dgq5qdz5dm=a17Pgnt4yJWiKmRMRYIQt1MLxixkWaIGrhlAP0CddCo%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocStatusFilterSet?%24skip=0&%24top=5&%24filter=%28FilterKeywords%20eq%20%27crm%27%20and%20%28%28Component%20eq%20%27CRM-BTX-ACT%27%20or%20Component%20eq%20%27SBO-ADM*%27%29%20and%20%28Status%20eq%20%279002%27%29%20and%20%28Priority%20eq%20%270003%27%29%20and%20%28%28CreatedOn%20ge%20datetime%272014-01-01T00%3A00%3A00%27%20and%20CreatedOn%20le%20datetime%272015-01-02T00%3A00%3A00%27%29%29%29%29 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!NGjuXSrrHr+8s8Tm5e9QtIhWtwkpHjtGPIlKa3itCC7nBa8O6zpb9+bDh8b1opfwwV/4AAAoR9eZWw==; JSESSIONID=AB63C7F8D1B4860A888061140042E494FB60ECCE78EA8AFD5E27DC6E725E38FF; JTENANTSESSIONID_dgq5qdz5dm=a17Pgnt4yJWiKmRMRYIQt1MLxixkWaIGrhlAP0CddCo%3D
+Cookie2: $Version=1
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Server: [SAP]
+Content-Encoding: [gzip]
+sap-metadata-last-modified: [Mon, 27 Aug 2018 14:02:50 GMT]
+sap-perf-fesrec: [30550.000000]
+Vary: [Accept-Encoding]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache]
+dataserviceversion: [2.0]
+Date: [Mon, 04 Nov 2019 07:48:56 GMT]
+Content-Type: [application/atom+xml; type=feed;charset=utf-8]
+
+<feed xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+   <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocStatusFilterSet</id>
+   <title type="text">InfoDocStatusFilterSet</title>
+   <updated>2019-11-04T07:48:56Z</updated>
+   <author>
+      <name/>
+   </author>
+   <link href="InfoDocStatusFilterSet" rel="self" title="InfoDocStatusFilterSet"/>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocStatusFilterSet('9002')</id>
+      <title type="text">InfoDocStatusFilterSet('9002')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDocStatusFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocStatusFilterSet('9002')" rel="self" title="InfoDocStatusFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:CategoryType/>
+            <d:Component/>
+            <d:Selected>true</d:Selected>
+            <d:Count>1</d:Count>
+            <d:Priority/>
+            <d:StatusText>In Process</d:StatusText>
+            <d:Status>9002</d:Status>
+            <d:FilterKeywords/>
+            <d:CreatedOn m:null="true"/>
+            <d:FilterCreatedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocStatusFilterSet('9030')</id>
+      <title type="text">InfoDocStatusFilterSet('9030')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDocStatusFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocStatusFilterSet('9030')" rel="self" title="InfoDocStatusFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:CategoryType/>
+            <d:Component/>
+            <d:Selected>false</d:Selected>
+            <d:Count>1</d:Count>
+            <d:Priority/>
+            <d:StatusText>Restricted</d:StatusText>
+            <d:Status>9030</d:Status>
+            <d:FilterKeywords/>
+            <d:CreatedOn m:null="true"/>
+            <d:FilterCreatedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocStatusFilterSet('1004')</id>
+      <title type="text">InfoDocStatusFilterSet('1004')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDocStatusFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocStatusFilterSet('1004')" rel="self" title="InfoDocStatusFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:CategoryType/>
+            <d:Component/>
+            <d:Selected>false</d:Selected>
+            <d:Count>1</d:Count>
+            <d:Priority/>
+            <d:StatusText>Solution Provided</d:StatusText>
+            <d:Status>1004</d:Status>
+            <d:FilterKeywords/>
+            <d:CreatedOn m:null="true"/>
+            <d:FilterCreatedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+</feed>

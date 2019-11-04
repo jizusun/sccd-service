@@ -1,0 +1,905 @@
+Status: OK
+Time Taken: 173
+Size: 44278
+Timestamp: Mon Nov 04 07:48:53 UTC 2019
+TestStep: SearchTerm_hana_new
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet?%24skip=0&%24top=25&%24filter=%28FilterKeywordsFuzzy%20eq%20%27hana%27%29
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!f7QIfhMiTsjhL3jm5e9QtIhWtwkpHmQjQNozibKNPfxGyDtdqB1ZsMX3T9yOMCvktnGPSSxeD8qUAxs=; JSESSIONID=5ACA3604B234512531D542927B34A65540C550B400A1BBD2C6B1A43AD4A47A81; JTENANTSESSIONID_dgq5qdz5dm=RPSP%2BIA8YBfqwqrhPUwdzGjemAHN6Qj5HPZK0d5U9U8%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet?%24skip=0&%24top=25&%24filter=%28FilterKeywordsFuzzy%20eq%20%27hana%27%29 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!f7QIfhMiTsjhL3jm5e9QtIhWtwkpHmQjQNozibKNPfxGyDtdqB1ZsMX3T9yOMCvktnGPSSxeD8qUAxs=; JSESSIONID=5ACA3604B234512531D542927B34A65540C550B400A1BBD2C6B1A43AD4A47A81; JTENANTSESSIONID_dgq5qdz5dm=RPSP%2BIA8YBfqwqrhPUwdzGjemAHN6Qj5HPZK0d5U9U8%3D
+Cookie2: $Version=1
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Server: [SAP]
+Content-Encoding: [gzip]
+sap-metadata-last-modified: [Sat, 03 Aug 2019 09:51:11 GMT]
+sap-perf-fesrec: [142146.000000]
+Vary: [Accept-Encoding]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache]
+dataserviceversion: [2.0]
+Date: [Mon, 04 Nov 2019 07:48:53 GMT]
+Content-Type: [application/atom+xml; type=feed;charset=utf-8]
+
+<feed xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+   <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet</id>
+   <title type="text">KBASet</title>
+   <updated>2019-11-04T07:48:52Z</updated>
+   <author>
+      <name/>
+   </author>
+   <link href="KBASet" rel="self" title="KBASet"/>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(2112604l)</id>
+      <title type="text">KBASet(2112604l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(2112604l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>2112604</d:Number>
+            <d:CreatedBy>D030484</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002112604</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>You are interested in details about compression in SAP HANA environments.</d:Symptom>
+            <d:Responsible>D030484</d:Responsible>
+            <d:Title>FAQ: SAP &lt;b>HANA&lt;/b> Compression</d:Title>
+            <d:ComponentName>SAP HANA Database</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>How To</d:Category>
+            <d:ReleasedOn>2017-08-10T09:45:09</d:ReleasedOn>
+            <d:ChangedOn>2017-08-10T09:45:09</d:ChangedOn>
+            <d:Component>HAN-DB</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1034122l)</id>
+      <title type="text">KBASet(1034122l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1034122l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1034122</d:Number>
+            <d:CreatedBy/>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001034122</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>Can you hear me, Major Tom?...I can hear you...I can hear you...i can hear you...i can hear you...i can hear you...Can you... "Here I am floating round my tin can, Far above the Moon Planet Earth is blue And there's nothing I can do."...jump123...sefgase.</d:Symptom>
+            <d:Responsible>Alex Dong</d:Responsible>
+            <d:Title>New Cube - "Alex is practicing his earning money skills"</d:Title>
+            <d:ComponentName>Analytics &amp; Reporting (Ad Hoc, ORD)</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2018-01-02T08:31:20</d:ReleasedOn>
+            <d:ChangedOn>2018-11-28T05:56:32</d:ChangedOn>
+            <d:Component>LOD-SF-ANA</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>In Process</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1048082l)</id>
+      <title type="text">KBASet(1048082l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1048082l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1048082</d:Number>
+            <d:CreatedBy>Joerg Becker</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001048082</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>SAP today announced plans to acquire SmartOps, a leading provider of inventory and service-level optimization software solutions. The acquisition paves the way for SAP to develop ‘real-time supply chain’ software solutions on the SAP HANA platform. Going</d:Symptom>
+            <d:Responsible>Joerg Becker</d:Responsible>
+            <d:Title>&lt;object> test</d:Title>
+            <d:ComponentName>SAP Support Portal</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2018-07-18T09:35:31</d:ReleasedOn>
+            <d:ChangedOn>2018-07-18T09:35:31</d:ChangedOn>
+            <d:Component>XX-SER-SAPSMP</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released Internally</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(2421394l)</id>
+      <title type="text">KBASet(2421394l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(2421394l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>2421394</d:Number>
+            <d:CreatedBy>I311897</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002421394</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>This SAP Knowledge Based Article contains all the information regarding the GST pre-requisites/FAQs/solutions notes/Knowledge Based Article for Indirect taxes in India....As you must be aware that the Government of India is planning to roll out GST from 1</d:Symptom>
+            <d:Responsible>I311897</d:Responsible>
+            <d:Title>GST India: SAP ERP Solution Notes</d:Title>
+            <d:ComponentName>Materials Management</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>How To</d:Category>
+            <d:ReleasedOn>2017-10-31T05:02:36</d:ReleasedOn>
+            <d:ChangedOn>2017-10-31T05:02:36</d:ChangedOn>
+            <d:Component>XX-CSC-IN-MM</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1999997l)</id>
+      <title type="text">KBASet(1999997l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1999997l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1999997</d:Number>
+            <d:CreatedBy>D030484</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001999997</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>You have questions related to the SAP HANA memory. ...You experience a high memory utilization or out of memory dumps.</d:Symptom>
+            <d:Responsible>D030484</d:Responsible>
+            <d:Title>FAQ: SAP &lt;b>HANA&lt;/b> Memory</d:Title>
+            <d:ComponentName>SAP HANA Database</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>How To</d:Category>
+            <d:ReleasedOn>2019-07-30T09:49:58</d:ReleasedOn>
+            <d:ChangedOn>2019-07-30T09:49:58</d:ChangedOn>
+            <d:Component>HAN-DB</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(2517550l)</id>
+      <title type="text">KBASet(2517550l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(2517550l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>2517550</d:Number>
+            <d:CreatedBy>I323477</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002517550</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>The notes log in the Web UI (BP_DATA/Notes) is not displayed even though the view is in Display Mode</d:Symptom>
+            <d:Responsible>I323477</d:Responsible>
+            <d:Title>The notes log is not displayed, although the view is in 'Display Mode'</d:Title>
+            <d:ComponentName>Business Partners</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2017-09-06T14:14:23</d:ReleasedOn>
+            <d:ChangedOn>2017-09-06T14:14:23</d:ChangedOn>
+            <d:Component>CRM-MD-BP</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1903833l)</id>
+      <title type="text">KBASet(1903833l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1903833l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1903833</d:Number>
+            <d:CreatedBy>I059316</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001903833</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>While Apply Assignments in Resource Planning, below error occurs somehow: Error while saving data....While debugging why new Assignments cannot be applied, below message class and No. are found: WFDS_SGE 049....</d:Symptom>
+            <d:Responsible>I059316</d:Responsible>
+            <d:Title>Cannot Apply new assignments due to error 'Error while saving data'</d:Title>
+            <d:ComponentName>Labour Resource Planning within Service</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2017-08-25T01:47:18</d:ReleasedOn>
+            <d:ChangedOn>2017-08-25T01:47:18</d:ChangedOn>
+            <d:Component>CRM-RPL-SRV</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(2522480l)</id>
+      <title type="text">KBASet(2522480l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(2522480l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>2522480</d:Number>
+            <d:CreatedBy>I309250</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002522480</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>Nothing happens after clicking on Agent Dashboard</d:Symptom>
+            <d:Responsible>I309250</d:Responsible>
+            <d:Title>CRM IC: Agent Dashboard is not opening</d:Title>
+            <d:ComponentName>Framework</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2017-09-09T11:31:36</d:ReleasedOn>
+            <d:ChangedOn>2017-09-09T11:31:53</d:ChangedOn>
+            <d:Component>CRM-IC-FRW</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(2482695l)</id>
+      <title type="text">KBASet(2482695l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(2482695l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>2482695</d:Number>
+            <d:CreatedBy>I839349</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002482695</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>You are seeing SYSTEM_NO_SHM_MEMORY dumps in ST22 in CRM Production system....The issue is only occuring in Production system....</d:Symptom>
+            <d:Responsible>I839349</d:Responsible>
+            <d:Title>Error SYSTEM_NO_SHM_MEMORY in ST22 in CRM Production System</d:Title>
+            <d:ComponentName>UI Runtime Environment</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2017-08-31T18:06:55</d:ReleasedOn>
+            <d:ChangedOn>2017-08-31T18:06:55</d:ChangedOn>
+            <d:Component>CA-WUI-UI-RT</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1927840l)</id>
+      <title type="text">KBASet(1927840l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1927840l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1927840</d:Number>
+            <d:CreatedBy>I036406</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001927840</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>Create a Purchase Requisition with reference to a reservation and later make changes to delivery date, for example, in transaction ME52N. The field RESB-BDTER is updated with the delivery date changes but no change log is written....You would like to reco</d:Symptom>
+            <d:Responsible>I036406</d:Responsible>
+            <d:Title>Change log for reservations</d:Title>
+            <d:ComponentName>Reservations</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>How To</d:Category>
+            <d:ReleasedOn>2016-05-17T09:26:30</d:ReleasedOn>
+            <d:ChangedOn>2016-05-17T09:26:30</d:ChangedOn>
+            <d:Component>MM-IM-RS-RS</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(2493851l)</id>
+      <title type="text">KBASet(2493851l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(2493851l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>2493851</d:Number>
+            <d:CreatedBy>I336731</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002493851</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>After implementing SAP Note: " 2303286...CRM-IC: Countdown clock available in IC Agent", customer gets the countdown clock available on CRM IC WebClient. However, the countdown clock is not reset after a roundtrip.</d:Symptom>
+            <d:Responsible>I336731</d:Responsible>
+            <d:Title>SAP CRM IC Timeout Counter not working</d:Title>
+            <d:ComponentName>Framework</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2017-08-31T00:55:21</d:ReleasedOn>
+            <d:ChangedOn>2017-08-31T00:55:21</d:ChangedOn>
+            <d:Component>CRM-IC-FRW</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(2499984l)</id>
+      <title type="text">KBASet(2499984l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(2499984l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>2499984</d:Number>
+            <d:CreatedBy>I336731</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002499984</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>After a Support package level upgrade, sometimes you will get the BSP error: Define NavigationalLink "Link name" for source view "View name" in component "Component name". If you ignore customer enhancement using user parameter "WCF_IGNORE_ENHANCEMT" with</d:Symptom>
+            <d:Responsible>I336731</d:Responsible>
+            <d:Title>BSP Error: Define NavigationalLink for source view in component</d:Title>
+            <d:ComponentName>WebClient UI</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2017-09-06T07:20:26</d:ReleasedOn>
+            <d:ChangedOn>2017-09-06T07:20:26</d:ChangedOn>
+            <d:Component>CA-WUI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(2524167l)</id>
+      <title type="text">KBASet(2524167l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(2524167l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>2524167</d:Number>
+            <d:CreatedBy>I064337</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002524167</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>Accrual is not appearing zero in the fund usage check book when the settled amount exceeds the reserved amount.</d:Symptom>
+            <d:Responsible>I064337</d:Responsible>
+            <d:Title>Accrual amount in CRM accrual scenario</d:Title>
+            <d:ComponentName>Accruals</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>How To</d:Category>
+            <d:ReleasedOn>2017-08-24T06:29:24</d:ReleasedOn>
+            <d:ChangedOn>2017-08-24T06:29:24</d:ChangedOn>
+            <d:Component>CRM-FM-ACL</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(2310762l)</id>
+      <title type="text">KBASet(2310762l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(2310762l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>2310762</d:Number>
+            <d:CreatedBy>I075999</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002310762</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>The value for the conditions is mandatory when maintaining rules in territory. The system raises error "Make an entry for ***" CRM_FDT_MSG062. We are not able to maintain rules without filling conditions....</d:Symptom>
+            <d:Responsible>I075999</d:Responsible>
+            <d:Title>Error make an entry for *** when creating rules in territory</d:Title>
+            <d:ComponentName>Territory Management</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2017-08-31T22:48:08</d:ReleasedOn>
+            <d:ChangedOn>2017-08-31T22:48:08</d:ChangedOn>
+            <d:Component>CRM-MD-TM</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(2408342l)</id>
+      <title type="text">KBASet(2408342l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(2408342l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>2408342</d:Number>
+            <d:CreatedBy>I049433</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002408342</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>An authorization problem occurred when downloading the configuration. Please ensure that the account exists and the user has the appropriate permissions for the account: 403 - Forbidden...An authorization problem occurred when downloading the configuratio</d:Symptom>
+            <d:Responsible>I049433</d:Responsible>
+            <d:Title>An authorization problem occurred when downloading the configuration</d:Title>
+            <d:ComponentName>SAP Analytics Cloud</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2017-07-11T22:55:27</d:ReleasedOn>
+            <d:ChangedOn>2017-07-11T22:55:27</d:ChangedOn>
+            <d:Component>LOD-ANA</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(2499898l)</id>
+      <title type="text">KBASet(2499898l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(2499898l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>2499898</d:Number>
+            <d:CreatedBy>I033541</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002499898</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>You have created an interactive script in the Interactive Script Editor. There you want to use text fields which should be filled on runtime considering the context....You can either use...standard delivered text fields:...or custom text fields:...You fac</d:Symptom>
+            <d:Responsible>I033541</d:Responsible>
+            <d:Title>CRM IC: No value is filled into a script text field during script runtime - find out the reason why via debugging</d:Title>
+            <d:ComponentName>Scripting</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2017-09-12T05:38:30</d:ReleasedOn>
+            <d:ChangedOn>2017-09-12T05:38:30</d:ChangedOn>
+            <d:Component>CRM-IC-SCR</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(2053572l)</id>
+      <title type="text">KBASet(2053572l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(2053572l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>2053572</d:Number>
+            <d:CreatedBy>I828195</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002053572</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>After the report CRM_TERRMAN_PROC_REL is ran the "Territories" assignment block in the account overview page doesn't display all the history of territories assigned to this account.</d:Symptom>
+            <d:Responsible>I852427</d:Responsible>
+            <d:Title>Territory history not showing in the Account Overview page</d:Title>
+            <d:ComponentName>Territory Management</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2017-08-23T21:43:12</d:ReleasedOn>
+            <d:ChangedOn>2017-08-23T21:43:12</d:ChangedOn>
+            <d:Component>CRM-MD-TM</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1048147l)</id>
+      <title type="text">KBASet(1048147l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1048147l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1048147</d:Number>
+            <d:CreatedBy>Joerg Becker</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001048147</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>Media not computed....jwplayer('mediaspace_dd70b91e-cc2f-af72-94e1-64aef0e37b27').setup({...'flashplayer': '/sap/support/sapnotes/public/services/jwplayer/player.swf',...'controlbar': 'bottom','file': 'https://video.support.sap.com/OnPremise/NW%20DBOS/DB</d:Symptom>
+            <d:Responsible>Joerg Becker</d:Responsible>
+            <d:Title>Video test for HTML5 Video on the fly</d:Title>
+            <d:ComponentName>Analytics &amp; Reporting (Ad Hoc, ORD)</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2018-08-27T14:43:32</d:ChangedOn>
+            <d:Component>LOD-SF-ANA</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>In Process</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1790784l)</id>
+      <title type="text">KBASet(1790784l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1790784l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1790784</d:Number>
+            <d:CreatedBy>I023448</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001790784</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>Even if no valid activity journal template is maintained in the system, an entry with description "No Text available" is shown in Assignment Block Activity Journals.</d:Symptom>
+            <d:Responsible>I023448</d:Responsible>
+            <d:Title>Activity Journal with name "No Text available"</d:Title>
+            <d:ComponentName>Activity Journals</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2017-08-30T05:17:37</d:ReleasedOn>
+            <d:ChangedOn>2017-08-30T05:17:37</d:ChangedOn>
+            <d:Component>CRM-BTX-ACT-ARE</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1048595l)</id>
+      <title type="text">KBASet(1048595l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1048595l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1048595</d:Number>
+            <d:CreatedBy>Dogan Duman</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001048595</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>hana</d:Symptom>
+            <d:Responsible>Dogan Duman</d:Responsible>
+            <d:Title>Test processor</d:Title>
+            <d:ComponentName>ABAP Runtime Environment - ABAP Language Issues Only</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2018-09-13T08:56:33</d:ReleasedOn>
+            <d:ChangedOn>2018-09-13T08:57:14</d:ChangedOn>
+            <d:Component>BC-ABA</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>In Process</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(50001195l)</id>
+      <title type="text">KBASet(50001195l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(50001195l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>50001195</d:Number>
+            <d:CreatedBy>Joerg Becker</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0050001195</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>...</d:Symptom>
+            <d:Responsible>Joerg Becker</d:Responsible>
+            <d:Title>test for multiple images</d:Title>
+            <d:ComponentName>SAP Support Portal - Contents</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2018-01-22T12:15:59</d:ReleasedOn>
+            <d:ChangedOn>2018-07-16T07:26:12</d:ChangedOn>
+            <d:Component>XX-SER-SAPSMP-CON</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>In Process</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1727922l)</id>
+      <title type="text">KBASet(1727922l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1727922l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1727922</d:Number>
+            <d:CreatedBy>I040646</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001727922</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>Stock in transit quantity is cleared with posting of a goods movement with movement types 557 or 558. After this posting the stock in transit quantity is still displayed in the transaction MB5T...</d:Symptom>
+            <d:Responsible>I040646</d:Responsible>
+            <d:Title>Stock in Transit not cleared with movement 557/558 in MB5T</d:Title>
+            <d:ComponentName>Stock Transfer for Stock Transport Orders</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn>2018-08-16T12:55:34</d:ReleasedOn>
+            <d:ChangedOn>2018-08-16T12:56:01</d:ChangedOn>
+            <d:Component>MM-IM-ST-PO</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(2519123l)</id>
+      <title type="text">KBASet(2519123l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(2519123l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>2519123</d:Number>
+            <d:CreatedBy>I034870</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002519123</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>It requires to hide the button "Export to Spreadsheet" for an assignment block or a search result list.</d:Symptom>
+            <d:Responsible>I034870</d:Responsible>
+            <d:Title>How to hide the button "Export to Spreadsheet" for an assignment block or a search result list</d:Title>
+            <d:ComponentName>User Interface</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>How To</d:Category>
+            <d:ReleasedOn>2017-09-11T02:48:15</d:ReleasedOn>
+            <d:ChangedOn>2017-09-11T02:48:15</d:ChangedOn>
+            <d:Component>CA-WUI-UI</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>Released to Customer</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1047921l)</id>
+      <title type="text">KBASet(1047921l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1047921l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1047921</d:Number>
+            <d:CreatedBy>Sa Wan</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001047921</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>tRFC error messages (SAP ArchiveLink: Obj. type not assigned to storage syst.) on the RFC destination SAP AL OUT for the function module ARCHIV_CREATE_TABLE or _MUTARCHIV_CREATE_TABLE....ArchiveLink: Monitor (transaction OAM1) -&amp;gt; Outbound Document Stor</d:Symptom>
+            <d:Responsible>Sa Wan</d:Responsible>
+            <d:Title>temp KBA - IE9 freezez when opening Text Management tab (Chrome OK)</d:Title>
+            <d:ComponentName>ArchiveLink</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2012-11-08T09:16:27</d:ChangedOn>
+            <d:Component>BC-SRV-ARL</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>In Process</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBASet(1046775l)</id>
+      <title type="text">KBASet(1046775l)</title>
+      <updated>2019-11-04T07:48:52Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBA" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBASet(1046775l)" rel="self" title="KBA"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Number>1046775</d:Number>
+            <d:CreatedBy>Dogan Duman</d:CreatedBy>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001046775</d:Link>
+            <d:Priority/>
+            <d:Product/>
+            <d:Symptom>example...</d:Symptom>
+            <d:Responsible>D033304</d:Responsible>
+            <d:Title>Test VII 02.06.2008</d:Title>
+            <d:ComponentName>ABAP Runtime Environment - ABAP Language Issues Only</d:ComponentName>
+            <d:NoteType>SAP Knowledge Base Article</d:NoteType>
+            <d:Category>Problem</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:ChangedOn>2012-11-21T13:57:58</d:ChangedOn>
+            <d:Component>BC-ABA</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:Status>In Process</d:Status>
+            <d:FilterChangedOnDefined/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterReleasedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+</feed>

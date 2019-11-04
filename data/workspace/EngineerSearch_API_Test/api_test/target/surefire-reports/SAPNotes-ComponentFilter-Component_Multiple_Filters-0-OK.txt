@@ -1,0 +1,190 @@
+Status: OK
+Time Taken: 86
+Size: 7119
+Timestamp: Mon Nov 04 07:48:49 UTC 2019
+TestStep: Component Multiple Filters
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet?%24skip=0&%24top=5&%24filter=%28FilterKeywordsFuzzy%20eq%20%27hana%27%20and%20%28%28Component%20eq%20%27BW-BEX-OT*%27%20or%20Component%20eq%20%27BC-EIM-ESH%27%29%29%29
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!Oi2HuAoDfzLAaHzm5e9QtIhWtwkpHqZbPVSlCcra6D0wZCDy7OpoazIBPgFoWhg1zK56wV/k5BTeUw==; JSESSIONID=0F0C4C17364BD0DEBAFA70DCF2F2132E401423ABF83ABBB30E5DBEFB3347FC44; JTENANTSESSIONID_dgq5qdz5dm=JahaZTwsHc57OaqG1oA3nGKMfGlbx3EC%2BXcPhdMEKUI%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet?%24skip=0&%24top=5&%24filter=%28FilterKeywordsFuzzy%20eq%20%27hana%27%20and%20%28%28Component%20eq%20%27BW-BEX-OT*%27%20or%20Component%20eq%20%27BC-EIM-ESH%27%29%29%29 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!Oi2HuAoDfzLAaHzm5e9QtIhWtwkpHqZbPVSlCcra6D0wZCDy7OpoazIBPgFoWhg1zK56wV/k5BTeUw==; JSESSIONID=0F0C4C17364BD0DEBAFA70DCF2F2132E401423ABF83ABBB30E5DBEFB3347FC44; JTENANTSESSIONID_dgq5qdz5dm=JahaZTwsHc57OaqG1oA3nGKMfGlbx3EC%2BXcPhdMEKUI%3D
+Cookie2: $Version=1
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Server: [SAP]
+Content-Encoding: [gzip]
+sap-metadata-last-modified: [Sat, 03 Aug 2019 09:51:11 GMT]
+sap-perf-fesrec: [65648.000000]
+Vary: [Accept-Encoding]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache]
+dataserviceversion: [2.0]
+Date: [Mon, 04 Nov 2019 07:48:49 GMT]
+Content-Type: [application/atom+xml; type=feed;charset=utf-8]
+
+<feed xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+   <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet</id>
+   <title type="text">ComponentFilterSet</title>
+   <updated>2019-11-04T07:48:48Z</updated>
+   <author>
+      <name/>
+   </author>
+   <link href="ComponentFilterSet" rel="self" title="ComponentFilterSet"/>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet('BW-BEX-OT%2A')</id>
+      <title type="text">ComponentFilterSet('BW-BEX-OT%2A')</title>
+      <updated>2019-11-04T07:48:48Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.ComponentFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="ComponentFilterSet('BW-BEX-OT%2A')" rel="self" title="ComponentFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>true</d:Selected>
+            <d:ComponentName>OLAP Technology</d:ComponentName>
+            <d:Priority/>
+            <d:Count>277</d:Count>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Component>BW-BEX-OT*</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterDocumentType/>
+            <d:StatusKey/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet('BC-EIM-ESH')</id>
+      <title type="text">ComponentFilterSet('BC-EIM-ESH')</title>
+      <updated>2019-11-04T07:48:48Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.ComponentFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="ComponentFilterSet('BC-EIM-ESH')" rel="self" title="ComponentFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>true</d:Selected>
+            <d:ComponentName>NetWeaver Enterprise Search</d:ComponentName>
+            <d:Priority/>
+            <d:Count>78</d:Count>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Component>BC-EIM-ESH</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterDocumentType/>
+            <d:StatusKey/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet('BW-BEX-OT-DBIF%2A')</id>
+      <title type="text">ComponentFilterSet('BW-BEX-OT-DBIF%2A')</title>
+      <updated>2019-11-04T07:48:48Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.ComponentFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="ComponentFilterSet('BW-BEX-OT-DBIF%2A')" rel="self" title="ComponentFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>false</d:Selected>
+            <d:ComponentName>Interface to Database</d:ComponentName>
+            <d:Priority/>
+            <d:Count>70</d:Count>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Component>BW-BEX-OT-DBIF*</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterDocumentType/>
+            <d:StatusKey/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet('BW-BEX-OT-BIA')</id>
+      <title type="text">ComponentFilterSet('BW-BEX-OT-BIA')</title>
+      <updated>2019-11-04T07:48:48Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.ComponentFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="ComponentFilterSet('BW-BEX-OT-BIA')" rel="self" title="ComponentFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>false</d:Selected>
+            <d:ComponentName>BW Accelerator</d:ComponentName>
+            <d:Priority/>
+            <d:Count>50</d:Count>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Component>BW-BEX-OT-BIA</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterDocumentType/>
+            <d:StatusKey/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet('BW-BEX-OT')</id>
+      <title type="text">ComponentFilterSet('BW-BEX-OT')</title>
+      <updated>2019-11-04T07:48:48Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.ComponentFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="ComponentFilterSet('BW-BEX-OT')" rel="self" title="ComponentFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>false</d:Selected>
+            <d:ComponentName>OLAP Technology</d:ComponentName>
+            <d:Priority/>
+            <d:Count>48</d:Count>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Component>BW-BEX-OT</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterDocumentType/>
+            <d:StatusKey/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+</feed>

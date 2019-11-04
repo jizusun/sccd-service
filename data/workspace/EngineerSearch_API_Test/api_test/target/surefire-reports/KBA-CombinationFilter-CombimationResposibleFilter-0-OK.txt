@@ -1,0 +1,113 @@
+Status: OK
+Time Taken: 99
+Size: 3336
+Timestamp: Mon Nov 04 07:48:54 UTC 2019
+TestStep: CombimationResposibleFilter
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBAResponsibleFilterSet?%24skip=0&%24top=5&%24filter=%28FilterKeywordsFuzzy%20eq%20%27crm%27%20and%20%28%28StatusKey%20eq%20%2705%27%29%20and%20%28Component%20eq%20%27CA-WUI*%27%20or%20Component%20eq%20%27BI*%27%20or%20Component%20eq%20%27CRM-BTX*%27%29%20and%20%28Category%20eq%20%2701%27%29%20and%20%28Product%20eq%20%2701200615320800000556%27%29%20and%20%28Responsible%20eq%20%27I034870%27%20or%20Responsible%20eq%20%27I839349%27%29%20and%20%28CreatedBy%20eq%20%27I034870%27%29%20and%20%28%28ChangedOn%20ge%20datetime%271990-01-01T00%3A00%3A00%27%20and%20ChangedOn%20le%20datetime%272018-01-01T00%3A00%3A00%27%29%29%29%29
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!l2X1VcoWY8juluHm5e9QtIhWtwkpHmZEMPvDm2z+TlN3Ffrz/o4EVf55LaBP4UKxKScICRXrtlUa8A==; JSESSIONID=E2E576FE88CAA09046CF3617C60F0A46DC863B0EE640A72082E36F28B4592DD8; JTENANTSESSIONID_dgq5qdz5dm=tooVGCOLmNBgYi756PiV1g%2FLfhWL3LO%2Bw10lVdcPf08%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBAResponsibleFilterSet?%24skip=0&%24top=5&%24filter=%28FilterKeywordsFuzzy%20eq%20%27crm%27%20and%20%28%28StatusKey%20eq%20%2705%27%29%20and%20%28Component%20eq%20%27CA-WUI*%27%20or%20Component%20eq%20%27BI*%27%20or%20Component%20eq%20%27CRM-BTX*%27%29%20and%20%28Category%20eq%20%2701%27%29%20and%20%28Product%20eq%20%2701200615320800000556%27%29%20and%20%28Responsible%20eq%20%27I034870%27%20or%20Responsible%20eq%20%27I839349%27%29%20and%20%28CreatedBy%20eq%20%27I034870%27%29%20and%20%28%28ChangedOn%20ge%20datetime%271990-01-01T00%3A00%3A00%27%20and%20ChangedOn%20le%20datetime%272018-01-01T00%3A00%3A00%27%29%29%29%29 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!l2X1VcoWY8juluHm5e9QtIhWtwkpHmZEMPvDm2z+TlN3Ffrz/o4EVf55LaBP4UKxKScICRXrtlUa8A==; JSESSIONID=E2E576FE88CAA09046CF3617C60F0A46DC863B0EE640A72082E36F28B4592DD8; JTENANTSESSIONID_dgq5qdz5dm=tooVGCOLmNBgYi756PiV1g%2FLfhWL3LO%2Bw10lVdcPf08%3D
+Cookie2: $Version=1
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Server: [SAP]
+Content-Encoding: [gzip]
+sap-metadata-last-modified: [Sat, 03 Aug 2019 09:51:11 GMT]
+sap-perf-fesrec: [72258.000000]
+Vary: [Accept-Encoding]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache]
+dataserviceversion: [2.0]
+Date: [Mon, 04 Nov 2019 07:48:54 GMT]
+Content-Type: [application/atom+xml; type=feed;charset=utf-8]
+
+<feed xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+   <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBAResponsibleFilterSet</id>
+   <title type="text">KBAResponsibleFilterSet</title>
+   <updated>2019-11-04T07:48:54Z</updated>
+   <author>
+      <name/>
+   </author>
+   <link href="KBAResponsibleFilterSet" rel="self" title="KBAResponsibleFilterSet"/>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBAResponsibleFilterSet('I034870')</id>
+      <title type="text">KBAResponsibleFilterSet('I034870')</title>
+      <updated>2019-11-04T07:48:54Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBAResponsibleFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBAResponsibleFilterSet('I034870')" rel="self" title="KBAResponsibleFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>true</d:Selected>
+            <d:ResponsibleName>I034870</d:ResponsibleName>
+            <d:CreatedBy/>
+            <d:Priority/>
+            <d:Count>1</d:Count>
+            <d:Category/>
+            <d:Product/>
+            <d:Responsible>I034870</d:Responsible>
+            <d:Component/>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:ChangedOn m:null="true"/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterDocumentType/>
+            <d:StatusKey/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/KBAResponsibleFilterSet('I839349')</id>
+      <title type="text">KBAResponsibleFilterSet('I839349')</title>
+      <updated>2019-11-04T07:48:54Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.KBAResponsibleFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="KBAResponsibleFilterSet('I839349')" rel="self" title="KBAResponsibleFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>true</d:Selected>
+            <d:ResponsibleName>I839349</d:ResponsibleName>
+            <d:CreatedBy/>
+            <d:Priority/>
+            <d:Count>0</d:Count>
+            <d:Category/>
+            <d:Product/>
+            <d:Responsible>I839349</d:Responsible>
+            <d:Component/>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:ChangedOn m:null="true"/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterDocumentType/>
+            <d:StatusKey/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+</feed>

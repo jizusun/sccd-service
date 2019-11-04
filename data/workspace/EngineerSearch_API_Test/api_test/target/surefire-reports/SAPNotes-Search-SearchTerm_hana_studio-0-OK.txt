@@ -1,0 +1,855 @@
+Status: OK
+Time Taken: 431
+Size: 43966
+Timestamp: Mon Nov 04 07:48:47 UTC 2019
+TestStep: SearchTerm_hana studio
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes?%24skip=0&%24top=25&%24filter=%28FilterKeywordsFuzzy%20eq%20%27hana%20studio%27%29
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!KgssOzRWF4KNXYrm5e9QtIhWtwkpHl/8HmIcFS4WapqRGEQ06SJijYDtyuxXv8JxHsg/kyB4Bk4eMA==; JSESSIONID=5DD0020C749075418922DAEC0DAD7B6E71C1C773FAD36D75532F60B28E8C97BD; JTENANTSESSIONID_dgq5qdz5dm=RPPHBOQgnoOzxTQ583V1QgwO2msmMpy9ctvH6tkETPE%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes?%24skip=0&%24top=25&%24filter=%28FilterKeywordsFuzzy%20eq%20%27hana%20studio%27%29 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!KgssOzRWF4KNXYrm5e9QtIhWtwkpHl/8HmIcFS4WapqRGEQ06SJijYDtyuxXv8JxHsg/kyB4Bk4eMA==; JSESSIONID=5DD0020C749075418922DAEC0DAD7B6E71C1C773FAD36D75532F60B28E8C97BD; JTENANTSESSIONID_dgq5qdz5dm=RPPHBOQgnoOzxTQ583V1QgwO2msmMpy9ctvH6tkETPE%3D
+Cookie2: $Version=1
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Server: [SAP]
+Content-Encoding: [gzip]
+sap-metadata-last-modified: [Sat, 03 Aug 2019 09:51:11 GMT]
+sap-perf-fesrec: [386555.000000]
+Vary: [Accept-Encoding]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache]
+dataserviceversion: [2.0]
+Date: [Mon, 04 Nov 2019 07:48:47 GMT]
+Content-Type: [application/atom+xml; type=feed;charset=utf-8]
+
+<feed xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+   <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes</id>
+   <title type="text">SAPNotes</title>
+   <updated>2019-11-04T07:48:47Z</updated>
+   <author>
+      <name/>
+   </author>
+   <link href="SAPNotes" rel="self" title="SAPNotes"/>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1880503l)</id>
+      <title type="text">SAPNotes(1880503l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1880503l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>Using the current SAP HANA studio to recover an SAP HANA Database of an older revision might fail with a syntax error</d:Symptom>
+            <d:Number>1880503</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001880503</d:Link>
+            <d:Priority/>
+            <d:Title>SAP &lt;b>HANA&lt;/b> &lt;b>studio&lt;/b> compatibility error for recovery</d:Title>
+            <d:ComponentName>SAP HANA Backup &amp; Recovery</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Workaround of missing functionality</d:Category>
+            <d:ReleasedOn>2013-06-28T12:56:56</d:ReleasedOn>
+            <d:Component>HAN-DB-BAC</d:Component>
+            <d:Responsible>D042762</d:Responsible>
+            <d:ChangedOn>2013-06-28T12:56:56</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1604956l)</id>
+      <title type="text">SAPNotes(1604956l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1604956l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>Time Data Generation does not work...</d:Symptom>
+            <d:Number>1604956</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001604956</d:Link>
+            <d:Priority/>
+            <d:Title>Generate Time Data in &lt;b>HANA&lt;/b> &lt;b>Studio&lt;/b></d:Title>
+            <d:ComponentName>SAP HANA Analytical Modeling</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2011-06-29T10:51:05</d:ReleasedOn>
+            <d:Component>HAN-STD-DEV-MOD</d:Component>
+            <d:Responsible>I037790</d:Responsible>
+            <d:ChangedOn>2011-06-29T10:51:05</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(2090315l)</id>
+      <title type="text">SAPNotes(2090315l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(2090315l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You would like to upgrade your SAP HANA Studio to a newer revision or a newer available SPS level than the SAP HANA Database. You are not sure whether e.g. deployment of HANA models with newer a HANA Studio revision on an older SAP HANA database can cause</d:Symptom>
+            <d:Number>2090315</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002090315</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>HANA&lt;/b> &lt;b>studio&lt;/b> and server cross-version compatibility</d:Title>
+            <d:ComponentName>SAP HANA Analytical Modeling</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Upgrade information</d:Category>
+            <d:ReleasedOn>2014-11-05T08:25:30</d:ReleasedOn>
+            <d:Component>HAN-STD-DEV-MOD</d:Component>
+            <d:Responsible>I055003</d:Responsible>
+            <d:ChangedOn>2014-11-19T20:47:59</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1887160l)</id>
+      <title type="text">SAPNotes(1887160l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1887160l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>SAP HANA studio - revision 60 - does not show progress bars during data backup.</d:Symptom>
+            <d:Number>1887160</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001887160</d:Link>
+            <d:Priority/>
+            <d:Title>Backup Progress not shown in SAP &lt;b>HANA&lt;/b> &lt;b>studio&lt;/b></d:Title>
+            <d:ComponentName>SAP HANA Backup &amp; Recovery</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2013-07-16T07:36:55</d:ReleasedOn>
+            <d:Component>HAN-DB-BAC</d:Component>
+            <d:Responsible>D038008</d:Responsible>
+            <d:ChangedOn>2013-07-16T07:36:56</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(2097704l)</id>
+      <title type="text">SAPNotes(2097704l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(2097704l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>From the Repositories view, the user has triggered 'Check Out and Import Projects...' on a package in the HANA Repository. This results in the project being shown in the Project Explorer. An exception is thrown in any of the scenarios listed below....1. T</d:Symptom>
+            <d:Number>2097704</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002097704</d:Link>
+            <d:Priority/>
+            <d:Title><![CDATA[Error while refactoring <b>HANA</b> artifacts in <b>HANA</b> <b>Studio</b>]]></d:Title>
+            <d:ComponentName>SAP HANA Tools for Where-used, Refactoring and Mass Copy</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:Component>HAN-STD-DEV-REF</d:Component>
+            <d:Responsible>I043324</d:Responsible>
+            <d:ChangedOn>2014-11-28T12:53:32</d:ChangedOn>
+            <d:Status>For Checking</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(2012537l)</id>
+      <title type="text">SAPNotes(2012537l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(2012537l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>When trying to consume an SAP HANA view published from Lumira Desktop, Design Studio does not allow you to add the view, stating that the data source name contains invalid characters.</d:Symptom>
+            <d:Number>2012537</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002012537</d:Link>
+            <d:Priority/>
+            <d:Title>Consuming &lt;b>HANA&lt;/b> views created by Lumira Desktop in Design &lt;b>Studio&lt;/b></d:Title>
+            <d:ComponentName>Design Studio</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2014-05-02T13:42:04</d:ReleasedOn>
+            <d:Component>BI-RA-AD</d:Component>
+            <d:Responsible>D027299</d:Responsible>
+            <d:ChangedOn>2014-05-02T14:55:14</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1953714l)</id>
+      <title type="text">SAPNotes(1953714l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1953714l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>User Copy function doesn't work in Hana Studio Rev 70 or lower</d:Symptom>
+            <d:Number>1953714</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001953714</d:Link>
+            <d:Priority/>
+            <d:Title>Error in &lt;b>Hana&lt;/b> &lt;b>Studio&lt;/b> User Copy</d:Title>
+            <d:ComponentName>SAP HANA Security &amp; User Management</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:Component>HAN-DB-SEC</d:Component>
+            <d:Responsible>I840906</d:Responsible>
+            <d:ChangedOn m:null="true"/>
+            <d:Status>In Process</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1689265l)</id>
+      <title type="text">SAPNotes(1689265l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1689265l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>Opening an existing calculation view which has duplicate data sources shows empty structures.</d:Symptom>
+            <d:Number>1689265</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001689265</d:Link>
+            <d:Priority/>
+            <d:Title>SAP &lt;b>HANA&lt;/b> &lt;b>Studio&lt;/b>-Rev 26-Calculation view-source details empty</d:Title>
+            <d:ComponentName>SAP HANA Analytical Modeling</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Upgrade information</d:Category>
+            <d:ReleasedOn>2012-02-27T05:23:49</d:ReleasedOn>
+            <d:Component>HAN-STD-DEV-MOD</d:Component>
+            <d:Responsible>I035978</d:Responsible>
+            <d:ChangedOn>2013-11-12T22:58:40</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1942414l)</id>
+      <title type="text">SAPNotes(1942414l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1942414l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>"Manage connections" button in the Selective Import of Metadata wizard of SAP HANA Modeler perspective is disabled.</d:Symptom>
+            <d:Number>1942414</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001942414</d:Link>
+            <d:Priority/>
+            <d:Title>SAP &lt;b>HANA&lt;/b> &lt;b>Studio&lt;/b> Manage Connections in Data Services feature</d:Title>
+            <d:ComponentName>SAP HANA Analytical Modeling</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Installation information</d:Category>
+            <d:ReleasedOn>2013-11-22T07:11:00</d:ReleasedOn>
+            <d:Component>HAN-STD-DEV-MOD</d:Component>
+            <d:Responsible>I035154</d:Responsible>
+            <d:ChangedOn>2013-12-19T09:31:57</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(2019104l)</id>
+      <title type="text">SAPNotes(2019104l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(2019104l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You are have a design studio application deployed on a Hana system. In this application you are using the OnResultSetChanged event to execute a script. This event is triggered at every round trip, even if no resultset was changed.</d:Symptom>
+            <d:Number>2019104</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002019104</d:Link>
+            <d:Priority/>
+            <d:Title>Design &lt;b>Studio&lt;/b> &lt;b>Hana&lt;/b> deployment OnResultsetChanged event is triggered on every round trip</d:Title>
+            <d:ComponentName>Design Studio</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2014-06-30T07:25:34</d:ReleasedOn>
+            <d:Component>BI-RA-AD</d:Component>
+            <d:Responsible>D029388</d:Responsible>
+            <d:ChangedOn>2014-06-30T07:25:34</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1663573l)</id>
+      <title type="text">SAPNotes(1663573l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1663573l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>Bug with calculation view UI nodes and connectors moving independently.</d:Symptom>
+            <d:Number>1663573</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001663573</d:Link>
+            <d:Priority/>
+            <d:Title>SAP &lt;b>HANA&lt;/b> &lt;b>Studio&lt;/b> - calculation view UI nodes move bug</d:Title>
+            <d:ComponentName>SAP HANA Analytical Modeling</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Upgrade information</d:Category>
+            <d:ReleasedOn>2011-12-14T06:05:01</d:ReleasedOn>
+            <d:Component>HAN-STD-DEV-MOD</d:Component>
+            <d:Responsible>I035978</d:Responsible>
+            <d:ChangedOn>2011-12-14T06:05:01</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1660149l)</id>
+      <title type="text">SAPNotes(1660149l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1660149l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>Release note for HANA Studio revision 22....</d:Symptom>
+            <d:Number>1660149</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001660149</d:Link>
+            <d:Priority/>
+            <d:Title>Hot news for &lt;b>Hana&lt;/b> &lt;b>Studio&lt;/b> for Revision 22.</d:Title>
+            <d:ComponentName>SAP HANA Analytical Modeling</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Upgrade information</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:Component>HAN-STD-DEV-MOD</d:Component>
+            <d:Responsible>I035154</d:Responsible>
+            <d:ChangedOn>2011-12-02T17:13:06</d:ChangedOn>
+            <d:Status>In Process</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(2019901l)</id>
+      <title type="text">SAPNotes(2019901l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(2019901l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You are executing a Design Studio application in the browser which is deployed on a Hana system. This application contains a Design Studio SDK component. The application could not be executed, instead a javascript error occurs: SCRIPT5007: Unable to get v</d:Symptom>
+            <d:Number>2019901</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002019901</d:Link>
+            <d:Priority/>
+            <d:Title>Design &lt;b>Studio&lt;/b> &lt;b>Hana&lt;/b> deployment - SCRIPT5007: Unable to get value of the property 'getChildren': object is null or undefined</d:Title>
+            <d:ComponentName>Design Studio</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2014-06-30T07:26:04</d:ReleasedOn>
+            <d:Component>BI-RA-AD</d:Component>
+            <d:Responsible>D029388</d:Responsible>
+            <d:ChangedOn>2014-06-30T07:26:04</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(2022747l)</id>
+      <title type="text">SAPNotes(2022747l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(2022747l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You have updated SAP HANA Studio from SPS5 (revision 53) to SPS8. There may have been an error reported by the update tool. After the update, the studio does not start....In the hdbinst_studio.log file, there are messages like:...Skipping update of featur</d:Symptom>
+            <d:Number>2022747</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002022747</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>HANA&lt;/b> &lt;b>Studio&lt;/b> does not start after update from SPS5 to SPS8</d:Title>
+            <d:ComponentName>Upgrade of HANA Database</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2014-05-28T14:49:03</d:ReleasedOn>
+            <d:Component>HAN-LM-UPG-DB</d:Component>
+            <d:Responsible>D022860</d:Responsible>
+            <d:ChangedOn>2014-06-02T09:15:47</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(2099047l)</id>
+      <title type="text">SAPNotes(2099047l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(2099047l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>When using SAP HANA Studio on Mac OS X 10.10 Yosemite, the first row of data rendered in a table with a header is missing. In this context "table" does not refer to a database table, but refers to the UI control used in SAP HANA Studio to present some inf</d:Symptom>
+            <d:Number>2099047</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002099047</d:Link>
+            <d:Priority/>
+            <d:Title>First table row hidden in SAP &lt;b>HANA&lt;/b> &lt;b>Studio&lt;/b> on Mac OS 10.10</d:Title>
+            <d:ComponentName>SAP HANA Tools Platform / Team Provider</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2014-11-25T11:59:43</d:ReleasedOn>
+            <d:Component>HAN-STD-DEV-TP</d:Component>
+            <d:Responsible>D031150</d:Responsible>
+            <d:ChangedOn>2014-12-11T09:09:52</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1786278l)</id>
+      <title type="text">SAPNotes(1786278l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1786278l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>Bug with calculation view UI Validate Button in Filter Expression Dialog</d:Symptom>
+            <d:Number>1786278</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001786278</d:Link>
+            <d:Priority/>
+            <d:Title>SAP &lt;b>HANA&lt;/b> &lt;b>Studio&lt;/b> - Calculation View UI Validate Filter</d:Title>
+            <d:ComponentName>SAP HANA Analytical Modeling</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Upgrade information</d:Category>
+            <d:ReleasedOn>2012-11-09T15:43:11</d:ReleasedOn>
+            <d:Component>HAN-STD-DEV-MOD</d:Component>
+            <d:Responsible>I035978</d:Responsible>
+            <d:ChangedOn>2012-11-09T15:43:11</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1977043l)</id>
+      <title type="text">SAPNotes(1977043l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1977043l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>Der HANA Embedded Statistics Service meldet einen internen Fehler "[5030] 260 invalid column name: INSERTED_HIT_COUNT"</d:Symptom>
+            <d:Number>1977043</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001977043</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>HANA&lt;/b> Statistics Server - Interner Fehler für Kollektor 5030</d:Title>
+            <d:ComponentName>SAP HANA Database</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2014-03-25T08:40:53</d:ReleasedOn>
+            <d:Component>HAN-DB</d:Component>
+            <d:Responsible>D024584</d:Responsible>
+            <d:ChangedOn>2014-03-25T08:40:53</d:ChangedOn>
+            <d:Status>Released Internally</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1855610l)</id>
+      <title type="text">SAPNotes(1855610l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1855610l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>This SAP Note regards SPS04 (Revision 45) to SPS06....If you perform a client-side export to a directory that is not empty, the system will ask you if you want to delete this directory before exporting. If you confirm with "Yes", the directory is deleted.</d:Symptom>
+            <d:Number>1855610</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001855610</d:Link>
+            <d:Priority/>
+            <d:Title>Client-side export may delete export directory</d:Title>
+            <d:ComponentName>SAP HANA Studio (Eclipse) Admin Tooling</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Consulting</d:Category>
+            <d:ReleasedOn>2013-05-14T11:36:48</d:ReleasedOn>
+            <d:Component>HAN-STD-ADM-DBA</d:Component>
+            <d:Responsible>D058227</d:Responsible>
+            <d:ChangedOn>2013-05-14T11:36:48</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1861153l)</id>
+      <title type="text">SAPNotes(1861153l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1861153l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>With SAP HANA appliance SPS 06, the SAP HANA studio provides 2 Web-browser-based editors with which you can analyze historical performance data of the SAP HANA database: "Resource Utilization" and "Memory Allocation Statistcs". These editors use the techn</d:Symptom>
+            <d:Number>1861153</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001861153</d:Link>
+            <d:Priority/>
+            <d:Title>Installation of SAP Control Center 4.0 for SAP &lt;b>HANA&lt;/b> SPS 06</d:Title>
+            <d:ComponentName>SAP HANA Studio (Eclipse) Admin Tooling</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Installation information</d:Category>
+            <d:ReleasedOn m:null="true"/>
+            <d:Component>HAN-STD-ADM-DBA</d:Component>
+            <d:Responsible>I040811</d:Responsible>
+            <d:ChangedOn>2013-06-12T07:10:51</d:ChangedOn>
+            <d:Status>To Be Archived</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1803039l)</id>
+      <title type="text">SAPNotes(1803039l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1803039l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>After you start the statistics server for the first time or after you restart it, the following internal alert may be displayed:...Monitor CHECK_HOSTS_CPU: Undefined value at position 48 in expression 95 &amp;gt; CPU_HOST_RESOURCE_UTILIZATION_USER_PERC[] + CP</d:Symptom>
+            <d:Number>1803039</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001803039</d:Link>
+            <d:Priority/>
+            <d:Title>Statistics server CHECK_HOSTS_CPU intern. error when restart</d:Title>
+            <d:ComponentName>SAP HANA Studio (Eclipse) Admin Tooling</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2012-12-19T17:09:12</d:ReleasedOn>
+            <d:Component>HAN-STD-ADM-DBA</d:Component>
+            <d:Responsible>D030044</d:Responsible>
+            <d:ChangedOn>2012-12-19T17:09:12</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1837260l)</id>
+      <title type="text">SAPNotes(1837260l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1837260l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>Alias are not determined for newly added tables with authoring schemas in HANA modeler's Analytic view and Attribute View</d:Symptom>
+            <d:Number>1837260</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001837260</d:Link>
+            <d:Priority/>
+            <d:Title>SAP &lt;b>HANA&lt;/b> &lt;b>Studio&lt;/b> - Alias cannot be determined for models</d:Title>
+            <d:ComponentName>SAP HANA Analytical Modeling</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Upgrade information</d:Category>
+            <d:ReleasedOn>2013-03-21T13:50:45</d:ReleasedOn>
+            <d:Component>HAN-STD-DEV-MOD</d:Component>
+            <d:Responsible>I035978</d:Responsible>
+            <d:ChangedOn>2013-03-21T13:50:45</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1710712l)</id>
+      <title type="text">SAPNotes(1710712l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1710712l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You have a problem with Hana Models (e.g. with an analytic view). SAP support colleagues ask you to export the model and send it to SAP to enable reproducing the error locally.</d:Symptom>
+            <d:Number>1710712</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001710712</d:Link>
+            <d:Priority/>
+            <d:Title>How to export and import &lt;b>Hana&lt;/b> Models for support purposes</d:Title>
+            <d:ComponentName>SAP HANA Analytical Modeling</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Consulting</d:Category>
+            <d:ReleasedOn>2012-04-24T15:23:40</d:ReleasedOn>
+            <d:Component>HAN-STD-DEV-MOD</d:Component>
+            <d:Responsible>I035154</d:Responsible>
+            <d:ChangedOn>2016-11-30T15:03:22</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1737205l)</id>
+      <title type="text">SAPNotes(1737205l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1737205l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>This is the SAP Release Note for the SAP HANA database Revision 33 for SAP HANA appliance software SPS 04....</d:Symptom>
+            <d:Number>1737205</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001737205</d:Link>
+            <d:Priority/>
+            <d:Title>SAP &lt;b>HANA&lt;/b> appliance: Revision 33 of SAP &lt;b>HANA&lt;/b> database</d:Title>
+            <d:ComponentName>SAP HANA Database</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Upgrade information</d:Category>
+            <d:ReleasedOn>2012-07-06T15:16:11</d:ReleasedOn>
+            <d:Component>HAN-DB</d:Component>
+            <d:Responsible>D019628</d:Responsible>
+            <d:ChangedOn>2012-07-19T15:23:03</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(2110472l)</id>
+      <title type="text">SAPNotes(2110472l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(2110472l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You are trying to upgrade your SAP HANA Studio from revision 82 or later to revision 90 or later using the SAP HANA Installer (hdbinst or hdbsetup). Upgrade fails due to a message like "Cannot complete the install because of a conflicting dependency."</d:Symptom>
+            <d:Number>2110472</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002110472</d:Link>
+            <d:Priority/>
+            <d:Title>Upgrading SAP &lt;b>HANA&lt;/b> &lt;b>Studio&lt;/b> from Rev 82 or later to 90 or later</d:Title>
+            <d:ComponentName>SAP HANA Installation</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Upgrade information</d:Category>
+            <d:ReleasedOn>2014-12-18T07:48:45</d:ReleasedOn>
+            <d:Component>HAN-LM-INS</d:Component>
+            <d:Responsible>D044522</d:Responsible>
+            <d:ChangedOn>2015-01-30T13:59:44</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1718854l)</id>
+      <title type="text">SAPNotes(1718854l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1718854l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>When you try to open an analytic privilege, which was successfully activated previously, cannot be opened. When you try to open the analytic privilege, you get the following error message:...Error occurred while opening the object....Reason: com.sap.ndb.s</d:Symptom>
+            <d:Number>1718854</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001718854</d:Link>
+            <d:Priority/>
+            <d:Title>SAP &lt;b>HANA&lt;/b> Modeler: Error when opening Analytic privilege</d:Title>
+            <d:ComponentName>SAP HANA Analytical Modeling</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2012-05-15T08:24:15</d:ReleasedOn>
+            <d:Component>HAN-STD-DEV-MOD</d:Component>
+            <d:Responsible>I058986</d:Responsible>
+            <d:ChangedOn>2012-05-15T08:24:21</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+</feed>

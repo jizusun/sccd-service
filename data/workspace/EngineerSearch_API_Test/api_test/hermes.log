@@ -1,0 +1,3 @@
+2019-11-04 07:09:28,933 [pool-1-thread-1 for channel id=12465] WARN  com.eviware.soapui.SoapUI - Could not find jfxrt.jar. Internal browser will be disabled.
+2019-11-04 07:25:22,511 [pool-1-thread-2 for channel id=12471] WARN  com.eviware.soapui.SoapUI - Could not find jfxrt.jar. Internal browser will be disabled.
+2019-11-04 07:48:43,023 [pool-1-thread-1 for channel id=12476] WARN  com.eviware.soapui.SoapUI - Could not find jfxrt.jar. Internal browser will be disabled.

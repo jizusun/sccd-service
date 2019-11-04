@@ -1,0 +1,7 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Mon Nov 04 07:48:57 UTC 2019
+TestStep: SetSystemEndpoint
+
+----------------- Messages ------------------------------

@@ -1,0 +1,30 @@
+Status: OK
+Time Taken: 809
+Size: 0
+Timestamp: Mon Nov 04 07:49:03 UTC 2019
+TestStep: Check Onedx Auth
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-waeb84638.dispatcher.int.sap.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-waeb84638.dispatcher.int.sap.hana.ondemand.com/xsearch//services/onedxsearchauth?repository=SRH
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.hana.ondemand.com=!7g2iAvz5NbMHWIyfm8LAq5k/fj5zpRyP/4CaewEcqOi8f9tss1XIDRnirlEN5kAflS4Y9caWIknfgZI=; JSESSIONID=81067D591FAE0C51C2DDF1768FFCF4F38C59AB79FAD67A7CEE78B81C341F2222; JTENANTSESSIONID_waeb84638=nem0wAksl3nKkJO59uRbOs3YBAezhnUrolkVb%2BfXOMs%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-waeb84638.dispatcher.int.sap.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+---------------- Response --------------------------
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Access-Token: [eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb2hfc3VwcG9ydF9sYXVuY2hwYWRfcm9fY2xpZW50Iiwicm9sZXMiOlsiYXV0aGVudGljYXRlZCJdLCJhZGRpdGlvbmFsRGF0YUlEUCI6e30sIm5hbWUiOiJzb2hfc3VwcG9ydF9sYXVuY2hwYWRfcm9fY2xpZW50IiwiaXNzIjoicHVibGljLXNlYXJjaC1xYS1uZXctYXBpLmNmYXBwcy5ldTEwLmhhbmEub25kZW1hbmQuY29tIiwiYWRkaXRpb25hbERhdGEiOnsiZ3JvdXBzIjpbImEiLCJwIl19LCJyZXBvc2l0b3J5IjoiU1JIIiwidHlwZSI6InRlY2huaWNhbCIsImV4cCI6MTU3Mjg2NTc0NCwiaWF0IjoxNTcyODUzNzQ0fQ.8Cd46vInmJStHNZPqFjsYAEOohyhj9ZKWF2yFXMp57E]
+Server: [SAP]
+#status#: [HTTP/1.1 200 ]
+Content-Length: [0]
+Date: [Mon, 04 Nov 2019 07:49:04 GMT]

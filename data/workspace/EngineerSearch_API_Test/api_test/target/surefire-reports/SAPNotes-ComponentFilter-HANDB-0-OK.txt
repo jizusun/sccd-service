@@ -1,0 +1,190 @@
+Status: OK
+Time Taken: 90
+Size: 7117
+Timestamp: Mon Nov 04 07:48:49 UTC 2019
+TestStep: HAN-DB*
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet?%24skip=0&%24top=5&%24filter=%28FilterKeywordsFuzzy%20eq%20%27hana%27%20and%20%28%28Component%20eq%20%27HAN-DB*%27%29%29%29
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!Oi2HuAoDfzLAaHzm5e9QtIhWtwkpHqZbPVSlCcra6D0wZCDy7OpoazIBPgFoWhg1zK56wV/k5BTeUw==; JSESSIONID=0F0C4C17364BD0DEBAFA70DCF2F2132E401423ABF83ABBB30E5DBEFB3347FC44; JTENANTSESSIONID_dgq5qdz5dm=JahaZTwsHc57OaqG1oA3nGKMfGlbx3EC%2BXcPhdMEKUI%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet?%24skip=0&%24top=5&%24filter=%28FilterKeywordsFuzzy%20eq%20%27hana%27%20and%20%28%28Component%20eq%20%27HAN-DB*%27%29%29%29 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!Oi2HuAoDfzLAaHzm5e9QtIhWtwkpHqZbPVSlCcra6D0wZCDy7OpoazIBPgFoWhg1zK56wV/k5BTeUw==; JSESSIONID=0F0C4C17364BD0DEBAFA70DCF2F2132E401423ABF83ABBB30E5DBEFB3347FC44; JTENANTSESSIONID_dgq5qdz5dm=JahaZTwsHc57OaqG1oA3nGKMfGlbx3EC%2BXcPhdMEKUI%3D
+Cookie2: $Version=1
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Server: [SAP]
+Content-Encoding: [gzip]
+sap-metadata-last-modified: [Sat, 03 Aug 2019 09:51:11 GMT]
+sap-perf-fesrec: [70123.000000]
+Vary: [Accept-Encoding]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache]
+dataserviceversion: [2.0]
+Date: [Mon, 04 Nov 2019 07:48:49 GMT]
+Content-Type: [application/atom+xml; type=feed;charset=utf-8]
+
+<feed xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+   <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet</id>
+   <title type="text">ComponentFilterSet</title>
+   <updated>2019-11-04T07:48:48Z</updated>
+   <author>
+      <name/>
+   </author>
+   <link href="ComponentFilterSet" rel="self" title="ComponentFilterSet"/>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet('HAN-DB%2A')</id>
+      <title type="text">ComponentFilterSet('HAN-DB%2A')</title>
+      <updated>2019-11-04T07:48:48Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.ComponentFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="ComponentFilterSet('HAN-DB%2A')" rel="self" title="ComponentFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>true</d:Selected>
+            <d:ComponentName>SAP HANA Database</d:ComponentName>
+            <d:Priority/>
+            <d:Count>525</d:Count>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Component>HAN-DB*</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterDocumentType/>
+            <d:StatusKey/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet('HAN-DB')</id>
+      <title type="text">ComponentFilterSet('HAN-DB')</title>
+      <updated>2019-11-04T07:48:48Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.ComponentFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="ComponentFilterSet('HAN-DB')" rel="self" title="ComponentFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>false</d:Selected>
+            <d:ComponentName>SAP HANA Database</d:ComponentName>
+            <d:Priority/>
+            <d:Count>316</d:Count>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Component>HAN-DB</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterDocumentType/>
+            <d:StatusKey/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet('HAN-DB-ENG%2A')</id>
+      <title type="text">ComponentFilterSet('HAN-DB-ENG%2A')</title>
+      <updated>2019-11-04T07:48:48Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.ComponentFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="ComponentFilterSet('HAN-DB-ENG%2A')" rel="self" title="ComponentFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>false</d:Selected>
+            <d:ComponentName>SAP HANA DB Engines</d:ComponentName>
+            <d:Priority/>
+            <d:Count>132</d:Count>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Component>HAN-DB-ENG*</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterDocumentType/>
+            <d:StatusKey/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet('HAN-DB-BAC')</id>
+      <title type="text">ComponentFilterSet('HAN-DB-BAC')</title>
+      <updated>2019-11-04T07:48:48Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.ComponentFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="ComponentFilterSet('HAN-DB-BAC')" rel="self" title="ComponentFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>false</d:Selected>
+            <d:ComponentName>SAP HANA Backup &amp; Recovery</d:ComponentName>
+            <d:Priority/>
+            <d:Count>20</d:Count>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Component>HAN-DB-BAC</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterDocumentType/>
+            <d:StatusKey/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/ComponentFilterSet('HAN-DB-AFL%2A')</id>
+      <title type="text">ComponentFilterSet('HAN-DB-AFL%2A')</title>
+      <updated>2019-11-04T07:48:48Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.ComponentFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="ComponentFilterSet('HAN-DB-AFL%2A')" rel="self" title="ComponentFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Selected>false</d:Selected>
+            <d:ComponentName>Please use subcomponents, see SAP Note 2198403</d:ComponentName>
+            <d:Priority/>
+            <d:Count>15</d:Count>
+            <d:Category/>
+            <d:Responsible/>
+            <d:Component>HAN-DB-AFL*</d:Component>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:ChangedOn m:null="true"/>
+            <d:FilterFuzzyThreshold/>
+            <d:ReleasedOn m:null="true"/>
+            <d:FilterDocumentType/>
+            <d:StatusKey/>
+            <d:FilterChangedOnDefined/>
+            <d:FilterReleasedOnDefined/>
+         </m:properties>
+      </content>
+   </entry>
+</feed>

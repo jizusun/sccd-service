@@ -1,0 +1,727 @@
+Status: OK
+Time Taken: 64
+Size: 33342
+Timestamp: Mon Nov 04 07:48:57 UTC 2019
+TestStep: SearchTerm_part*
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents?%24skip=0&%24top=25&%24filter=%28FilterKeywords%20eq%20%27part*%27%29
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!Fe44iKfDqjpCILXm5e9QtIhWtwkpHonYU0sTUL3FR28zmRt9jRNn7qE6h+b3uLJl5IpO0g+T9vCAoQ==; JSESSIONID=8EBD6FDF86E33647D7AE3286D87DF4F78A82ED021DC3E564D01995273765B599; JTENANTSESSIONID_dgq5qdz5dm=mtDS%2FkAKHUH4ybXSB27mfwPMOzLaFCqlcEJr4uLTWGI%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents?%24skip=0&%24top=25&%24filter=%28FilterKeywords%20eq%20%27part*%27%29 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!Fe44iKfDqjpCILXm5e9QtIhWtwkpHonYU0sTUL3FR28zmRt9jRNn7qE6h+b3uLJl5IpO0g+T9vCAoQ==; JSESSIONID=8EBD6FDF86E33647D7AE3286D87DF4F78A82ED021DC3E564D01995273765B599; JTENANTSESSIONID_dgq5qdz5dm=mtDS%2FkAKHUH4ybXSB27mfwPMOzLaFCqlcEJr4uLTWGI%3D
+Cookie2: $Version=1
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Server: [SAP]
+Content-Encoding: [gzip]
+sap-metadata-last-modified: [Mon, 27 Aug 2018 14:02:50 GMT]
+sap-perf-fesrec: [42768.000000]
+Vary: [Accept-Encoding]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache]
+dataserviceversion: [2.0]
+Date: [Mon, 04 Nov 2019 07:48:56 GMT]
+Content-Type: [application/atom+xml; type=feed;charset=utf-8]
+
+<feed xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+   <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents</id>
+   <title type="text">Incidents</title>
+   <updated>2019-11-04T07:48:57Z</updated>
+   <author>
+      <name/>
+   </author>
+   <link href="Incidents" rel="self" title="Incidents"/>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('0894EF223BC21ED9B0CDEF626ACA20E6')</id>
+      <title type="text">Incidents('0894EF223BC21ED9B0CDEF626ACA20E6')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('0894EF223BC21ED9B0CDEF626ACA20E6')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1970032107</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9B0CDEF626ACA20E6</d:Link>
+            <d:GUID>0894EF223BC21ED9B0CDEF626ACA20E6</d:GUID>
+            <d:Title>test parties involved for psi</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>XX-XX-22</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-08-19T10:53:45</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('0894EF223BC21ED886F4DDCB6CDCA0D0')</id>
+      <title type="text">Incidents('0894EF223BC21ED886F4DDCB6CDCA0D0')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('0894EF223BC21ED886F4DDCB6CDCA0D0')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1870003966</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED886F4DDCB6CDCA0D0</d:Link>
+            <d:GUID>0894EF223BC21ED886F4DDCB6CDCA0D0</d:GUID>
+            <d:Title>WS_Geschäftspartner im Reiter Covenants läßt sich nicht nacherfassen</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>XX-XX-22</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor>Falk Wolfram</d:Processor>
+            <d:CreatedOn>2018-02-27T10:14:04</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('0894EF223BC21ED885B10FF9853A00CF')</id>
+      <title type="text">Incidents('0894EF223BC21ED885B10FF9853A00CF')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('0894EF223BC21ED885B10FF9853A00CF')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1870003499</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED885B10FF9853A00CF</d:Link>
+            <d:GUID>0894EF223BC21ED885B10FF9853A00CF</d:GUID>
+            <d:Title>Test Partner</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>XX-XX-22</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor>Marco Coy</d:Processor>
+            <d:CreatedOn>2018-02-19T15:21:34</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('0894EF223BC21ED881A1D24A08FF20CF')</id>
+      <title type="text">Incidents('0894EF223BC21ED881A1D24A08FF20CF')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('0894EF223BC21ED881A1D24A08FF20CF')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1870002083</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED881A1D24A08FF20CF</d:Link>
+            <d:GUID>0894EF223BC21ED881A1D24A08FF20CF</d:GUID>
+            <d:Title>WS_Partner 117_SEPA Mandat nicht nutzbar</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>XX-PROJ-CDP-TEST-515</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2018-01-29T16:08:05</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('0894EF223BC21ED880847E00CDA0C0CE')</id>
+      <title type="text">Incidents('0894EF223BC21ED880847E00CDA0C0CE')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('0894EF223BC21ED880847E00CDA0C0CE')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1870001709</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED880847E00CDA0C0CE</d:Link>
+            <d:GUID>0894EF223BC21ED880847E00CDA0C0CE</d:GUID>
+            <d:Title>WS_Partner 117_SEPA Mandat nicht nutzbar</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>XX-XX-22</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor>Falk Wolfram</d:Processor>
+            <d:CreatedOn>2018-01-23T09:58:29</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('0894EF223BC21ED6B7DF14654D42A0C8')</id>
+      <title type="text">Incidents('0894EF223BC21ED6B7DF14654D42A0C8')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('0894EF223BC21ED6B7DF14654D42A0C8')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1770001154</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED6B7DF14654D42A0C8</d:Link>
+            <d:GUID>0894EF223BC21ED6B7DF14654D42A0C8</d:GUID>
+            <d:Title>Test Andreas ZTESTER is Undefined Partner</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>XX-XX-22</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor>Juergen Mueller</d:Processor>
+            <d:CreatedOn>2017-01-20T10:12:00</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('0A94EF223BC81ED6A6BD372DE70DE0C7')</id>
+      <title type="text">Incidents('0A94EF223BC81ED6A6BD372DE70DE0C7')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('0A94EF223BC81ED6A6BD372DE70DE0C7')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1670003123</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0A94EF223BC81ED6A6BD372DE70DE0C7</d:Link>
+            <d:GUID>0A94EF223BC81ED6A6BD372DE70DE0C7</d:GUID>
+            <d:Title>Test - new text rules</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>XX-XX-22</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0001</d:Priority>
+            <d:Status>Author Action</d:Status>
+            <d:Processor>Marco Coy</d:Processor>
+            <d:CreatedOn>2016-10-24T13:00:14</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31EE699A42633BBFF4C2C')</id>
+      <title type="text">Incidents('005056B66AB31EE699A42633BBFF4C2C')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31EE699A42633BBFF4C2C')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1670001886</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31EE699A42633BBFF4C2C</d:Link>
+            <d:GUID>005056B66AB31EE699A42633BBFF4C2C</d:GUID>
+            <d:Title>test tiny before switch</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>XX-XX-22</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>In Process</d:Status>
+            <d:Processor>Juergen Mueller</d:Processor>
+            <d:CreatedOn>2016-08-18T08:54:15</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31EE692B7C55BA72D4C2C')</id>
+      <title type="text">Incidents('005056B66AB31EE692B7C55BA72D4C2C')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31EE692B7C55BA72D4C2C')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1670001315</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31EE692B7C55BA72D4C2C</d:Link>
+            <d:GUID>005056B66AB31EE692B7C55BA72D4C2C</d:GUID>
+            <d:Title>Test-LK</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>BC-ABA-LA</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2016-07-14T12:26:22</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31EE692B6C501E8154C2C')</id>
+      <title type="text">Incidents('005056B66AB31EE692B6C501E8154C2C')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31EE692B6C501E8154C2C')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1670001313</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31EE692B6C501E8154C2C</d:Link>
+            <d:GUID>005056B66AB31EE692B6C501E8154C2C</d:GUID>
+            <d:Title>Test IE II</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>PT-RC</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0002</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor>Marco Coy</d:Processor>
+            <d:CreatedOn>2016-07-14T11:29:44</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31EE68BDCE4B82917CC2C')</id>
+      <title type="text">Incidents('005056B66AB31EE68BDCE4B82917CC2C')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31EE68BDCE4B82917CC2C')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1670001076</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31EE68BDCE4B82917CC2C</d:Link>
+            <d:GUID>005056B66AB31EE68BDCE4B82917CC2C</d:GUID>
+            <d:Title>Int I Involved Parties</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>XX-XX-22</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2016-06-10T08:42:08</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31ED684ECF692A08AA69C')</id>
+      <title type="text">Incidents('005056B66AB31ED684ECF692A08AA69C')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31ED684ECF692A08AA69C')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1670000775</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31ED684ECF692A08AA69C</d:Link>
+            <d:GUID>005056B66AB31ED684ECF692A08AA69C</d:GUID>
+            <d:Title>TEST LK: text und image</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>BC-ABA-LA</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Completed for Author</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2016-05-06T08:51:24</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31ED684C08222D266269C')</id>
+      <title type="text">Incidents('005056B66AB31ED684C08222D266269C')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31ED684C08222D266269C')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1670000763</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31ED684C08222D266269C</d:Link>
+            <d:GUID>005056B66AB31ED684C08222D266269C</d:GUID>
+            <d:Title>TEST LK: text</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>BC-ABA-LA</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2016-05-04T14:25:37</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31EE5B0F03283FE7E2D2D')</id>
+      <title type="text">Incidents('005056B66AB31EE5B0F03283FE7E2D2D')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31EE5B0F03283FE7E2D2D')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1670000140</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31EE5B0F03283FE7E2D2D</d:Link>
+            <d:GUID>005056B66AB31EE5B0F03283FE7E2D2D</d:GUID>
+            <d:Title>Test Counter</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>XX-XX-22</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0001</d:Priority>
+            <d:Status>In Process</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2016-01-25T16:36:05</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31ED5A2AADB8E0C302CF8')</id>
+      <title type="text">Incidents('005056B66AB31ED5A2AADB8E0C302CF8')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31ED5A2AADB8E0C302CF8')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1570064163</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31ED5A2AADB8E0C302CF8</d:Link>
+            <d:GUID>005056B66AB31ED5A2AADB8E0C302CF8</d:GUID>
+            <d:Title/>
+            <d:Snippet/>
+            <d:SAPComponent>BC-TWB-ORG</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor>Andreas Ziegler</d:Processor>
+            <d:CreatedOn>2015-11-12T16:03:24</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31EE5828C07E40BDDDC58')</id>
+      <title type="text">Incidents('005056B66AB31EE5828C07E40BDDDC58')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31EE5828C07E40BDDDC58')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1570054173</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31EE5828C07E40BDDDC58</d:Link>
+            <d:GUID>005056B66AB31EE5828C07E40BDDDC58</d:GUID>
+            <d:Title>Test</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>SCM-EWM-PI</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2015-06-01T13:16:26</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31EE4BFDEFACD668AFC58')</id>
+      <title type="text">Incidents('005056B66AB31EE4BFDEFACD668AFC58')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31EE4BFDEFACD668AFC58')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1570054007</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31EE4BFDEFACD668AFC58</d:Link>
+            <d:GUID>005056B66AB31EE4BFDEFACD668AFC58</d:GUID>
+            <d:Title>Test</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>SCM-EWM-PI</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2015-05-20T14:20:35</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31EE4B5F5E1F9D86C7C58')</id>
+      <title type="text">Incidents('005056B66AB31EE4B5F5E1F9D86C7C58')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31EE4B5F5E1F9D86C7C58')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1570023575</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31EE4B5F5E1F9D86C7C58</d:Link>
+            <d:GUID>005056B66AB31EE4B5F5E1F9D86C7C58</d:GUID>
+            <d:Title>Test: New text persistency + TinyMCE</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>BC-ABA-LA</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0001</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor>Andreas Ziegler</d:Processor>
+            <d:CreatedOn>2015-03-31T14:15:41</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31EE4AC88242A91D2DE45')</id>
+      <title type="text">Incidents('005056B66AB31EE4AC88242A91D2DE45')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31EE4AC88242A91D2DE45')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1570004607</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31EE4AC88242A91D2DE45</d:Link>
+            <d:GUID>005056B66AB31EE4AC88242A91D2DE45</d:GUID>
+            <d:Title>test björn Int. Part.</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>AC-COB</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0001</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor>Bjoern Christoph</d:Processor>
+            <d:CreatedOn>2015-02-09T09:51:55</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31ED49AB329816A38CB88')</id>
+      <title type="text">Incidents('005056B66AB31ED49AB329816A38CB88')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31ED49AB329816A38CB88')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1472002437</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31ED49AB329816A38CB88</d:Link>
+            <d:GUID>005056B66AB31ED49AB329816A38CB88</d:GUID>
+            <d:Title>Reproduce notification issue</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>BC-TWB-TST-P-PA</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0004</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor>Susanne Moeckl</d:Processor>
+            <d:CreatedOn>2014-11-11T11:54:06</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31EE48BD8B93E6C0DF150')</id>
+      <title type="text">Incidents('005056B66AB31EE48BD8B93E6C0DF150')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31EE48BD8B93E6C0DF150')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>1472000804</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31EE48BD8B93E6C0DF150</d:Link>
+            <d:GUID>005056B66AB31EE48BD8B93E6C0DF150</d:GUID>
+            <d:Title>Partner OVS not working</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>LOD-CRM-PRN</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0002</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2014-08-28T15:13:04</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31EE3B6B6E083C4025444')</id>
+      <title type="text">Incidents('005056B66AB31EE3B6B6E083C4025444')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31EE3B6B6E083C4025444')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0010000814</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31EE3B6B6E083C4025444</d:Link>
+            <d:GUID>005056B66AB31EE3B6B6E083C4025444</d:GUID>
+            <d:Title>Test with Andreas as partner</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>BC-ABA-LA</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Completed for Author</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2014-05-12T09:28:59</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31EE3B6B6DF12507ED444')</id>
+      <title type="text">Incidents('005056B66AB31EE3B6B6DF12507ED444')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31EE3B6B6DF12507ED444')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0010000813</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31EE3B6B6DF12507ED444</d:Link>
+            <d:GUID>005056B66AB31EE3B6B6DF12507ED444</d:GUID>
+            <d:Title>Test with Martin as partner</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>BC-ABA-LA</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2014-05-12T09:25:30</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/Incidents('005056B66AB31EE3B6B6992959EEB444')</id>
+      <title type="text">Incidents('005056B66AB31EE3B6B6992959EEB444')</title>
+      <updated>2019-11-04T07:48:57Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.Incident" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="Incidents('005056B66AB31EE3B6B6992959EEB444')" rel="self" title="Incident"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0010000812</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID/>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/005056B66AB31EE3B6B6992959EEB444</d:Link>
+            <d:GUID>005056B66AB31EE3B6B6992959EEB444</d:GUID>
+            <d:Title>Test with Martin Mustermann as partner</d:Title>
+            <d:Snippet/>
+            <d:SAPComponent>BC-ABA-LA</d:SAPComponent>
+            <d:CategoryType>ZINI</d:CategoryType>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2014-05-12T09:08:23</d:CreatedOn>
+            <d:Year/>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+</feed>

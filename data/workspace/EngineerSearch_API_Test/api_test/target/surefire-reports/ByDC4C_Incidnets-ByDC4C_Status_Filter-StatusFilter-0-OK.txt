@@ -1,0 +1,73 @@
+Status: OK
+Time Taken: 56
+Size: 1490
+Timestamp: Mon Nov 04 07:49:15 UTC 2019
+TestStep: StatusFilter
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/ByDStatusFilterSet?%24skip=0&%24top=5&%24filter=%28FilterKeywords%20eq%20%27test%27%20and%20%28%28Queue%20eq%20%273000086128%27%20or%20Queue%20eq%20%273000085622%27%29%20and%20%28Status%20eq%20%27E0005%27%29%20and%20%28ProductVer%20eq%20%27SAP%20A1S%201.0%27%29%29%29
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!6vTJQnpC92Z1Kuvm5e9QtIhWtwkpHke+uhTnyvjUZGR6Ynx3tZoikpphPr4AWmXwmk3IB5s/FcUO7g==; JSESSIONID=F91B652F92A8A58FE24A466333BCEA4B796A97959EC7AD7E007A73805E7A6299; JTENANTSESSIONID_dgq5qdz5dm=altXMZcX%2BHhccl5oxUSVCurbnPF5pVx%2F1nbbIg2zFKw%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/ByDStatusFilterSet?%24skip=0&%24top=5&%24filter=%28FilterKeywords%20eq%20%27test%27%20and%20%28%28Queue%20eq%20%273000086128%27%20or%20Queue%20eq%20%273000085622%27%29%20and%20%28Status%20eq%20%27E0005%27%29%20and%20%28ProductVer%20eq%20%27SAP%20A1S%201.0%27%29%29%29 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!6vTJQnpC92Z1Kuvm5e9QtIhWtwkpHke+uhTnyvjUZGR6Ynx3tZoikpphPr4AWmXwmk3IB5s/FcUO7g==; JSESSIONID=F91B652F92A8A58FE24A466333BCEA4B796A97959EC7AD7E007A73805E7A6299; JTENANTSESSIONID_dgq5qdz5dm=altXMZcX%2BHhccl5oxUSVCurbnPF5pVx%2F1nbbIg2zFKw%3D
+Cookie2: $Version=1
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Server: [SAP]
+Content-Encoding: [gzip]
+sap-metadata-last-modified: [Mon, 27 Aug 2018 14:02:50 GMT]
+sap-perf-fesrec: [33397.000000]
+Vary: [Accept-Encoding]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache]
+dataserviceversion: [2.0]
+Date: [Mon, 04 Nov 2019 07:49:15 GMT]
+Content-Type: [application/atom+xml; type=feed;charset=utf-8]
+
+<feed xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+   <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/ByDStatusFilterSet</id>
+   <title type="text">ByDStatusFilterSet</title>
+   <updated>2019-11-04T07:49:15Z</updated>
+   <author>
+      <name/>
+   </author>
+   <link href="ByDStatusFilterSet" rel="self" title="ByDStatusFilterSet"/>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/ByDStatusFilterSet('E0005')</id>
+      <title type="text">ByDStatusFilterSet('E0005')</title>
+      <updated>2019-11-04T07:49:15Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.ByDStatusFilter" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="ByDStatusFilterSet('E0005')" rel="self" title="ByDStatusFilter"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:FilterKeywords/>
+            <d:Queue/>
+            <d:StatusText>Transferred to CSS</d:StatusText>
+            <d:Status>E0005</d:Status>
+            <d:ProductVer/>
+            <d:Count>1</d:Count>
+            <d:Selected>true</d:Selected>
+         </m:properties>
+      </content>
+   </entry>
+</feed>

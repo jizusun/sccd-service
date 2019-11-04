@@ -1,0 +1,7 @@
+Status: OK
+Time Taken: 1
+Size: 0
+Timestamp: Mon Nov 04 07:48:54 UTC 2019
+TestStep: get saml reponse data
+
+----------------- Messages ------------------------------

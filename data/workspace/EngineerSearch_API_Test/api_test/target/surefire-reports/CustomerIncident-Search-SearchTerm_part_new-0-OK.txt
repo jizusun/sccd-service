@@ -1,0 +1,755 @@
+Status: OK
+Time Taken: 93
+Size: 36298
+Timestamp: Mon Nov 04 07:48:55 UTC 2019
+TestStep: SearchTerm_part*_new
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs?%24skip=0&%24top=25&%24filter=%28FilterKeywords%20eq%20%27part*%27%29
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!f915zfP9/ymMSQbm5e9QtIhWtwkpHu3BwfqiVKOaFS9V4JW5QfN2PdhaR6ZquIZlPoCVBZtCjnhDGpQ=; JSESSIONID=A280C6D73A038FDA520F582196A2CAA9F7C3F4792008C85DDC51671DC0486B08; JTENANTSESSIONID_dgq5qdz5dm=JPqqyJ%2BDPm%2BpAMdKAkovhZp34uA3aeQElCIu9JkVvnA%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs?%24skip=0&%24top=25&%24filter=%28FilterKeywords%20eq%20%27part*%27%29 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!f915zfP9/ymMSQbm5e9QtIhWtwkpHu3BwfqiVKOaFS9V4JW5QfN2PdhaR6ZquIZlPoCVBZtCjnhDGpQ=; JSESSIONID=A280C6D73A038FDA520F582196A2CAA9F7C3F4792008C85DDC51671DC0486B08; JTENANTSESSIONID_dgq5qdz5dm=JPqqyJ%2BDPm%2BpAMdKAkovhZp34uA3aeQElCIu9JkVvnA%3D
+Cookie2: $Version=1
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Server: [SAP]
+Content-Encoding: [gzip]
+sap-metadata-last-modified: [Mon, 27 Aug 2018 14:02:50 GMT]
+sap-perf-fesrec: [49050.000000]
+Vary: [Accept-Encoding]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache]
+dataserviceversion: [2.0]
+Date: [Mon, 04 Nov 2019 07:48:55 GMT]
+Content-Type: [application/atom+xml; type=feed;charset=utf-8]
+
+<feed xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+   <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs</id>
+   <title type="text">InfoDocs</title>
+   <updated>2019-11-04T07:48:56Z</updated>
+   <author>
+      <name/>
+   </author>
+   <link href="InfoDocs" rel="self" title="InfoDocs"/>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BFD5A259EDC9E0EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BFD5A259EDC9E0EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BFD5A259EDC9E0EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000156585</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002075125200001565852019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BFD5A259EDC9E0EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BFD5A259EDC9E0EC</d:Link>
+            <d:Title>test1043</d:Title>
+            <d:SAPComponent>XX-PART-DSN</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to ServiceNow</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-11-04T02:43:17</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BFD2A27CEAC980EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BFD2A27CEAC980EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BFD2A27CEAC980EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000036520</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000365202019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BFD2A27CEAC980EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BFD2A27CEAC980EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-11-03T23:53:15</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BFD29F534392E0EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BFD29F534392E0EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BFD29F534392E0EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000036497</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000364972019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BFD29F534392E0EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BFD29F534392E0EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-11-03T23:52:25</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BFB99129777A80EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BFB99129777A80EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BFB99129777A80EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000023038</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376700000230382019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BFB99129777A80EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BFB99129777A80EC</d:Link>
+            <d:Title>API(Columbus) created from SNOW using CEC-SRV-FSM in DEV instance created at 2019-11-02 23:57:00</d:Title>
+            <d:SAPComponent>XX-PART-DSN</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0002</d:Priority>
+            <d:Status>Sent to ServiceNow</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-11-02T23:57:01</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BF873273865660EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BF873273865660EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BF873273865660EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000036333</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000363332019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BF873273865660EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BF873273865660EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-31T23:53:05</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BF872ED335D3A0EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BF872ED335D3A0EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BF872ED335D3A0EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000036310</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000363102019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BF872ED335D3A0EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BF872ED335D3A0EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-31T23:52:14</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BEF7CB5B1433A0EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BEF7CB5B1433A0EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BEF7CB5B1433A0EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000156086</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002075125200001560862019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BEF7CB5B1433A0EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BEF7CB5B1433A0EC</d:Link>
+            <d:Title>test solman incident</d:Title>
+            <d:SAPComponent>SV-SMG-SUP-TST-IV</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-31T09:09:37</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BEF5A5BDA18FC0EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BEF5A5BDA18FC0EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BEF5A5BDA18FC0EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000156065</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002075125200001560652019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BEF5A5BDA18FC0EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BEF5A5BDA18FC0EC</d:Link>
+            <d:Title>Test for amber 20191031</d:Title>
+            <d:SAPComponent>CEC-SRV-FSM</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to ServiceNow</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-31T07:06:07</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BEEE0DDD1CC440EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BEEE0DDD1CC440EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BEEE0DDD1CC440EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000036241</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000362412019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BEEE0DDD1CC440EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BEEE0DDD1CC440EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-30T23:53:20</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BEEE09DB9D91E0EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BEEE09DB9D91E0EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BEEE09DB9D91E0EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000036218</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000362182019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BEEE09DB9D91E0EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BEEE09DB9D91E0EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-30T23:52:28</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BED4E7BF905880EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BED4E7BF905880EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BED4E7BF905880EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000036132</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000361322019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BED4E7BF905880EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BED4E7BF905880EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-29T23:53:06</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BED4E3E669CE40EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BED4E3E669CE40EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BED4E3E669CE40EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000036109</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000361092019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BED4E3E669CE40EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BED4E3E669CE40EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-29T23:52:15</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BEC9433498F200EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BEC9433498F200EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BEC9433498F200EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000021860</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376700000218602019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BEC9433498F200EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BEC9433498F200EC</d:Link>
+            <d:Title>test isv</d:Title>
+            <d:SAPComponent>XX-PART-DSN</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to ServiceNow</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-29T12:45:07</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BEC6168FAF02E0EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BEC6168FAF02E0EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BEC6168FAF02E0EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000154181</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002075125200001541812019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BEC6168FAF02E0EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BEC6168FAF02E0EC</d:Link>
+            <d:Title>test eudp</d:Title>
+            <d:SAPComponent>XX-PART-DSN</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to ServiceNow</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-29T09:43:26</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BEBCB1A673AEA0EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BEBCB1A673AEA0EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BEBCB1A673AEA0EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000153496</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002075125200001534962019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BEBCB1A673AEA0EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BEBCB1A673AEA0EC</d:Link>
+            <d:Title>DEV*SoapUI test to create Incident for SNOW in W7with Customer role for own customer, created at 2019-10-29 00:45:11</d:Title>
+            <d:SAPComponent>CRM-BTX-ACT</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>New</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-29T00:45:13</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BEBBC25F8B8C80EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BEBBC25F8B8C80EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BEBBC25F8B8C80EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000036061</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000360612019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BEBBC25F8B8C80EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BEBBC25F8B8C80EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-28T23:53:10</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BEBBBF43473780EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BEBBBF43473780EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BEBBBF43473780EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000036038</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000360382019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BEBBBF43473780EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BEBBBF43473780EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-28T23:52:20</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BEA29DB8D4D080EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BEA29DB8D4D080EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BEA29DB8D4D080EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000035990</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000359902019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BEA29DB8D4D080EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BEA29DB8D4D080EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-27T23:53:12</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BEA299B72C4D40EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BEA299B72C4D40EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BEA299B72C4D40EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000035967</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000359672019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BEA299B72C4D40EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BEA299B72C4D40EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-27T23:52:23</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BDD72E8A50E960EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BDD72E8A50E960EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BDD72E8A50E960EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000035919</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000359192019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BDD72E8A50E960EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BDD72E8A50E960EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-24T23:53:25</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BDD72A92516D20EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BDD72A92516D20EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BDD72A92516D20EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000035896</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000358962019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BDD72A92516D20EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BDD72A92516D20EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-24T23:52:35</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BDBE0974A9D9C0EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BDBE0974A9D9C0EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BDBE0974A9D9C0EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000035848</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000358482019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BDBE0974A9D9C0EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BDBE0974A9D9C0EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-23T23:53:26</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BDBE05BED8A640EC')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BDBE05BED8A640EC')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BDBE05BED8A640EC')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000035825</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002028376000000358252019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BDBE05BED8A640EC</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BDBE05BED8A640EC</d:Link>
+            <d:Title>[@UT]::Auto generated by Cust Inc Factory which will routed to Partner</d:Title>
+            <d:SAPComponent>XX-PART-BIZ</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to Partner</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-23T23:52:36</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BDA8C887D159C0EB')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BDA8C887D159C0EB')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BDA8C887D159C0EB')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000144972</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002075125200001449722019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BDA8C887D159C0EB</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BDA8C887D159C0EB</d:Link>
+            <d:Title>test solman case 20191024-06</d:Title>
+            <d:SAPComponent>LOD-SF-ANA</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to ServiceNow</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-23T03:34:46</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/bc/odata/rfa_gws_incident/InfoDocs('0894EF223BC21ED9BDA822869A7EC0EB')</id>
+      <title type="text">InfoDocs('0894EF223BC21ED9BDA822869A7EC0EB')</title>
+      <updated>2019-11-04T07:48:56Z</updated>
+      <category term="SVC.RFA_GWS_INCIDENT_SRV.InfoDoc" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="InfoDocs('0894EF223BC21ED9BDA822869A7EC0EB')" rel="self" title="InfoDoc"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:DocumentID>0000144969</d:DocumentID>
+            <d:Component/>
+            <d:CSSObjectID>002075125200001449692019</d:CSSObjectID>
+            <d:GUID>0894EF223BC21ED9BDA822869A7EC0EB</d:GUID>
+            <d:Link>https://bcdmain.wdf.sap.corp/sap/support/message/0894EF223BC21ED9BDA822869A7EC0EB</d:Link>
+            <d:Title>test solman case 20191024-03</d:Title>
+            <d:SAPComponent>XX-PART-DSN</d:SAPComponent>
+            <d:CategoryType>ZTIN</d:CategoryType>
+            <d:Snippet/>
+            <d:Priority>0003</d:Priority>
+            <d:Status>Sent to ServiceNow</d:Status>
+            <d:Processor></d:Processor>
+            <d:CreatedOn>2019-10-23T02:58:01</d:CreatedOn>
+            <d:Year>2019</d:Year>
+            <d:FilterCreatedOnDefined/>
+            <d:FilterKeywords/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+</feed>

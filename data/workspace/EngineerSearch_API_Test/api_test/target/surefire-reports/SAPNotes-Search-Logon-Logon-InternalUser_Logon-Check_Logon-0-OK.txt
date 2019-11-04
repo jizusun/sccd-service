@@ -1,0 +1,137 @@
+Status: OK
+Time Taken: 89
+Size: 7329
+Timestamp: Mon Nov 04 07:48:47 UTC 2019
+TestStep: Check Logon
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/services/odata/svt/snogwsengineersearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/services/odata/svt/snogwsengineersearch/
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!KgssOzRWF4KNXYrm5e9QtIhWtwkpHl/8HmIcFS4WapqRGEQ06SJijYDtyuxXv8JxHsg/kyB4Bk4eMA==; JSESSIONID=5DD0020C749075418922DAEC0DAD7B6E71C1C773FAD36D75532F60B28E8C97BD; JTENANTSESSIONID_dgq5qdz5dm=RPPHBOQgnoOzxTQ583V1QgwO2msmMpy9ctvH6tkETPE%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+x-csrf-token: [Fetch]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+---------------- Response --------------------------
+expires: [Tue, 03 Jul 2001 06:00:00 GMT]
+Server: [SAP]
+sap-metadata-last-modified: [Sat, 03 Aug 2019 09:51:11 GMT]
+pragma: [no-cache]
+Date: [Mon, 04 Nov 2019 07:48:47 GMT]
+last-modified: [Sat, 03 Aug 2019 09:51:11 GMT]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+sap-perf-fesrec: [28152.000000]
+x-csrf-token: [iAR92Aqcjz775SQk4ogqlw==]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0]
+Content-Length: [7329]
+dataserviceversion: [2.0]
+Content-Type: [application/atomsvc+xml]
+
+<app:service xml:lang="en" xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/services/odata/svt/snogwsengineersearch/" xmlns:app="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+   <app:workspace>
+      <atom:title type="text">Data</atom:title>
+      <app:collection sap:content-version="1" href="SubscriptionCollection">
+         <atom:title type="text">SubscriptionCollection</atom:title>
+         <sap:member-title>Subscription</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:addressable="false" sap:content-version="1" href="NotificationCollection">
+         <atom:title type="text">NotificationCollection</atom:title>
+         <sap:member-title>Notification</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="SAPNotes">
+         <atom:title type="text">SAPNotes</atom:title>
+         <sap:member-title>SAPNote</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="StatusFilterSet">
+         <atom:title type="text">StatusFilterSet</atom:title>
+         <sap:member-title>StatusFilter</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="ComponentFilterSet">
+         <atom:title type="text">ComponentFilterSet</atom:title>
+         <sap:member-title>ComponentFilter</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="KBAComponentFilterSet">
+         <atom:title type="text">KBAComponentFilterSet</atom:title>
+         <sap:member-title>KBAComponentFilter</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="KBASet">
+         <atom:title type="text">KBASet</atom:title>
+         <sap:member-title>KBA</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="KBAStatusFilterSet">
+         <atom:title type="text">KBAStatusFilterSet</atom:title>
+         <sap:member-title>KBAStatusFilter</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="CategoryFilterSet">
+         <atom:title type="text">CategoryFilterSet</atom:title>
+         <sap:member-title>CategoryFilter</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="KBACategoryFilterSet">
+         <atom:title type="text">KBACategoryFilterSet</atom:title>
+         <sap:member-title>KBACategoryFilter</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="PriorityFilterSet">
+         <atom:title type="text">PriorityFilterSet</atom:title>
+         <sap:member-title>PriorityFilter</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="KBAPriorityFilterSet">
+         <atom:title type="text">KBAPriorityFilterSet</atom:title>
+         <sap:member-title>KBAPriorityFilter</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="NoteTypeFilterSet">
+         <atom:title type="text">NoteTypeFilterSet</atom:title>
+         <sap:member-title>NoteTypeFilter</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="KBAProductFilterSet">
+         <atom:title type="text">KBAProductFilterSet</atom:title>
+         <sap:member-title>KBAProductFilter</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" href="PersonalizeRepoSet">
+         <atom:title type="text">PersonalizeRepoSet</atom:title>
+         <sap:member-title>PersonalizeRepo</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="BasketFolderSet">
+         <atom:title type="text">BasketFolderSet</atom:title>
+         <sap:member-title>BasketFolder</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="BasketFolderItemSet">
+         <atom:title type="text">BasketFolderItemSet</atom:title>
+         <sap:member-title>BasketFolderItem</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" href="ViewSettingSet">
+         <atom:title type="text">ViewSettingSet</atom:title>
+         <sap:member-title>ViewSetting</sap:member-title>
+      </app:collection>
+      <app:collection sap:searchable="true" sap:requires-filter="true" sap:content-version="1" href="UserProfileEntrySet">
+         <atom:title type="text">UserProfileEntrySet</atom:title>
+         <sap:member-title>UserProfileEntry</sap:member-title>
+         <atom:link href="SubscriptionCollection" rel="http://www.sap.com/Protocols/SAPData/rel#subscribe"/>
+         <atom:link href="UserProfileEntrySet/OpenSearchDescription.xml" rel="search" type="application/opensearchdescription+xml" title="searchUserProfileEntrySet"/>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="ResponsibleFilterSet">
+         <atom:title type="text">ResponsibleFilterSet</atom:title>
+         <sap:member-title>ResponsibleFilter</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="KBAResponsibleFilterSet">
+         <atom:title type="text">KBAResponsibleFilterSet</atom:title>
+         <sap:member-title>KBAResponsibleFilter</sap:member-title>
+      </app:collection>
+      <app:collection sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" href="KBACreatedByFilterSet">
+         <atom:title type="text">KBACreatedByFilterSet</atom:title>
+         <sap:member-title>KBACreatedByFilter</sap:member-title>
+      </app:collection>
+   </app:workspace>
+   <atom:link rel="self" href="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/services/odata/svt/snogwsengineersearch/"/>
+   <atom:link rel="latest-version" href="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/services/odata/svt/snogwsengineersearch/"/>
+</app:service>

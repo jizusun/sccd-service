@@ -1,0 +1,855 @@
+Status: OK
+Time Taken: 349
+Size: 43988
+Timestamp: Mon Nov 04 07:48:48 UTC 2019
+TestStep: SearchTerm_select*
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch/
+Method: GET
+StatusCode: 200
+URL: https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes?%24skip=0&%24top=25&%24filter=%28FilterKeywordsFuzzy%20eq%20%27select*%27%29
+
+---------------- Request ---------------------------
+Cookie: [BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!KgssOzRWF4KNXYrm5e9QtIhWtwkpHl/8HmIcFS4WapqRGEQ06SJijYDtyuxXv8JxHsg/kyB4Bk4eMA==; JSESSIONID=5DD0020C749075418922DAEC0DAD7B6E71C1C773FAD36D75532F60B28E8C97BD; JTENANTSESSIONID_dgq5qdz5dm=RPPHBOQgnoOzxTQ583V1QgwO2msmMpy9ctvH6tkETPE%3D]
+Cookie2: [$Version=1]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes?%24skip=0&%24top=25&%24filter=%28FilterKeywordsFuzzy%20eq%20%27select*%27%29 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+Cookie: BIGipServerdispatcher.int.sap.eu2.hana.ondemand.com=!KgssOzRWF4KNXYrm5e9QtIhWtwkpHl/8HmIcFS4WapqRGEQ06SJijYDtyuxXv8JxHsg/kyB4Bk4eMA==; JSESSIONID=5DD0020C749075418922DAEC0DAD7B6E71C1C773FAD36D75532F60B28E8C97BD; JTENANTSESSIONID_dgq5qdz5dm=RPPHBOQgnoOzxTQ583V1QgwO2msmMpy9ctvH6tkETPE%3D
+Cookie2: $Version=1
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Server: [SAP]
+Content-Encoding: [gzip]
+sap-metadata-last-modified: [Sat, 03 Aug 2019 09:51:11 GMT]
+sap-perf-fesrec: [271016.000000]
+Vary: [Accept-Encoding]
+#status#: [HTTP/1.1 200 ]
+cache-control: [no-store, no-cache]
+dataserviceversion: [2.0]
+Date: [Mon, 04 Nov 2019 07:48:48 GMT]
+Content-Type: [application/atom+xml; type=feed;charset=utf-8]
+
+<feed xml:base="https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/" xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+   <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes</id>
+   <title type="text">SAPNotes</title>
+   <updated>2019-11-04T07:48:47Z</updated>
+   <author>
+      <name/>
+   </author>
+   <link href="SAPNotes" rel="self" title="SAPNotes"/>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1619455l)</id>
+      <title type="text">SAPNotes(1619455l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1619455l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You want to use the 'Select All' option in the selector (F4 help) in Java web. But you notice that the 'Select All' option/checkbox is available only to add all the values, but not for removing all the values, ie., 'Select All' option/checkbox is present</d:Symptom>
+            <d:Number>1619455</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001619455</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>Select&lt;/b> All option missing in the &lt;b>selector&lt;/b> dialog</d:Title>
+            <d:ComponentName>Selector Dialog</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2011-09-07T11:13:42</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-WJR-DIA-SL</d:Component>
+            <d:Responsible>I066630</d:Responsible>
+            <d:ChangedOn>2011-09-07T11:13:43</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1992029l)</id>
+      <title type="text">SAPNotes(1992029l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1992029l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>Improvement Request...Enable the user to insert (or paste) a list of values into the input fields of the Search UIs....Request Reason...In the SAP GUI reports/searches, the user had the ability to insert (or paste) a list of values using the Upload from C</d:Symptom>
+            <d:Number>1992029</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001992029</d:Link>
+            <d:Priority/>
+            <d:Title>Multi Value Paste for &lt;b>Select&lt;/b> Options</d:Title>
+            <d:ComponentName>Recipe Development</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Consulting</d:Category>
+            <d:ReleasedOn>2014-03-14T15:07:27</d:ReleasedOn>
+            <d:Component>PLM-WUI-RCP</d:Component>
+            <d:Responsible>I045453</d:Responsible>
+            <d:ChangedOn>2014-03-28T07:13:30</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1957113l)</id>
+      <title type="text">SAPNotes(1957113l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1957113l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>The "select children" is disabled in member selector.</d:Symptom>
+            <d:Number>1957113</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001957113</d:Link>
+            <d:Priority/>
+            <d:Title>The "&lt;b>select&lt;/b> children" is disabled in member &lt;b>selector&lt;/b></d:Title>
+            <d:ComponentName>BPC - Member Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2013-12-31T09:03:25</d:ReleasedOn>
+            <d:Component>BW-RUI-BPC-WEB-MSEL</d:Component>
+            <d:Responsible>C5184848</d:Responsible>
+            <d:ChangedOn>2014-01-14T11:12:45</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1709696l)</id>
+      <title type="text">SAPNotes(1709696l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1709696l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You open the filter screen from BEx tools and you scroll down to last value in the History or in selection area and then try to select last value, the unexpected value is selected.....</d:Symptom>
+            <d:Number>1709696</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001709696</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>Selector&lt;/b>: Not able to &lt;b>select&lt;/b> some items when scrolling</d:Title>
+            <d:ComponentName>Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2012-04-19T11:01:56</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-QDEF-SEL</d:Component>
+            <d:Responsible>I057673</d:Responsible>
+            <d:ChangedOn>2012-05-21T09:01:26</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(2048426l)</id>
+      <title type="text">SAPNotes(2048426l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(2048426l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>Symptom 1...In selector or F4 of BEx Analyzer (variable screen ) for Select options variable , when we select value ranges option -&amp;gt; Contains pattern -&amp;gt; enter a value - it does not accept the values , thus not allowing selection . It gives the error</d:Symptom>
+            <d:Number>2048426</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002048426</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>Selector&lt;/b> : Contains Pattern Option in Value Ranges does not work</d:Title>
+            <d:ComponentName>Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2014-09-26T11:37:44</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-QDEF-SEL</d:Component>
+            <d:Responsible>I302355</d:Responsible>
+            <d:ChangedOn>2015-02-12T14:57:55</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1502713l)</id>
+      <title type="text">SAPNotes(1502713l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1502713l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>In Web Java Runtime, you execute a query and create an Exception using Exception Wizard. To select a filter value for a characteristic in the Exception Wizard, you open the selector dialog which results in...the following exception....Parameter object wit</d:Symptom>
+            <d:Number>1502713</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001502713</d:Link>
+            <d:Priority/>
+            <d:Title>Error in Opening &lt;b>Selector&lt;/b> dialog from an Exception wizard</d:Title>
+            <d:ComponentName>Selector Dialog</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2010-09-02T03:55:08</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-WJR-DIA-SL</d:Component>
+            <d:Responsible>I045226</d:Responsible>
+            <d:ChangedOn>2011-03-23T19:24:00</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1692904l)</id>
+      <title type="text">SAPNotes(1692904l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1692904l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You are opening a 3x filter to read hierarchies and it dumps with an error "Key already used" and the application crashes....</d:Symptom>
+            <d:Number>1692904</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001692904</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>Selector&lt;/b>: 3x &lt;b>Selector&lt;/b> fails on reading hierarchies</d:Title>
+            <d:ComponentName>Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2012-03-06T09:35:11</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-QDEF-SEL</d:Component>
+            <d:Responsible>I057673</d:Responsible>
+            <d:ChangedOn>2012-03-22T12:25:38</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1687642l)</id>
+      <title type="text">SAPNotes(1687642l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1687642l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You are trying to provide the value range directly through Direct Input or by copying the values in the selection area, You get the truncated values in the selection area of selector dialog. This happens only when the provided range values are not present</d:Symptom>
+            <d:Number>1687642</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001687642</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>Selector&lt;/b>:Direct Input/copy values truncate the range value</d:Title>
+            <d:ComponentName>Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2012-02-22T12:58:33</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-QDEF-SEL</d:Component>
+            <d:Responsible>I057673</d:Responsible>
+            <d:ChangedOn>2012-03-22T12:28:09</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1700337l)</id>
+      <title type="text">SAPNotes(1700337l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1700337l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You are trying to exclude the hierarchy variables from the filter screen of Query designer but exclude option is disabled and does not allow you to exclude the hierarchy variables....</d:Symptom>
+            <d:Number>1700337</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001700337</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>Selector&lt;/b>: To Allow the exclusion of hierarchy variables</d:Title>
+            <d:ComponentName>Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2012-03-27T10:24:19</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-QDEF-SEL</d:Component>
+            <d:Responsible>I057673</d:Responsible>
+            <d:ChangedOn>2013-01-29T12:31:25</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1951182l)</id>
+      <title type="text">SAPNotes(1951182l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1951182l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>Selected items' show type is not the same with available items in multiple selection MemberSelector....Reproduce steps:...Open an existing report and select MemberSelector...Click drop-down list, select “Description” and select a member...</d:Symptom>
+            <d:Number>1951182</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001951182</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>Selected&lt;/b> items' show type is not the same with available items in multiple &lt;b>selection&lt;/b> MemberSelector</d:Title>
+            <d:ComponentName>Member Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2013-12-10T07:03:32</d:ReleasedOn>
+            <d:Component>EPM-BPC-NW-WEB-MSEL</d:Component>
+            <d:Responsible>C5184848</d:Responsible>
+            <d:ChangedOn>2013-12-10T07:03:32</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1580628l)</id>
+      <title type="text">SAPNotes(1580628l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1580628l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You use a dynamic SELECT-OPTIONS in a program:...SELECT-OPTIONS...selcrit FOR (name). Under certain circumstances, you cannot display the selection text for the field correctly.</d:Symptom>
+            <d:Number>1580628</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001580628</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>Selection&lt;/b> text for dynamic &lt;b>SELECT&lt;/b>-OPTIONS</d:Title>
+            <d:ComponentName>Log.DB, Selection Screens, Selection Variants</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2011-04-18T13:26:55</d:ReleasedOn>
+            <d:Component>BC-ABA-TO</d:Component>
+            <d:Responsible>D035220</d:Responsible>
+            <d:ChangedOn>2011-04-26T09:53:14</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1873371l)</id>
+      <title type="text">SAPNotes(1873371l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1873371l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>From the BEx Analyzer,while executing the Query, In the Selector Value ranges (Interval) screen ,Enter a non-master data(Value which is not available in master data table) value in Either From field or To Field, You will get an error message as Entered Va</d:Symptom>
+            <d:Number>1873371</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001873371</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>Selector&lt;/b> Value Ranges : Filter with non-master data values</d:Title>
+            <d:ComponentName>Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2015-05-14T05:45:58</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-QDEF-SEL</d:Component>
+            <d:Responsible>I074043</d:Responsible>
+            <d:ChangedOn>2015-05-15T11:38:46</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1425170l)</id>
+      <title type="text">SAPNotes(1425170l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1425170l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>In web java runtime, any selector dialog has main search(by selection search from the dropdown in the selector dialog) and sub search(line item search using filter icon in the selector dialog). While using the line item wildcard (*) search, the result has</d:Symptom>
+            <d:Number>1425170</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001425170</d:Link>
+            <d:Priority/>
+            <d:Title>Wildcard search in subfilter of &lt;b>selector&lt;/b> dialog is incorrect</d:Title>
+            <d:ComponentName>Selector Dialog</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2010-01-21T06:35:26</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-WJR-DIA-SL</d:Component>
+            <d:Responsible>I045226</d:Responsible>
+            <d:ChangedOn>2010-02-08T08:13:24</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1855696l)</id>
+      <title type="text">SAPNotes(1855696l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1855696l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>In the 7x Selector Screen (f4 Screen or Filter screen), Vertical Scroll bar is not showing properly and it is difficult to select the scroll bar.</d:Symptom>
+            <d:Number>1855696</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001855696</d:Link>
+            <d:Priority/>
+            <d:Title>7x &lt;b>Selector&lt;/b> : Vertical Scroll bar is not showing completely.</d:Title>
+            <d:ComponentName>Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2013-05-06T12:23:02</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-QDEF-SEL</d:Component>
+            <d:Responsible>I074043</d:Responsible>
+            <d:ChangedOn>2013-05-06T12:23:02</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1613406l)</id>
+      <title type="text">SAPNotes(1613406l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1613406l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You are trying to restrict with the time dependent hierarchies. You are using the Variable hierarchy to use the variables for time. Now if you select the hierarchy with one time variable and then select same hierarchy with another time variable, selector</d:Symptom>
+            <d:Number>1613406</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001613406</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>Selector&lt;/b>: Problem with the Variable hierarchy filter</d:Title>
+            <d:ComponentName>Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2011-07-22T12:59:03</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-QDEF-SEL</d:Component>
+            <d:Responsible>I057673</d:Responsible>
+            <d:ChangedOn>2011-10-21T11:15:43</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(2037953l)</id>
+      <title type="text">SAPNotes(2037953l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(2037953l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You call the selector dialog of the BW Java runtime and try to add multiple selection entries. But when you select another entry the previously selected entries get unselected.</d:Symptom>
+            <d:Number>2037953</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002037953</d:Link>
+            <d:Priority/>
+            <d:Title>BEx Web 7.3x: &lt;b>Selected&lt;/b> entries in the &lt;b>selector&lt;/b> dialog get unselected</d:Title>
+            <d:ComponentName>Selector Dialog</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2014-07-10T09:31:14</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-WJR-DIA-SL</d:Component>
+            <d:Responsible>D052560</d:Responsible>
+            <d:ChangedOn>2014-08-11T13:50:36</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1852501l)</id>
+      <title type="text">SAPNotes(1852501l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1852501l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>When you set a filter in a BW query, you notice a long runtime or problems occur during accesses to the BWA because too many temporary indexes are accessed. In addition, filter values for which no postings exist may be displayed....</d:Symptom>
+            <d:Number>1852501</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001852501</d:Link>
+            <d:Priority/>
+            <d:Title>Filter value &lt;b>selection&lt;/b> ignores restrictions</d:Title>
+            <d:ComponentName>MasterData read services</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2013-04-29T11:37:55</d:ReleasedOn>
+            <d:Component>BW-BEX-OT-F4</d:Component>
+            <d:Responsible>D029975</d:Responsible>
+            <d:ChangedOn>2013-10-07T07:58:58</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1771724l)</id>
+      <title type="text">SAPNotes(1771724l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1771724l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>When you perform F4 on Hierarchy Version Variable in the selector screen, you get the dump and Bex Application gets disconnected....</d:Symptom>
+            <d:Number>1771724</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001771724</d:Link>
+            <d:Priority/>
+            <d:Title>Dump when doing F4 on Hierarchy Version variable in &lt;b>selector&lt;/b></d:Title>
+            <d:ComponentName>Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2012-10-03T12:20:06</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-QDEF-SEL</d:Component>
+            <d:Responsible>I057673</d:Responsible>
+            <d:ChangedOn>2012-11-02T09:03:59</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1528241l)</id>
+      <title type="text">SAPNotes(1528241l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1528241l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You have a hierarchy node variable with hierarchy variable and hierarchy version variable and you have selected the value for hierarchy version variable for the specific hierarchy selection. Now If you reset the hierarchy version to BLANK, then Hierarchy</d:Symptom>
+            <d:Number>1528241</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001528241</d:Link>
+            <d:Priority/>
+            <d:Title>Hierarchy list is not displayed consistently in &lt;b>selector&lt;/b>.</d:Title>
+            <d:ComponentName>Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2010-11-12T12:40:15</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-QDEF-SEL</d:Component>
+            <d:Responsible>I057673</d:Responsible>
+            <d:ChangedOn>2010-11-12T12:40:15</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(2076798l)</id>
+      <title type="text">SAPNotes(2076798l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(2076798l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>User sees two scrollbars in member selector.</d:Symptom>
+            <d:Number>2076798</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0002076798</d:Link>
+            <d:Priority/>
+            <d:Title>Two scrollbars in member &lt;b>selector&lt;/b></d:Title>
+            <d:ComponentName>Member Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2014-11-12T06:38:21</d:ReleasedOn>
+            <d:Component>EPM-BPC-NW-WEB-MSEL</d:Component>
+            <d:Responsible>I048089</d:Responsible>
+            <d:ChangedOn>2014-11-12T06:38:21</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1509419l)</id>
+      <title type="text">SAPNotes(1509419l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1509419l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>It is not possible to select multiple items together(By holding the shift key) in selection area of selector. this issue is happening only when you scroll down the items once in selection area.</d:Symptom>
+            <d:Number>1509419</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001509419</d:Link>
+            <d:Priority/>
+            <d:Title>Issue in &lt;b>selecting&lt;/b> items after scrolling in &lt;b>selector&lt;/b></d:Title>
+            <d:ComponentName>Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2010-09-17T08:35:55</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-QDEF-SEL</d:Component>
+            <d:Responsible>I057673</d:Responsible>
+            <d:ChangedOn>2010-09-17T08:35:56</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1940957l)</id>
+      <title type="text">SAPNotes(1940957l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1940957l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>Member selector do not return compounded dimension.</d:Symptom>
+            <d:Number>1940957</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001940957</d:Link>
+            <d:Priority/>
+            <d:Title>Member &lt;b>selector&lt;/b> do not return compounded dimension</d:Title>
+            <d:ComponentName>BPC - Member Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2013-11-22T05:58:22</d:ReleasedOn>
+            <d:Component>BW-RUI-BPC-WEB-MSEL</d:Component>
+            <d:Responsible>C5184848</d:Responsible>
+            <d:ChangedOn>2014-01-16T08:14:52</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1934096l)</id>
+      <title type="text">SAPNotes(1934096l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1934096l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>Sorting function of member selector is missing.</d:Symptom>
+            <d:Number>1934096</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001934096</d:Link>
+            <d:Priority/>
+            <d:Title>Sorting function of member &lt;b>selector&lt;/b> is missing.</d:Title>
+            <d:ComponentName>Member Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2013-11-22T06:30:38</d:ReleasedOn>
+            <d:Component>EPM-BPC-NW-WEB-MSEL</d:Component>
+            <d:Responsible>C5184848</d:Responsible>
+            <d:ChangedOn>2013-11-25T02:32:43</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1937650l)</id>
+      <title type="text">SAPNotes(1937650l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1937650l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>Hierarchy displayed in work status's Member Selector while no hierarchy set.</d:Symptom>
+            <d:Number>1937650</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001937650</d:Link>
+            <d:Priority/>
+            <d:Title>Hierarchy displayed in work status's Member &lt;b>Selector&lt;/b> while no hierarchy set.</d:Title>
+            <d:ComponentName>Member Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Program error</d:Category>
+            <d:ReleasedOn>2013-11-13T06:46:47</d:ReleasedOn>
+            <d:Component>EPM-BPC-NW-WEB-MSEL</d:Component>
+            <d:Responsible>C5184848</d:Responsible>
+            <d:ChangedOn>2013-11-13T06:46:47</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://go-dgq5qdz5dm.dispatcher.int.sap.eu2.hana.ondemand.com/xsearch//services/odata/svt/snogwsengineersearch/SAPNotes(1785965l)</id>
+      <title type="text">SAPNotes(1785965l)</title>
+      <updated>2019-11-04T07:48:47Z</updated>
+      <category term="SVT.SNO_GWS_ENGI_SEARCH_SRV.SAPNote" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+      <link href="SAPNotes(1785965l)" rel="self" title="SAPNote"/>
+      <content type="application/xml">
+         <m:properties>
+            <d:Symptom>You are trying to upload huge number of values from file in selector dialog and you see the selector screen is hanged or consumes lot of time to upload the huge number of values....</d:Symptom>
+            <d:Number>1785965</d:Number>
+            <d:Link>https://i7d.wdf.sap.corp/sap/sapnotes/0001785965</d:Link>
+            <d:Priority/>
+            <d:Title>&lt;b>Selector&lt;/b>: Limitation when uploading the values from file</d:Title>
+            <d:ComponentName>Selector</d:ComponentName>
+            <d:NoteType>SAP Note</d:NoteType>
+            <d:Category>Consulting</d:Category>
+            <d:ReleasedOn>2012-11-09T05:07:18</d:ReleasedOn>
+            <d:Component>BW-BEX-ET-QDEF-SEL</d:Component>
+            <d:Responsible>I057673</d:Responsible>
+            <d:ChangedOn>2012-11-09T05:07:18</d:ChangedOn>
+            <d:Status>Released for Customer</d:Status>
+            <d:FilterKeywordsFuzzy/>
+            <d:FilterKeywordsExact/>
+            <d:FilterFuzzyThreshold/>
+            <d:FilterChangedOnDefined/>
+            <d:StatusKey/>
+            <d:FilterDocumentType/>
+            <d:FilterReleasedOnDefined/>
+            <d:Relevance>0</d:Relevance>
+         </m:properties>
+      </content>
+   </entry>
+</feed>

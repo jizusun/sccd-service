@@ -1,0 +1,46 @@
+*** Settings ***
+Resource          Basic_actions.txt
+Library           SeleniumLibrary
+Library           OperatingSystem
+
+*** Test Cases ***
+test
+    : FOR    ${index}    IN RANGE    ${COUNT}
+    \    Set launchpad environment
+    \    Open Browser    @{ENVIRONMENT}[0]#/incident/create    chrome
+    \    Set Window Size    1600    900
+    \    Wait Until Element Is Visible    id=j_username
+    \    Input Text    id=j_username    S0000315119
+    \    Input Text    id=j_password    Sapsap123@
+    \    Click Button    id=logOnFormSubmit
+    \    ${IF_GIGYA_SYSTEM}=    Select user and system
+    \    Input title and description
+    \    Close Browser
+    Close All Browsers
+
+*** Keywords ***
+Select user and system
+    Wait Until Element Is Visible    css=input[id*=customerNumberInput-inner]    timeout=90s
+    Click Element    css=span[id*=customerNumberInput-vhi]
+    Click element after visible and enabled    //section[contains(@id,"dialog-cont")]//li[contains(@id,"clone")][1]
+    ${S-USER}=    Run Keyword And Return Status    Element Should Be Visible    css=div[id*=suseridInput]
+    Run Keyword If    '${S-USER}'=='True'    Select s-user
+    Unselect Frame
+    Wait Until Element Is Visible    css=div[id*=sysRecVb]
+    Sleep    7s
+    Click Element    css=li[id*=recUsedList-0]
+    Sleep    5s
+    Execute Javascript    document.getElementById("__splitter0-content-1").scrollTop = 800
+    [Return]    ${if_GIGYA_System}
+
+Input title and description
+    Sleep    10s
+    ${width}    ${height}=    Get Element Size    css=div[id*=descriptionRichEditor]
+    Append To File    ${EXECDIR}/CIA/log.txt    ${width}|${height}${\n}
+    Comment    Run Keyword if    ${width}==500 and ${height}==283    log to console    ${width}|${height}
+    ...    ELSE    Log size and capture
+    Run Keyword if    ${width}==495 and ${height}==284    log to console    ${width}|${height}
+    ...    ELSE    Log size and capture
+
+Log size and capture
+    Capture Page Screenshot    filename = incidentform-tiny-{index}.png

@@ -1,0 +1,13 @@
+*** Settings ***
+Library           SeleniumLibrary
+Library           String
+
+*** Variables ***
+&{System}         BCD=https://bcdmain.wdf.sap.corp/sap(bD1lbiZjPTAwMSZkPW1pbg==)/bc/bsp/sap/crm_ui_start/default.htm?saprole=ZCSSNEXTPROC    BCV=https://bcvaci.wdf.sap.corp/sap(bD1lbiZjPTAwMSZkPW1pbg==)/bc/bsp/sap/crm_ui_start/default.htm?saprole=ZCSSNEXTPROC    BCT=https://bct.wdf.sap.corp/sap(bD1lbiZjPTAwMSZkPW1pbg==)/bc/bsp/sap/crm_ui_start/default.htm?saprole=ZCSSNEXTPROC    BCP=https://support.wdf.sap.corp/sap(bD1lbiZjPTAwMSZkPW1pbg==)/crm_logon/default.htm?saprole=ZCSSNEXTPROC
+
+*** Keywords ***
+Login BC
+    Open Browser    &{System}[${Landscape}]    chrome
+    Set Window Size    1600    900
+    Comment    Maximize Browser Window
+    Sleep    5s

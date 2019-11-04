@@ -1,0 +1,19 @@
+Status: OK
+Time Taken: 524
+Size: 0
+Timestamp: Mon Nov 04 07:49:12 UTC 2019
+TestStep: Logon
+
+----------------- Messages ------------------------------
+SetSystemEndpoint - OK - 0
+Cookie - OK - 0
+SAML2 AuthLauncher - OK - 22
+copy saml data - OK - 1
+POST to SAML IDP - OK - 141
+get authenticity_token&xsrfProtection&idpSSOEndpoint... - OK - 1
+Login IDP - OK - 171
+saml response data - OK - 1
+authn - OK - 11
+get saml reponse data - OK - 1
+Register - OK - 37
+Check Logon - OK - 51
