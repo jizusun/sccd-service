@@ -1,4 +1,0 @@
- @Library("sal-jenkins-shared-lib") _
-// https://github.wdf.sap.corp/incident-processing-services/sal-jenkins-shared-lib
-
-salApiTestingPipeline {}
